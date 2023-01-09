@@ -35,6 +35,8 @@ Due to space limitations in classrooms, please attend the section for which you 
 |TBD|TBD|TBD|Ritvik Singh|
 |TBD|TBD|TBD|Lucas Smulders|
 
+Please read the following guide for an explanation of how to make effective use of office hours: [https://www2.seas.gwu.edu/~gparmer/resources/2021-09-20-Office-Hours-HOWTO.html](https://www2.seas.gwu.edu/~gparmer/resources/2021-09-20-Office-Hours-HOWTO.html)
+
 ## Preferred Contact Method
 
 For general questions about class material that may be beneficial to others, please create a post on Piazza:
