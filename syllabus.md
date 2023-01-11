@@ -37,8 +37,8 @@ Due to space limitations in classrooms, please attend the section for which you 
 |Wednesday|12:30pm - 2pm|FGH 201|Oluwatito Ebiwonjumi|
 |Wednesday|2pm - 3pm|TBD|Toby Zhu|
 |Wednesday|4:30pm - 6pm|TBD|Ritvik Singh|
-|Thursdsay|3pm - 5pm|[https://github.com/YiZhan2854](https://github.com/YiZhan2854)|Yi Zhang|
-|Thursday|7pm -8pm|TBD|Rohit Khurana|
+|Thursdsay|3pm - 5pm|[Zoom](https://vanderbilt.zoom.us/j/6055261403?pwd=UHFZa1RnbytzM1RJeWQ0cnQ3RXduZz09)|Yi Zhang|
+|Thursday|7pm - 8pm|TBD|Rohit Khurana|
 |Friday|10am - 11am|FGH 384|Shervin Hajiamini|
 
 Please read the following guide for an explanation of how to make effective use of office hours: [https://www2.seas.gwu.edu/~gparmer/resources/2021-09-20-Office-Hours-HOWTO.html](https://www2.seas.gwu.edu/~gparmer/resources/2021-09-20-Office-Hours-HOWTO.html)
