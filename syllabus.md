@@ -31,10 +31,11 @@ Due to space limitations in classrooms, please attend the section for which you 
 | Day | Time    | Location | Person  |
 | ------------- |:-------------:| :-------------:|:-------------:|
 |Monday|10am - 11am|FGH 384|Shervin Hajiamini|
-|Monday|12:30pm - 2pm|TBD|Oluwatito Ebiwonjumi|
+|Monday|12:30pm - 2pm|FGH 201|Oluwatito Ebiwonjumi|
 |Tuesday|7pm - 8pm|TBD|Rohit Khurana|
 |Wednesday|10am - 11am|FGH 384|Shervin Hajiamini|
-|Wednesday|1:30 - 3pm|TBD|Toby Zhu|
+|Wednesday|12:30pm - 2pm|FGH 201|Oluwatito Ebiwonjumi|
+|Wednesday|2pm - 3pm|TBD|Toby Zhu|
 |Wednesday|4:30pm - 6pm|TBD|Ritvik Singh|
 |Thursdsay|3pm - 5pm|[https://github.com/YiZhan2854](https://github.com/YiZhan2854)|Yi Zhang|
 |Thursday|7pm -8pm|TBD|Rohit Khurana|
