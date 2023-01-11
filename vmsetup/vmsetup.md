@@ -7,7 +7,7 @@ We will be using a Linux virtual machine (VM) throughout this course. Below we g
 Note: if you already have a newer version of Ubuntu installed, such as 22.04, you're free to use that.
 
 - Download VirtualBox [here](https://www.virtualbox.org/wiki/Downloads).
-- Download Ubuntu [here](https://releases.ubuntu.com/20.04.4/). Select the Desktop version.
+- Download Ubuntu [here](https://ubuntu.com/download/desktop). Select the Desktop version.
 
 # Step 2 
 
