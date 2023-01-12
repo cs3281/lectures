@@ -32,13 +32,13 @@ Due to space limitations in classrooms, please attend the section for which you 
 | ------------- |:-------------:| :-------------:|:-------------:|
 |Monday|10am - 11am|FGH 384|Shervin Hajiamini|
 |Monday|12:30pm - 2pm|FGH 201|Oluwatito Ebiwonjumi|
-|Tuesday|7pm - 8pm|TBD|Rohit Khurana|
+|Tuesday|7pm - 8pm|FGH 201|Rohit Khurana|
 |Wednesday|10am - 11am|FGH 384|Shervin Hajiamini|
 |Wednesday|12:30pm - 2pm|FGH 201|Oluwatito Ebiwonjumi|
-|Wednesday|2pm - 3pm|TBD|Toby Zhu|
-|Wednesday|4:30pm - 6pm|TBD|Ritvik Singh|
+|Wednesday|2pm - 3pm||Toby Zhu|
+|Wednesday|4:30pm - 6pm|[Zoom](https://vanderbilt.zoom.us/j/96350668989)|Ritvik Singh|
 |Thursdsay|3pm - 5pm|[Zoom](https://vanderbilt.zoom.us/j/6055261403?pwd=UHFZa1RnbytzM1RJeWQ0cnQ3RXduZz09)|Yi Zhang|
-|Thursday|7pm - 8pm|TBD|Rohit Khurana|
+|Thursday|7pm - 8pm|FGH 201|Rohit Khurana|
 |Friday|10am - 11am|FGH 384|Shervin Hajiamini|
 
 Please read the following guide for an explanation of how to make effective use of office hours: [https://www2.seas.gwu.edu/~gparmer/resources/2021-09-20-Office-Hours-HOWTO.html](https://www2.seas.gwu.edu/~gparmer/resources/2021-09-20-Office-Hours-HOWTO.html)
