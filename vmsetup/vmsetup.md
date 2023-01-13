@@ -1,6 +1,9 @@
 # VM setup instructions
 
-We will be using a Linux virtual machine (VM) throughout this course. Below we give instructions on setting up this VM using VirtualBox and Ubuntu. You're welcome to use other Virtaulization software (such as UTM, VMWare Fusion, Parallels, or QEMU), as well as bare metal, and other distros if you're experienced with those. However, the instructor team cannot support those versions.
+We will be using a Linux virtual machine (VM) throughout this course. Below we give instructions on setting up this VM using VirtualBox and Ubuntu; you can use these instructions if you're running an x86 machine. You're welcome to use other virtualization software (such as VMWare Fusion, Parallels, or QEMU), as well as bare metal, and other distros if you're experienced with those. However, the instructor team cannot support those versions.
+
+If you're on a Mac with Apple silicon and you want to use UTM, please follow the setup guide here: [https://mac.getutm.app/gallery/ubuntu-20-04](https://mac.getutm.app/gallery/ubuntu-20-04).
+Non-free options for Apple silicon Macs include Parallels and VMWare Fusion.
 
 # Step 1
 
