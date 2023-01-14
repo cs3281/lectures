@@ -42,6 +42,7 @@ Due to space limitations in classrooms, please attend the section for which you 
 |Thursdsay|3pm - 5pm|[Zoom](https://vanderbilt.zoom.us/j/6055261403?pwd=UHFZa1RnbytzM1RJeWQ0cnQ3RXduZz09)|Yi Zhang|
 |Thursday|7pm - 8pm|FGH 201|Rohit Khurana|
 |Friday|10am - 11am|FGH 384|Shervin Hajiamini|
+|Friday|1:30pm - 3:30pm|FGH 201|Lucas Smulders|
 
 Please read the following guide for an explanation of how to make effective use of office hours: [https://www2.seas.gwu.edu/~gparmer/resources/2021-09-20-Office-Hours-HOWTO.html](https://www2.seas.gwu.edu/~gparmer/resources/2021-09-20-Office-Hours-HOWTO.html)
 
