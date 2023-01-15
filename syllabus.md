@@ -20,11 +20,15 @@ Due to space limitations in classrooms, please attend the section for which you 
 ## Teaching assistants
 
 - Yi Zhang `yi.zhang@vanderbilt.edu`
+- Oluwatito Ebiwonjumi `oluwatito.p.ebiwonjumi@vanderbilt.edu` 
 
 ## Graders
 
 - Ritvik Singh `ritvik.singh@vanderbilt.edu`
 - Lucas Smulders `lucas.smulders@vanderbilt.edu`
+- Rohit Khurana `rohit.khurana@vanderbilt.edu`
+- Wesley Minton `wesley.a.minton@vanderbilt.edu`
+- Xiaoliang(Toby) Zhu `xiaoliang.zhu@vanderbilt.edu`
 
 ## Instructor, TA, and Grader Office Hours
 
