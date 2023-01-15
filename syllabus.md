@@ -8,7 +8,7 @@ This is an introductory course on operating systems. You will learn basic concep
 
 ## Prerequisites
 
-CS 2231 and CS 3251. Because an OS must make effective use of the underlying hardware, students learning OS concepts need to have a basic understanding of computer architecture; this is covered in CS 2231. Programming assignments are a major part of the course, and so students must be comfortable with programming and debugging; this is covered in CS 3251. Most of the programming will be done in C.
+EECE 2123 and CS 3251. Because an OS must make effective use of the underlying hardware, students learning OS concepts need to have a basic understanding of computer architecture; this is covered in EECE 2123. Programming assignments are a major part of the course, and so students must be comfortable with programming and debugging; this is covered in CS 3251. Most of the programming will be done in C.
 
 ## Instructors
 
