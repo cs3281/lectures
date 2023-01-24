@@ -1,5 +1,9 @@
 # Lecture summaries
 
+## Lecture 4
+
+Video recap of process creation: [https://vanderbilt.zoom.us/rec/share/MQNyBtfrNGBAWL3eGb6lPF36l-k6YT2mnV5hI3vDkOpnAZGmdWINI72ohU13cHJY.cFiuNBjjw68l_BPy?startTime=1674227886000](https://vanderbilt.zoom.us/rec/share/MQNyBtfrNGBAWL3eGb6lPF36l-k6YT2mnV5hI3vDkOpnAZGmdWINI72ohU13cHJY.cFiuNBjjw68l_BPy?startTime=1674227886000)
+
 ## Lecture 3
 
 Video recap of exceptional control flow: [https://vanderbilt.zoom.us/rec/share/cgRMHwZcx2vo7-1VcAoI-O0S1Rob5YF7nivPS30c6c5hfsJwnACM297x2FMYLDlh.ln_K1nrJA6_lbHuk?startTime=1674078960000](https://vanderbilt.zoom.us/rec/share/cgRMHwZcx2vo7-1VcAoI-O0S1Rob5YF7nivPS30c6c5hfsJwnACM297x2FMYLDlh.ln_K1nrJA6_lbHuk?startTime=1674078960000)
