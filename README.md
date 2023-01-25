@@ -1,5 +1,13 @@
 # Lecture summaries
 
+## Lecture 5
+
+Walkthrough of assignment 2: [https://vanderbilt.zoom.us/rec/play/PFMbARsqTwH2L_tIr0T8uobYx8fgG6QFPTpB6GvF9voE5omtyxWVyEMyy1eDmFsNH7a8RtyLdz43eiEd.d8_cJqN71sCbdZ87?continueMode=true&_x_zm_rtaid=qhWcxGtES7KA4ByaEVo8SQ.1674661333213.d21aa8f80c84654bbb930b7e4b83530f&_x_zm_rhtaid=773](https://vanderbilt.zoom.us/rec/play/PFMbARsqTwH2L_tIr0T8uobYx8fgG6QFPTpB6GvF9voE5omtyxWVyEMyy1eDmFsNH7a8RtyLdz43eiEd.d8_cJqN71sCbdZ87?continueMode=true&_x_zm_rtaid=qhWcxGtES7KA4ByaEVo8SQ.1674661333213.d21aa8f80c84654bbb930b7e4b83530f&_x_zm_rhtaid=773)
+
+Video recap of fork, exec, exit, and wait: [https://vanderbilt.zoom.us/rec/play/z6unFOmNoGyJpEZSZjdhQjuZD2PwbP-GCO_H03u9feIkZ-nIWL32M5fBE8cqVo3wnie6jtnFGYS60pGZ.G4WUFgP2p6Xm7DBe?continueMode=true&_x_zm_rtaid=qhWcxGtES7KA4ByaEVo8SQ.1674661333213.d21aa8f80c84654bbb930b7e4b83530f&_x_zm_rhtaid=773](https://vanderbilt.zoom.us/rec/play/z6unFOmNoGyJpEZSZjdhQjuZD2PwbP-GCO_H03u9feIkZ-nIWL32M5fBE8cqVo3wnie6jtnFGYS60pGZ.G4WUFgP2p6Xm7DBe?continueMode=true&_x_zm_rtaid=qhWcxGtES7KA4ByaEVo8SQ.1674661333213.d21aa8f80c84654bbb930b7e4b83530f&_x_zm_rhtaid=773)
+
+Video recap of signals: [https://vanderbilt.zoom.us/rec/play/ViQRr8MmvuJdNQPX5fd7i5TsHNoAgAVmm8-e2zjo2So-cl62IKvTm30x2B-4a4EFBT9yWY32jCwWfTlO.R9LTR6GcMBuEENtf?continueMode=true&_x_zm_rtaid=qhWcxGtES7KA4ByaEVo8SQ.1674661333213.d21aa8f80c84654bbb930b7e4b83530f&_x_zm_rhtaid=773](https://vanderbilt.zoom.us/rec/play/ViQRr8MmvuJdNQPX5fd7i5TsHNoAgAVmm8-e2zjo2So-cl62IKvTm30x2B-4a4EFBT9yWY32jCwWfTlO.R9LTR6GcMBuEENtf?continueMode=true&_x_zm_rtaid=qhWcxGtES7KA4ByaEVo8SQ.1674661333213.d21aa8f80c84654bbb930b7e4b83530f&_x_zm_rhtaid=773)
+
 ## Lecture 4
 
 Video recap of process creation: [https://vanderbilt.zoom.us/rec/share/MQNyBtfrNGBAWL3eGb6lPF36l-k6YT2mnV5hI3vDkOpnAZGmdWINI72ohU13cHJY.cFiuNBjjw68l_BPy?startTime=1674227886000](https://vanderbilt.zoom.us/rec/share/MQNyBtfrNGBAWL3eGb6lPF36l-k6YT2mnV5hI3vDkOpnAZGmdWINI72ohU13cHJY.cFiuNBjjw68l_BPy?startTime=1674227886000)
