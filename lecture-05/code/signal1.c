@@ -21,7 +21,7 @@ int main() {
    }	   
   } else {
       sleep(1);	  
-      kill(pidChild, SIGUSR1);
+      kill(pidChild, SIGINT);
       int status;
       waitpid(pidChild, &status, 0);
       printf("Child has terminated.\n");     
