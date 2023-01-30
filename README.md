@@ -1,5 +1,9 @@
 # Lecture summaries
 
+## Lecture 6
+
+Walkthrough of core dumps, the SIGCHLD signal, and the SIGSEGV signal: [https://vanderbilt.zoom.us/rec/play/dfS2f87OaXMSJCYplFAnPr9RS56W-qugF7iyMTZlkvDwwmxPSnqdT8vIqgI_TX7zt5uPHjFttfESso1Z.w_dZM-1zdiQ-MgCo?continueMode=true&_x_zm_rtaid=n1Iym-MYQFKwLbC8QklStA.1675106699163.2370179d16cfe6d223d4de5088485500&_x_zm_rhtaid=689](https://vanderbilt.zoom.us/rec/play/dfS2f87OaXMSJCYplFAnPr9RS56W-qugF7iyMTZlkvDwwmxPSnqdT8vIqgI_TX7zt5uPHjFttfESso1Z.w_dZM-1zdiQ-MgCo?continueMode=true&_x_zm_rtaid=n1Iym-MYQFKwLbC8QklStA.1675106699163.2370179d16cfe6d223d4de5088485500&_x_zm_rhtaid=689)
+
 ## Lecture 5
 
 Walkthrough of assignment 2: [https://vanderbilt.zoom.us/rec/play/PFMbARsqTwH2L_tIr0T8uobYx8fgG6QFPTpB6GvF9voE5omtyxWVyEMyy1eDmFsNH7a8RtyLdz43eiEd.d8_cJqN71sCbdZ87?continueMode=true&_x_zm_rtaid=qhWcxGtES7KA4ByaEVo8SQ.1674661333213.d21aa8f80c84654bbb930b7e4b83530f&_x_zm_rhtaid=773](https://vanderbilt.zoom.us/rec/play/PFMbARsqTwH2L_tIr0T8uobYx8fgG6QFPTpB6GvF9voE5omtyxWVyEMyy1eDmFsNH7a8RtyLdz43eiEd.d8_cJqN71sCbdZ87?continueMode=true&_x_zm_rtaid=qhWcxGtES7KA4ByaEVo8SQ.1674661333213.d21aa8f80c84654bbb930b7e4b83530f&_x_zm_rhtaid=773)
