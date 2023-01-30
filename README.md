@@ -2,6 +2,8 @@
 
 ## Lecture 6
 
+Walkthrough of using the /proc file system to inspect the virtual memory mappings of a process: [https://vanderbilt.zoom.us/rec/play/NwjGbB3mDhumPS9kqUp_LFgUbhZsEZjAJKtJ4pkZiMD69sDcqx3e_kw7eraoaTI7x65y7j8tMoeiIuVx.Q8NbEEJ5T5m3BlQa?continueMode=true](https://vanderbilt.zoom.us/rec/play/NwjGbB3mDhumPS9kqUp_LFgUbhZsEZjAJKtJ4pkZiMD69sDcqx3e_kw7eraoaTI7x65y7j8tMoeiIuVx.Q8NbEEJ5T5m3BlQa?continueMode=true)
+
 Walkthrough of core dumps, the SIGCHLD signal, and the SIGSEGV signal: [https://vanderbilt.zoom.us/rec/play/dfS2f87OaXMSJCYplFAnPr9RS56W-qugF7iyMTZlkvDwwmxPSnqdT8vIqgI_TX7zt5uPHjFttfESso1Z.w_dZM-1zdiQ-MgCo?continueMode=true&_x_zm_rtaid=n1Iym-MYQFKwLbC8QklStA.1675106699163.2370179d16cfe6d223d4de5088485500&_x_zm_rhtaid=689](https://vanderbilt.zoom.us/rec/play/dfS2f87OaXMSJCYplFAnPr9RS56W-qugF7iyMTZlkvDwwmxPSnqdT8vIqgI_TX7zt5uPHjFttfESso1Z.w_dZM-1zdiQ-MgCo?continueMode=true&_x_zm_rtaid=n1Iym-MYQFKwLbC8QklStA.1675106699163.2370179d16cfe6d223d4de5088485500&_x_zm_rhtaid=689)
 
 ## Lecture 5
