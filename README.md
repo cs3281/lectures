@@ -4,6 +4,8 @@
 
 Walkthrough of assignment 3: [https://vanderbilt.zoom.us/rec/share/rgR8U0RchZsRNjlDdmEw-FK617dYMhpBVg7cbIJJI1zleg2w8QO2dUY8Wc8OmpC0.aW0Sk6W7FkPLYIs0?startTime=1675182818000](https://vanderbilt.zoom.us/rec/share/rgR8U0RchZsRNjlDdmEw-FK617dYMhpBVg7cbIJJI1zleg2w8QO2dUY8Wc8OmpC0.aW0Sk6W7FkPLYIs0?startTime=1675182818000)
 
+Additional explanation of pointers, address spaces, and assignment 3: [https://vanderbilt.zoom.us/rec/share/hdZSVPfMNs2ghQi1gvGMcqbiuRj2wqX2K-qSIwzbwbNOS48JWfTqETcM1yNWO8h4.Mo-BsMN_VSg2sR5m?startTime=1675270834000](https://vanderbilt.zoom.us/rec/share/hdZSVPfMNs2ghQi1gvGMcqbiuRj2wqX2K-qSIwzbwbNOS48JWfTqETcM1yNWO8h4.Mo-BsMN_VSg2sR5m?startTime=1675270834000)
+
 ## Lecture 6
 
 Walkthrough of using the /proc file system to inspect the virtual memory mappings of a process: [https://vanderbilt.zoom.us/rec/play/NwjGbB3mDhumPS9kqUp_LFgUbhZsEZjAJKtJ4pkZiMD69sDcqx3e_kw7eraoaTI7x65y7j8tMoeiIuVx.Q8NbEEJ5T5m3BlQa?continueMode=true](https://vanderbilt.zoom.us/rec/play/NwjGbB3mDhumPS9kqUp_LFgUbhZsEZjAJKtJ4pkZiMD69sDcqx3e_kw7eraoaTI7x65y7j8tMoeiIuVx.Q8NbEEJ5T5m3BlQa?continueMode=true)
