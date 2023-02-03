@@ -2,6 +2,10 @@
 
 ## Lecture 8
 
+Walkthrough of function pointers: [https://vanderbilt.zoom.us/rec/play/678zRa9UnGLNhvJlnQsbvzF1j94H8q3Tn2moKCHattxCHoWlLv-nQsAcUXJzOREjldXeV7qG2vrzRRsJ.lTxNXtTf0WqIeSo_?continueMode=true&_x_zm_rtaid=1glE50JKQySV-Y1QTD6myw.1675455075182.8d41fb8fa8a7de4e1eaa32804b68fa34&_x_zm_rhtaid=577](https://vanderbilt.zoom.us/rec/play/678zRa9UnGLNhvJlnQsbvzF1j94H8q3Tn2moKCHattxCHoWlLv-nQsAcUXJzOREjldXeV7qG2vrzRRsJ.lTxNXtTf0WqIeSo_?continueMode=true&_x_zm_rtaid=1glE50JKQySV-Y1QTD6myw.1675455075182.8d41fb8fa8a7de4e1eaa32804b68fa34&_x_zm_rhtaid=577)
+
+Walkthrough of virtual address translation 1: [https://vanderbilt.zoom.us/rec/play/eGC5f4W8BPDUzdBkYhnWPl18Og6eByBXadROqfUtWM007oClfMFITjQcwHtUULsd_mPazSO504cT2-GU.07eD_HeLllQSnUWl?continueMode=true&_x_zm_rtaid=1glE50JKQySV-Y1QTD6myw.1675455075182.8d41fb8fa8a7de4e1eaa32804b68fa34&_x_zm_rhtaid=577](https://vanderbilt.zoom.us/rec/play/eGC5f4W8BPDUzdBkYhnWPl18Og6eByBXadROqfUtWM007oClfMFITjQcwHtUULsd_mPazSO504cT2-GU.07eD_HeLllQSnUWl?continueMode=true&_x_zm_rtaid=1glE50JKQySV-Y1QTD6myw.1675455075182.8d41fb8fa8a7de4e1eaa32804b68fa34&_x_zm_rhtaid=577)
+
 Walkthrough of virtual address translation 1: [https://vanderbilt.zoom.us/rec/play/WdhTvH3FTBK_hzO2BLSWVOoNOuBPjOHxYBEpkPHriikn7Zlz5p3_nJLbzclE6aXh_KPQObMfyv749aoi.rxtSltWQxdYUPsoT?continueMode=true&_x_zm_rtaid=1glE50JKQySV-Y1QTD6myw.1675455075182.8d41fb8fa8a7de4e1eaa32804b68fa34&_x_zm_rhtaid=577](https://vanderbilt.zoom.us/rec/play/WdhTvH3FTBK_hzO2BLSWVOoNOuBPjOHxYBEpkPHriikn7Zlz5p3_nJLbzclE6aXh_KPQObMfyv749aoi.rxtSltWQxdYUPsoT?continueMode=true&_x_zm_rtaid=1glE50JKQySV-Y1QTD6myw.1675455075182.8d41fb8fa8a7de4e1eaa32804b68fa34&_x_zm_rhtaid=577)
 
 ## Lecture 7
