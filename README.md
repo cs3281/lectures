@@ -1,5 +1,9 @@
 # Lecture summaries
 
+## Lecture 8
+
+Walkthrough of virtual address translation 1: [https://vanderbilt.zoom.us/rec/play/WdhTvH3FTBK_hzO2BLSWVOoNOuBPjOHxYBEpkPHriikn7Zlz5p3_nJLbzclE6aXh_KPQObMfyv749aoi.rxtSltWQxdYUPsoT?continueMode=true&_x_zm_rtaid=1glE50JKQySV-Y1QTD6myw.1675455075182.8d41fb8fa8a7de4e1eaa32804b68fa34&_x_zm_rhtaid=577](https://vanderbilt.zoom.us/rec/play/WdhTvH3FTBK_hzO2BLSWVOoNOuBPjOHxYBEpkPHriikn7Zlz5p3_nJLbzclE6aXh_KPQObMfyv749aoi.rxtSltWQxdYUPsoT?continueMode=true&_x_zm_rtaid=1glE50JKQySV-Y1QTD6myw.1675455075182.8d41fb8fa8a7de4e1eaa32804b68fa34&_x_zm_rhtaid=577)
+
 ## Lecture 7
 
 Walkthrough of assignment 3: [https://vanderbilt.zoom.us/rec/share/rgR8U0RchZsRNjlDdmEw-FK617dYMhpBVg7cbIJJI1zleg2w8QO2dUY8Wc8OmpC0.aW0Sk6W7FkPLYIs0?startTime=1675182818000](https://vanderbilt.zoom.us/rec/share/rgR8U0RchZsRNjlDdmEw-FK617dYMhpBVg7cbIJJI1zleg2w8QO2dUY8Wc8OmpC0.aW0Sk6W7FkPLYIs0?startTime=1675182818000)
