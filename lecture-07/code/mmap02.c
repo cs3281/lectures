@@ -10,7 +10,7 @@ int main() {
   int psz = getpagesize();
   printf("Page size: %d\n", psz); 
   
-  int *p = mmap (NULL, 2*psz, PROT_READ, MAP_PRIVATE | MAP_ANONYMOUS, -1, 0); 
+  int *p = mmap (NULL, 2*psz, PROT_READ | PROT_WRITE, MAP_SHARED | MAP_ANONYMOUS, -1, 0); 
 
   printf ("Memory (2 pages) has been allocated at address = %p\n", p);
 
