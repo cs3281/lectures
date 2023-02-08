@@ -1,5 +1,9 @@
 # Lecture summaries
 
+## Lecture 9
+
+Walkthrough of assignment 4: [https://vanderbilt.zoom.us/rec/share/-xGGTH8osNy9Ojn2gCVkNyvuzPG9slXaRqFywWHB_RzbxVYucBcr39_G3HoTwWfA.n_lDUz10GnlyvW7C?startTime=1675787490000](https://vanderbilt.zoom.us/rec/share/-xGGTH8osNy9Ojn2gCVkNyvuzPG9slXaRqFywWHB_RzbxVYucBcr39_G3HoTwWfA.n_lDUz10GnlyvW7C?startTime=1675787490000)
+
 ## Lecture 8
 
 Walkthrough of function pointers: [https://vanderbilt.zoom.us/rec/play/678zRa9UnGLNhvJlnQsbvzF1j94H8q3Tn2moKCHattxCHoWlLv-nQsAcUXJzOREjldXeV7qG2vrzRRsJ.lTxNXtTf0WqIeSo_?continueMode=true&_x_zm_rtaid=1glE50JKQySV-Y1QTD6myw.1675455075182.8d41fb8fa8a7de4e1eaa32804b68fa34&_x_zm_rhtaid=577](https://vanderbilt.zoom.us/rec/play/678zRa9UnGLNhvJlnQsbvzF1j94H8q3Tn2moKCHattxCHoWlLv-nQsAcUXJzOREjldXeV7qG2vrzRRsJ.lTxNXtTf0WqIeSo_?continueMode=true&_x_zm_rtaid=1glE50JKQySV-Y1QTD6myw.1675455075182.8d41fb8fa8a7de4e1eaa32804b68fa34&_x_zm_rhtaid=577)
