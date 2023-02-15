@@ -3,15 +3,8 @@
 #include <unistd.h>
 #include <stdio.h>
 
-/*
- * GitHUb
- * threads
- * race_condition.c
- * __sys_lock_test_and_set
- * __sys_fetch_and_add
- */
 
-int num_threads;
+int num_iter;
 volatile int sum = 0;
 
 
@@ -21,7 +14,7 @@ volatile int sum = 0;
 
 void* thread_func(void* arg) {
   
-  for(int i = 0; i < num_threads; ++i) {    
+  for(int i = 0; i < num_iter; ++i) {    
     ++sum;           
   }  
 }	
@@ -29,7 +22,7 @@ void* thread_func(void* arg) {
 int main(int argc, char* argv[]) {
   pthread_t t1, t2;
  
-  num_threads = atoi(argv[1]);
+  num_iter = atoi(argv[1]);
   
   pthread_create(&t1, NULL, thread_func, NULL);
   pthread_create(&t2, NULL, thread_func, NULL);
