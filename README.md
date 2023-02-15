@@ -1,5 +1,9 @@
 # Lecture summaries
 
+## Lecture 11
+
+Walkthrough of assignment 5: [https://vanderbilt.zoom.us/rec/share/qjL5LCi3qg6NRKyXIzKh--03gu_SXlfFw2_DMlM13orykp-6TuCkFWZb3uSe0XIc.rykra0wy8SyHYdYA?startTime=1676497326000](https://vanderbilt.zoom.us/rec/share/qjL5LCi3qg6NRKyXIzKh--03gu_SXlfFw2_DMlM13orykp-6TuCkFWZb3uSe0XIc.rykra0wy8SyHYdYA?startTime=1676497326000)
+
 ## Lecture 9
 
 Walkthrough of assignment 4: [https://vanderbilt.zoom.us/rec/share/-xGGTH8osNy9Ojn2gCVkNyvuzPG9slXaRqFywWHB_RzbxVYucBcr39_G3HoTwWfA.n_lDUz10GnlyvW7C?startTime=1675787490000](https://vanderbilt.zoom.us/rec/share/-xGGTH8osNy9Ojn2gCVkNyvuzPG9slXaRqFywWHB_RzbxVYucBcr39_G3HoTwWfA.n_lDUz10GnlyvW7C?startTime=1675787490000)
