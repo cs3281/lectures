@@ -1,5 +1,15 @@
 # Lecture summaries
 
+## Midterm review videos
+
+[System calls](https://vanderbilt.zoom.us/rec/share/jIt2CRA1JBOHCsxTzAmK6hguFTlTPagO5ADrOVyu9ylz0D-_kyMafz7QD45smSf4.Fmo2APAdJjhI68Mw?startTime=1676651901000)
+
+[Processes](https://vanderbilt.zoom.us/rec/share/0ooFwEy9JwnbIuhLmJI91kTWqBuKS3itgQedMnLbJX6Kvb4eOiT7bgWtl_R1lw.4rHinsTtalf4A7xL?startTime=1676656300000)
+
+[Virtual memory](https://vanderbilt.zoom.us/rec/share/EYdgHxukpYeworwrxysFgDngjBDkt_d9OBQ5H9-ZUoCgmrNfQjxYeDOsn9SRo5mE.KndJC-whqpXTbMf_?startTime=1676657338000)
+
+[Threads and race conditions](https://vanderbilt.zoom.us/rec/share/ZCO0lxAzGV5FQwdUE8AZDmC5pbQARXDm79zuG4_6TQIr4D7QDSe4505UdHf0nEXp.aeQAFBNpofU5zI6p?startTime=1676661391000)
+
 ## Lecture 11
 
 Walkthrough of assignment 5: [https://vanderbilt.zoom.us/rec/share/qjL5LCi3qg6NRKyXIzKh--03gu_SXlfFw2_DMlM13orykp-6TuCkFWZb3uSe0XIc.rykra0wy8SyHYdYA?startTime=1676497326000](https://vanderbilt.zoom.us/rec/share/qjL5LCi3qg6NRKyXIzKh--03gu_SXlfFw2_DMlM13orykp-6TuCkFWZb3uSe0XIc.rykra0wy8SyHYdYA?startTime=1676497326000)
