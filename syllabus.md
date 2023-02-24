@@ -19,7 +19,6 @@ Due to space limitations in classrooms, please attend the section for which you 
 
 ## Teaching assistants
 
-- Yi Zhang `yi.zhang@vanderbilt.edu`
 - Oluwatito(Tito) Ebiwonjumi `oluwatito.p.ebiwonjumi@vanderbilt.edu` 
 
 ## Graders
@@ -44,7 +43,6 @@ Due to space limitations in classrooms, please attend the section for which you 
 |Wednesday|2pm - 3pm|FGH 201|Toby Zhu|
 |Wednesday|3pm - 4pm|[Zoom](https://vanderbilt.zoom.us/j/7262771408)|Wesley Minton|
 |Wednesday|4:30pm - 6pm|[Zoom](https://vanderbilt.zoom.us/j/96350668989)|Ritvik Singh|
-|Thursdsay|3pm - 5pm|[Zoom](https://vanderbilt.zoom.us/j/6055261403?pwd=UHFZa1RnbytzM1RJeWQ0cnQ3RXduZz09)|Yi Zhang|
 |Thursday|7pm - 8pm|FGH 201|Rohit Khurana|
 |Friday|1:15pm - 2:15pm|FGH 384|Shervin Hajiamini|
 |Friday|1:30pm - 3:30pm|FGH 201|Lucas Smulders|
