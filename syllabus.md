@@ -37,6 +37,7 @@ Due to space limitations in classrooms, please attend the section for which you 
 |Monday|12:30pm - 2pm|FGH 201|Tito Ebiwonjumi|
 |Monday|2pm - 3:30pm|FGH 201|Toby Zhu|
 |Monday|3pm - 4pm|[Zoom](https://vanderbilt.zoom.us/j/7262771408)|Wesley Minton|
+|Tuesday|3pm - 4pm|FGH 201|Lucas Smulders|
 |Tuesday|7pm - 8pm|FGH 201|Rohit Khurana|
 |Wednesday|1:15pm - 2:15pm|FGH 384|Shervin Hajiamini|
 |Wednesday|12:30pm - 2pm|FGH 201|Tito Ebiwonjumi|
@@ -45,7 +46,7 @@ Due to space limitations in classrooms, please attend the section for which you 
 |Wednesday|4:30pm - 6pm|[Zoom](https://vanderbilt.zoom.us/j/96350668989)|Ritvik Singh|
 |Thursday|7pm - 8pm|FGH 201|Rohit Khurana|
 |Friday|1:15pm - 2:15pm|FGH 384|Shervin Hajiamini|
-|Friday|1:30pm - 3:30pm|FGH 201|Lucas Smulders|
+|Friday|1:30pm - 3pm|FGH 201|Lucas Smulders|
 
 Please read the following guide for an explanation of how to make effective use of office hours: [https://www2.seas.gwu.edu/~gparmer/resources/2021-09-20-Office-Hours-HOWTO.html](https://www2.seas.gwu.edu/~gparmer/resources/2021-09-20-Office-Hours-HOWTO.html)
 
