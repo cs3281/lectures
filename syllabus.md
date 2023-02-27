@@ -35,7 +35,7 @@ Due to space limitations in classrooms, please attend the section for which you 
 | ------------- |:-------------:| :-------------:|:-------------:|
 |Monday|1:15pm - 2:15pm|FGH 384|Shervin Hajiamini|
 |Monday|12:30pm - 2pm|FGH 201|Tito Ebiwonjumi|
-|Monday|2pm - 3pm|FGH 201|Toby Zhu|
+|Monday|2pm - 3:30pm|FGH 201|Toby Zhu|
 |Monday|3pm - 4pm|[Zoom](https://vanderbilt.zoom.us/j/7262771408)|Wesley Minton|
 |Tuesday|7pm - 8pm|FGH 201|Rohit Khurana|
 |Wednesday|1:15pm - 2:15pm|FGH 384|Shervin Hajiamini|
