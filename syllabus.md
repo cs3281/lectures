@@ -89,11 +89,11 @@ Assignments submitted more than two days after the due date will not be accepted
 
 You have a total of 7 late days that you can use across programming assignments as you wish. A maximum of two late days can be used on a given programing assignment. For example: if an assignment is due at 11:59pm on Monday evening, you can use two of your late days to submit that assignment by 11:59pm on Wednesday with no penalty.
 
-To indicate that use are using late days on an assignment, please push a file named ```late_days.md``` to the top-level directory of your assignment repo with a line stating whether you're using one or two late days.
+To indicate that you are using late days on an assignment, please push a file named ```late_days.md``` to the top-level directory of your assignment repo with a line stating whether you're using one or two late days.
 
 **No collaborations unless explicitly permitted**. 
 
-The Vanderbilt Honor Code will govern work done. ANY VIOLATIONS WILL RESULT in the case to be reported to the honor council. You are welcome to refer to the online sources for your assignments. However, you must not copy the code and must provide citation of the source of inspiration if do refer to the online sites. All work will be submitted via GitHub.
+The Vanderbilt Honor Code will govern work done. ANY VIOLATIONS WILL RESULT in the case to be reported to the honor council. You are welcome to refer to the online sources for your assignments. However, you must not copy the code and must provide citation of the source of inspiration if you refer to the online sites. All work will be submitted via GitHub.
 
 In particular, do not plagarize your programming assignments.
 
