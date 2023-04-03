@@ -6,6 +6,10 @@
 #include <string.h>
 #include <unistd.h>
 
+#define IP_SERV "127.0.0.1"
+#define PORT_SERV 3000
+#define BUFFER_LEN 100
+
 void exit_with_error(char* msg) {
   perror("msg");
   exit(1);  
@@ -23,7 +27,7 @@ void client(int port) {
 
   in_addr.sin_family = AF_INET; 
   in_addr.sin_port = htons(port);
-  inet_pton(AF_UNIX, "127.0.0.1", &in_addr.sin_addr);
+  inet_pton(AF_UNIX, IP_SERV, &in_addr.sin_addr);
 
   int connect_res = connect(fd, (struct sockaddr*)&in_addr, sizeof(struct sockaddr_in));  
   if(connect_res == -1) {
@@ -54,7 +58,7 @@ void server() {
   }
 
   in_addr.sin_family = AF_INET;
-  in_addr.sin_port = htons(3000);
+  in_addr.sin_port = htons(PORT_SERV);
   in_addr.sin_addr.s_addr = htonl(INADDR_ANY);
   
 
@@ -85,7 +89,7 @@ void server() {
    exit(1);
   }
 
-  char buf[100];
+  char buf[BUFFER_LEN];
   int num_bytes, total = 0; 
   
   while((num_bytes = read(client_fd, buf + total, sizeof(buf) - total - 1)) > 0) {    
@@ -96,7 +100,7 @@ void server() {
     total += num_bytes;
    
     buf[total] = '\0';
-    printf("server received %d bytes for %s from %d\n", total, buf, client_addr.sin_addr.s_addr);        
+    printf("server received %d bytes for %s\n", total, buf);        
   }  
 }
 
