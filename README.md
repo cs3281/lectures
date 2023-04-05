@@ -1,5 +1,13 @@
 # Lecture summaries
 
+## Networking videos
+
+[Socket basics and simple "webserver"](https://vanderbilt.zoom.us/rec/share/nzoFWmMaebGRrgBBuJHPlp-LSlWvHUfKSP1sMWZ2WSdm8cfxEzy1SMwj1wC0QY__.vtU0qNHgOV1P2i9I)
+
+[Building an echo server](https://vanderbilt.zoom.us/rec/share/fQDQUOozsiMZQpphTlr_eb2bwE7KZcch5byGuMtSWlgYZKTYQJBVQ6yvTt0Ctihc.x_GiORiSBKElH4VA)
+
+[Building a multithreaded echo server](https://vanderbilt.zoom.us/rec/share/YRAdcaKCI23I2aW15zFkDWgBugHelLXApVEYaDuOY6CbS3gJhWdlqdqoQwPnJ2Ud.9o7RLBahgRvVXPrW)
+
 ## Midterm review videos
 
 [System calls](https://vanderbilt.zoom.us/rec/share/jIt2CRA1JBOHCsxTzAmK6hguFTlTPagO5ADrOVyu9ylz0D-_kyMafz7QD45smSf4.Fmo2APAdJjhI68Mw?startTime=1676651901000)
