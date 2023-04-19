@@ -5,14 +5,31 @@
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
+#include <ctype.h>
+#include <pthread.h>
 
-#define IP_SERV "127.0.0.1"
-#define PORT_SERV 3000
-#define BUFFER_LEN 100
+void* thread_func(void* arg) {
+  long client_fd = (long)arg;	
+  char buf[100];
+  int num_bytes, total = 0; 
 
-void exit_with_error(char* msg) {
-  perror("msg");
-  exit(1);  
+  while((num_bytes = read(client_fd, buf, sizeof(buf) - 1)) > 0) {   
+    if(num_bytes == -1) {
+     perror("read");
+     exit(1);
+    }
+
+    buf[num_bytes] = '\0';
+    printf("server received %d bytes for %s\n", num_bytes, buf);
+
+    for(int i = 0; i < num_bytes; ++i) {
+      buf[i] = toupper(buf[i]);	  
+    }
+
+    write(client_fd, buf, strlen(buf));
+  } 
+
+  close(client_fd);
 }	
 
 void client(int port) {
@@ -27,7 +44,7 @@ void client(int port) {
 
   in_addr.sin_family = AF_INET; 
   in_addr.sin_port = htons(port);
-  inet_pton(AF_UNIX, IP_SERV, &in_addr.sin_addr);
+  inet_pton(AF_INET, "127.0.0.1", &in_addr.sin_addr);
 
   int connect_res = connect(fd, (struct sockaddr*)&in_addr, sizeof(struct sockaddr_in));  
   if(connect_res == -1) {
@@ -35,16 +52,27 @@ void client(int port) {
    exit(1);
   }
   
-  char* str = "Hello, server!";     
   int num_bytes, total = 0; 
-  while(strlen(str) != total) {
-    num_bytes = write(fd, str + total, strlen(str) - total);    
-    if(num_bytes == -1) {
-     exit_with_error("Client failed to write");	    
-    }	    
-    
-    total += num_bytes;
-  } 
+
+  char str[100];
+  while((num_bytes = scanf("%s", str)) > 0 && strcmp(str, "quit") != 0) {
+       
+   num_bytes = write(fd, str, strlen(str));   
+  
+   if(num_bytes == -1) {
+    perror("write");
+    exit(1);
+   }
+
+   char buf[100];
+
+   num_bytes = read(fd, buf, sizeof(buf) - 1);
+   buf[num_bytes] = '\0';
+
+   printf("server reply is %s\n", buf);
+  }
+ 
+  close(fd);
 }	
 
 void server() {
@@ -58,9 +86,8 @@ void server() {
   }
 
   in_addr.sin_family = AF_INET;
-  in_addr.sin_port = htons(PORT_SERV);
   in_addr.sin_addr.s_addr = htonl(INADDR_ANY);
-  
+  in_addr.sin_port = htons(5000);
 
   int bind_res = bind(fd, (struct sockaddr*)&in_addr, sizeof(struct sockaddr_in));
   if(bind_res == -1) {
@@ -74,34 +101,22 @@ void server() {
    exit(1);	  
   }	  
    
-  int client_fd;
-  struct sockaddr_in client_addr;
+  long client_fd;
+  struct sockaddr_storage client_addr;
+  memset(&client_addr, 0, sizeof(struct sockaddr_storage));
+  socklen_t addr_size = sizeof(struct sockaddr_storage);
 
-  
-  memset(&client_addr, 0, sizeof(struct sockaddr_in));
-  socklen_t addr_size = sizeof(struct sockaddr_in);
+  while(1) {
+     client_fd = accept(fd, (struct sockaddr*)&client_addr, &addr_size);
 
-  
-  client_fd = accept(fd, (struct sockaddr*)&client_addr, &addr_size);  
-
-  if(client_fd == -1) {
-   perror("accept");
-   exit(1);
+     if(client_fd == -1) {
+      perror("accept");
+      exit(1);
+      }
+ 
+      pthread_t client_thread;
+      pthread_create(&client_thread, NULL, thread_func, (void*)client_fd);
   }
-
-  char buf[BUFFER_LEN];
-  int num_bytes, total = 0; 
-  
-  while((num_bytes = read(client_fd, buf + total, sizeof(buf) - total - 1)) > 0) {    
-    if(num_bytes == -1) {
-     exit_with_error("Client failed to write");     
-    }
-
-    total += num_bytes;
-   
-    buf[total] = '\0';
-    printf("server received %d bytes for %s\n", total, buf);        
-  }  
 }
 
 int main(int argc, char* args[]) {
