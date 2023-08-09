@@ -1,75 +1,184 @@
-# Lecture summaries
+# CS 3281: Principles of Operating Systems I (Fall 2023) 
+  
+**Credit Hours:** 3
 
-## Networking videos
+## Course Description
 
-[Socket basics and simple "webserver"](https://vanderbilt.zoom.us/rec/share/nzoFWmMaebGRrgBBuJHPlp-LSlWvHUfKSP1sMWZ2WSdm8cfxEzy1SMwj1wC0QY__.vtU0qNHgOV1P2i9I)
+This is an introductory course on operating systems. You will learn basic concepts in OS design and implementation. The course content will consist of a balance between theory, concepts, and practical hands-on material. Active participation in class discussions and on Piazza is encouraged. There really are no dumb questions.
 
-[Building an echo server](https://vanderbilt.zoom.us/rec/share/fQDQUOozsiMZQpphTlr_eb2bwE7KZcch5byGuMtSWlgYZKTYQJBVQ6yvTt0Ctihc.x_GiORiSBKElH4VA)
+## Prerequisites
 
-[Building a multithreaded echo server](https://vanderbilt.zoom.us/rec/share/YRAdcaKCI23I2aW15zFkDWgBugHelLXApVEYaDuOY6CbS3gJhWdlqdqoQwPnJ2Ud.9o7RLBahgRvVXPrW)
+EECE 2123 and CS 3251. Because an OS must make effective use of the underlying hardware, students learning OS concepts need to have a basic understanding of computer architecture; this is covered in EECE 2123. Programming assignments are a major part of the course, and so students must be comfortable with programming and debugging; this is covered in CS 3251. Most of the programming will be done in C.
 
-## Midterm review videos
+## Instructors
 
-[System calls](https://vanderbilt.zoom.us/rec/share/jIt2CRA1JBOHCsxTzAmK6hguFTlTPagO5ADrOVyu9ylz0D-_kyMafz7QD45smSf4.Fmo2APAdJjhI68Mw?startTime=1676651901000)
+- Will Hedgecock `ronald.w.hedgecock@vanderbilt.edu` 
+- Sandeep Neema `sandeep.neema@vanderbilt.edu`
+- Bryan Ward `bryan.ward@vanderbilt.edu`
 
-[Processes](https://vanderbilt.zoom.us/rec/share/0ooFwEy9JwnbIuhLmJI91kTWqBuKS3itgQedMnLbJX6Kvb4eOiT7bgWtl_R1lw.4rHinsTtalf4A7xL?startTime=1676656300000)
+Due to space limitations in classrooms, please attend the section for which you are registered.
 
-[Virtual memory](https://vanderbilt.zoom.us/rec/share/EYdgHxukpYeworwrxysFgDngjBDkt_d9OBQ5H9-ZUoCgmrNfQjxYeDOsn9SRo5mE.KndJC-whqpXTbMf_?startTime=1676657338000)
+## Teaching assistants
 
-[Threads and race conditions](https://vanderbilt.zoom.us/rec/share/ZCO0lxAzGV5FQwdUE8AZDmC5pbQARXDm79zuG4_6TQIr4D7QDSe4505UdHf0nEXp.aeQAFBNpofU5zI6p?startTime=1676661391000)
+- Oluwatito(Tito) Ebiwonjumi `oluwatito.p.ebiwonjumi@vanderbilt.edu` 
 
-## Lecture 11
+## Graders
 
-Walkthrough of assignment 5: [https://vanderbilt.zoom.us/rec/share/qjL5LCi3qg6NRKyXIzKh--03gu_SXlfFw2_DMlM13orykp-6TuCkFWZb3uSe0XIc.rykra0wy8SyHYdYA?startTime=1676497326000](https://vanderbilt.zoom.us/rec/share/qjL5LCi3qg6NRKyXIzKh--03gu_SXlfFw2_DMlM13orykp-6TuCkFWZb3uSe0XIc.rykra0wy8SyHYdYA?startTime=1676497326000)
+- Ritvik Singh `ritvik.singh@vanderbilt.edu`
+- Lucas Smulders `lucas.smulders@vanderbilt.edu`
+- Rohit Khurana `rohit.khurana@vanderbilt.edu`
+- Wesley Minton `wesley.a.minton@vanderbilt.edu`
+- Xiaoliang(Toby) Zhu `xiaoliang.zhu@vanderbilt.edu`
 
-## Lecture 10
+## Instructor, TA, and Grader Office Hours
 
-Overview of threads: [https://vanderbilt.zoom.us/rec/share/v7yfjZz5D1W_-Q4KtjgIrNkYyFfLpvEcWJm_jWFBbbaKQwZZDiKSGSkfKrtLskZ1.zVzuBGQRzzTgCUAh?startTime=1676499109000](https://vanderbilt.zoom.us/rec/share/v7yfjZz5D1W_-Q4KtjgIrNkYyFfLpvEcWJm_jWFBbbaKQwZZDiKSGSkfKrtLskZ1.zVzuBGQRzzTgCUAh?startTime=1676499109000)
+| Day | Time    | Location | Person  |
+| ------------- |:-------------:| :-------------:|:-------------:|
+|Monday|1:15pm - 2:15pm|FGH 384|Shervin Hajiamini|
+|Monday|12:30pm - 2pm|FGH 201|Tito Ebiwonjumi|
+|Monday|2pm - 3:30pm|FGH 201|Toby Zhu|
+|Monday|3pm - 4pm|[Zoom](https://vanderbilt.zoom.us/j/7262771408)|Wesley Minton|
+|Tuesday|3pm - 4pm|FGH 201|Lucas Smulders|
+|Tuesday|7pm - 8pm|FGH 201|Rohit Khurana|
+|Wednesday|1:15pm - 2:15pm|FGH 384|Shervin Hajiamini|
+|Wednesday|12:30pm - 2pm|FGH 201|Tito Ebiwonjumi|
+|Wednesday|2pm - 3pm|FGH 201|Toby Zhu|
+|Wednesday|3pm - 4:30pm|[Zoom](https://vanderbilt.zoom.us/j/7262771408)|Wesley Minton|
+|Wednesday|4:30pm - 6:30pm|[Zoom](https://vanderbilt.zoom.us/j/96350668989)|Ritvik Singh|
+|Thursday|7pm - 8pm|FGH 201|Rohit Khurana|
+|Friday|1:15pm - 2:15pm|FGH 384|Shervin Hajiamini|
+|Friday|1:30pm - 3pm|FGH 201|Lucas Smulders|
 
-## Lecture 9
+Please read the following guide for an explanation of how to make effective use of office hours: [https://www2.seas.gwu.edu/~gparmer/resources/2021-09-20-Office-Hours-HOWTO.html](https://www2.seas.gwu.edu/~gparmer/resources/2021-09-20-Office-Hours-HOWTO.html)
 
-Walkthrough of assignment 4: [https://vanderbilt.zoom.us/rec/share/-xGGTH8osNy9Ojn2gCVkNyvuzPG9slXaRqFywWHB_RzbxVYucBcr39_G3HoTwWfA.n_lDUz10GnlyvW7C?startTime=1675787490000](https://vanderbilt.zoom.us/rec/share/-xGGTH8osNy9Ojn2gCVkNyvuzPG9slXaRqFywWHB_RzbxVYucBcr39_G3HoTwWfA.n_lDUz10GnlyvW7C?startTime=1675787490000)
+## Preferred Contact Method
 
-## Lecture 8
+For general questions about class material that may be beneficial to others, please create a post on Piazza:
 
-Walkthrough of function pointers: [https://vanderbilt.zoom.us/rec/play/678zRa9UnGLNhvJlnQsbvzF1j94H8q3Tn2moKCHattxCHoWlLv-nQsAcUXJzOREjldXeV7qG2vrzRRsJ.lTxNXtTf0WqIeSo_?continueMode=true&_x_zm_rtaid=1glE50JKQySV-Y1QTD6myw.1675455075182.8d41fb8fa8a7de4e1eaa32804b68fa34&_x_zm_rhtaid=577](https://vanderbilt.zoom.us/rec/play/678zRa9UnGLNhvJlnQsbvzF1j94H8q3Tn2moKCHattxCHoWlLv-nQsAcUXJzOREjldXeV7qG2vrzRRsJ.lTxNXtTf0WqIeSo_?continueMode=true&_x_zm_rtaid=1glE50JKQySV-Y1QTD6myw.1675455075182.8d41fb8fa8a7de4e1eaa32804b68fa34&_x_zm_rhtaid=577)
+[https://piazza.com/class/lcniyvg2buj1tc](https://piazza.com/class/lcniyvg2buj1tc)
 
-Walkthrough of virtual address translation 2: [https://vanderbilt.zoom.us/rec/play/eGC5f4W8BPDUzdBkYhnWPl18Og6eByBXadROqfUtWM007oClfMFITjQcwHtUULsd_mPazSO504cT2-GU.07eD_HeLllQSnUWl?continueMode=true&_x_zm_rtaid=1glE50JKQySV-Y1QTD6myw.1675455075182.8d41fb8fa8a7de4e1eaa32804b68fa34&_x_zm_rhtaid=577](https://vanderbilt.zoom.us/rec/play/eGC5f4W8BPDUzdBkYhnWPl18Og6eByBXadROqfUtWM007oClfMFITjQcwHtUULsd_mPazSO504cT2-GU.07eD_HeLllQSnUWl?continueMode=true&_x_zm_rtaid=1glE50JKQySV-Y1QTD6myw.1675455075182.8d41fb8fa8a7de4e1eaa32804b68fa34&_x_zm_rhtaid=577)
+For questions about course logistics (e.g., absences), please send your instructor an e-mail. Note that we may have pop quizzes in class and unexplained absences will not be excused.
 
-Walkthrough of virtual address translation 1: [https://vanderbilt.zoom.us/rec/play/WdhTvH3FTBK_hzO2BLSWVOoNOuBPjOHxYBEpkPHriikn7Zlz5p3_nJLbzclE6aXh_KPQObMfyv749aoi.rxtSltWQxdYUPsoT?continueMode=true&_x_zm_rtaid=1glE50JKQySV-Y1QTD6myw.1675455075182.8d41fb8fa8a7de4e1eaa32804b68fa34&_x_zm_rhtaid=577](https://vanderbilt.zoom.us/rec/play/WdhTvH3FTBK_hzO2BLSWVOoNOuBPjOHxYBEpkPHriikn7Zlz5p3_nJLbzclE6aXh_KPQObMfyv749aoi.rxtSltWQxdYUPsoT?continueMode=true&_x_zm_rtaid=1glE50JKQySV-Y1QTD6myw.1675455075182.8d41fb8fa8a7de4e1eaa32804b68fa34&_x_zm_rhtaid=577)
+## Important Links
 
-## Lecture 7
+| What | Link    | 
+| ------------- |:-------------:| 
+| Textbook  | [http://pages.cs.wisc.edu/~remzi/OSTEP/](http://pages.cs.wisc.edu/~remzi/OSTEP/) | 
+| Recommended books | The Linux Programming Interface (TLPI) by Michael Kerrisk <br> Computer Systems: A Programmer's Perspective by Bryant and O'Hallaron | 
+| Announcments, discussion forum | [https://piazza.com/class/lcniyvg2buj1tc](https://piazza.com/class/lcniyvg2buj1tc) | 
+| Lectures and course notes |  [https://github.com/cs3281/lectures](https://github.com/cs3281/lectures) |
+| Assignments |  Announced on Brightspace; submitted on GitHub |
 
-Walkthrough of assignment 3: [https://vanderbilt.zoom.us/rec/share/rgR8U0RchZsRNjlDdmEw-FK617dYMhpBVg7cbIJJI1zleg2w8QO2dUY8Wc8OmpC0.aW0Sk6W7FkPLYIs0?startTime=1675182818000](https://vanderbilt.zoom.us/rec/share/rgR8U0RchZsRNjlDdmEw-FK617dYMhpBVg7cbIJJI1zleg2w8QO2dUY8Wc8OmpC0.aW0Sk6W7FkPLYIs0?startTime=1675182818000)
+## Textbook
 
-Additional explanation of pointers, address spaces, and assignment 3: [https://vanderbilt.zoom.us/rec/share/hdZSVPfMNs2ghQi1gvGMcqbiuRj2wqX2K-qSIwzbwbNOS48JWfTqETcM1yNWO8h4.Mo-BsMN_VSg2sR5m?startTime=1675270834000](https://vanderbilt.zoom.us/rec/share/hdZSVPfMNs2ghQi1gvGMcqbiuRj2wqX2K-qSIwzbwbNOS48JWfTqETcM1yNWO8h4.Mo-BsMN_VSg2sR5m?startTime=1675270834000)
+We are going to follow an online textbook in the course. The book is freely available at [https://pages.cs.wisc.edu/~remzi/OSTEP/](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 
-## Lecture 6
+There are also two excellent books that are not required, but are recommended:
 
-Walkthrough of using the /proc file system to inspect the virtual memory mappings of a process: [https://vanderbilt.zoom.us/rec/play/NwjGbB3mDhumPS9kqUp_LFgUbhZsEZjAJKtJ4pkZiMD69sDcqx3e_kw7eraoaTI7x65y7j8tMoeiIuVx.Q8NbEEJ5T5m3BlQa?continueMode=true](https://vanderbilt.zoom.us/rec/play/NwjGbB3mDhumPS9kqUp_LFgUbhZsEZjAJKtJ4pkZiMD69sDcqx3e_kw7eraoaTI7x65y7j8tMoeiIuVx.Q8NbEEJ5T5m3BlQa?continueMode=true)
+* The Linux Programming Interface by Michael Kerrisk
+* Computer Systems: A Programmer's Perspective by Bryant and O'Hallaron
 
-Walkthrough of core dumps, the SIGCHLD signal, and the SIGSEGV signal: [https://vanderbilt.zoom.us/rec/play/dfS2f87OaXMSJCYplFAnPr9RS56W-qugF7iyMTZlkvDwwmxPSnqdT8vIqgI_TX7zt5uPHjFttfESso1Z.w_dZM-1zdiQ-MgCo?continueMode=true&_x_zm_rtaid=n1Iym-MYQFKwLbC8QklStA.1675106699163.2370179d16cfe6d223d4de5088485500&_x_zm_rhtaid=689](https://vanderbilt.zoom.us/rec/play/dfS2f87OaXMSJCYplFAnPr9RS56W-qugF7iyMTZlkvDwwmxPSnqdT8vIqgI_TX7zt5uPHjFttfESso1Z.w_dZM-1zdiQ-MgCo?continueMode=true&_x_zm_rtaid=n1Iym-MYQFKwLbC8QklStA.1675106699163.2370179d16cfe6d223d4de5088485500&_x_zm_rhtaid=689)
+During the class extra reading material will be provided for each lecture via the GitHub repository. It is your responsibility to read the material before the lecture as there can be a pop quiz at the start of the class. 
 
-## Lecture 5
+## Late submission policy
 
-Walkthrough of assignment 2: [https://vanderbilt.zoom.us/rec/play/PFMbARsqTwH2L_tIr0T8uobYx8fgG6QFPTpB6GvF9voE5omtyxWVyEMyy1eDmFsNH7a8RtyLdz43eiEd.d8_cJqN71sCbdZ87?continueMode=true&_x_zm_rtaid=qhWcxGtES7KA4ByaEVo8SQ.1674661333213.d21aa8f80c84654bbb930b7e4b83530f&_x_zm_rhtaid=773](https://vanderbilt.zoom.us/rec/play/PFMbARsqTwH2L_tIr0T8uobYx8fgG6QFPTpB6GvF9voE5omtyxWVyEMyy1eDmFsNH7a8RtyLdz43eiEd.d8_cJqN71sCbdZ87?continueMode=true&_x_zm_rtaid=qhWcxGtES7KA4ByaEVo8SQ.1674661333213.d21aa8f80c84654bbb930b7e4b83530f&_x_zm_rhtaid=773)
+Submissions are due by midnight on the day listed in the assignment description. Late submissions will be penalized with an automatic 20 percent penalty per day (applied relative to the graded score for the submission).
 
-Video recap of fork, exec, exit, and wait: [https://vanderbilt.zoom.us/rec/play/z6unFOmNoGyJpEZSZjdhQjuZD2PwbP-GCO_H03u9feIkZ-nIWL32M5fBE8cqVo3wnie6jtnFGYS60pGZ.G4WUFgP2p6Xm7DBe?continueMode=true&_x_zm_rtaid=qhWcxGtES7KA4ByaEVo8SQ.1674661333213.d21aa8f80c84654bbb930b7e4b83530f&_x_zm_rhtaid=773](https://vanderbilt.zoom.us/rec/play/z6unFOmNoGyJpEZSZjdhQjuZD2PwbP-GCO_H03u9feIkZ-nIWL32M5fBE8cqVo3wnie6jtnFGYS60pGZ.G4WUFgP2p6Xm7DBe?continueMode=true&_x_zm_rtaid=qhWcxGtES7KA4ByaEVo8SQ.1674661333213.d21aa8f80c84654bbb930b7e4b83530f&_x_zm_rhtaid=773)
+Assignments submitted more than two days after the due date will not be accepted. For example: if an assignment is due by 11:59pm on Monday night, it will not be accepted after 11:59pm Wednesday night.
 
-Video recap of signals: [https://vanderbilt.zoom.us/rec/play/ViQRr8MmvuJdNQPX5fd7i5TsHNoAgAVmm8-e2zjo2So-cl62IKvTm30x2B-4a4EFBT9yWY32jCwWfTlO.R9LTR6GcMBuEENtf?continueMode=true&_x_zm_rtaid=qhWcxGtES7KA4ByaEVo8SQ.1674661333213.d21aa8f80c84654bbb930b7e4b83530f&_x_zm_rhtaid=773](https://vanderbilt.zoom.us/rec/play/ViQRr8MmvuJdNQPX5fd7i5TsHNoAgAVmm8-e2zjo2So-cl62IKvTm30x2B-4a4EFBT9yWY32jCwWfTlO.R9LTR6GcMBuEENtf?continueMode=true&_x_zm_rtaid=qhWcxGtES7KA4ByaEVo8SQ.1674661333213.d21aa8f80c84654bbb930b7e4b83530f&_x_zm_rhtaid=773)
+## Late days
 
-## Lecture 4
+You have a total of 7 late days that you can use across programming assignments as you wish. A maximum of two late days can be used on a given programing assignment. For example: if an assignment is due at 11:59pm on Monday evening, you can use two of your late days to submit that assignment by 11:59pm on Wednesday with no penalty.
 
-Video recap of process creation: [https://vanderbilt.zoom.us/rec/share/MQNyBtfrNGBAWL3eGb6lPF36l-k6YT2mnV5hI3vDkOpnAZGmdWINI72ohU13cHJY.cFiuNBjjw68l_BPy?startTime=1674227886000](https://vanderbilt.zoom.us/rec/share/MQNyBtfrNGBAWL3eGb6lPF36l-k6YT2mnV5hI3vDkOpnAZGmdWINI72ohU13cHJY.cFiuNBjjw68l_BPy?startTime=1674227886000)
+To indicate that you are using late days on an assignment, please push a file named ```late_days.md``` to the top-level directory of your assignment repo with a line stating whether you're using one or two late days.
 
-## Lecture 3
+**No collaborations unless explicitly permitted**. 
 
-Video recap of exceptional control flow: [https://vanderbilt.zoom.us/rec/share/cgRMHwZcx2vo7-1VcAoI-O0S1Rob5YF7nivPS30c6c5hfsJwnACM297x2FMYLDlh.ln_K1nrJA6_lbHuk?startTime=1674078960000](https://vanderbilt.zoom.us/rec/share/cgRMHwZcx2vo7-1VcAoI-O0S1Rob5YF7nivPS30c6c5hfsJwnACM297x2FMYLDlh.ln_K1nrJA6_lbHuk?startTime=1674078960000)
+The Vanderbilt Honor Code will govern work done. ANY VIOLATIONS WILL RESULT in the case to be reported to the honor council. You are welcome to refer to the online sources for your assignments. However, you must not copy the code and must provide citation of the source of inspiration if you refer to the online sites. All work will be submitted via GitHub.
 
-## Lecture 2
+In particular, do not plagarize your programming assignments.
 
-Video summary: [https://vanderbilt.zoom.us/rec/play/11iiumXt83Drx4t35izldEKlrwQsWfu9aIouX7cy1zB1ZifhJnrSiZ7uBfxov58fgRpwk6Kh0_Sy9DT6.1Xw_vUvhCh81sy5V?continueMode=true&_x_zm_rtaid=Rvy0FZqfSBOpXrhJsZ6SKw.1673632621269.1be5124635a70fcc253fd85a0a10773a&_x_zm_rhtaid=704](https://vanderbilt.zoom.us/rec/play/11iiumXt83Drx4t35izldEKlrwQsWfu9aIouX7cy1zB1ZifhJnrSiZ7uBfxov58fgRpwk6Kh0_Sy9DT6.1Xw_vUvhCh81sy5V?continueMode=true&_x_zm_rtaid=Rvy0FZqfSBOpXrhJsZ6SKw.1673632621269.1be5124635a70fcc253fd85a0a10773a&_x_zm_rhtaid=704)
+## Programming Assignments 
 
-## Lecture 1
+Programming assignments will be tested using Ubuntu and are expected to be developed and run in that environment. You should expect to receive on an average one assignment a week. Assignments will usually be given on a Tuesday and will be due the next Monday by 11:59pm central time.  
+The instructions for setting up the environment using VirtualBox are available in [the VM Setup document](./vmsetup/vmsetup.md). However, you're free to run whatever Virtual Machine Monitor software you would like, such as UTM, VMWare Fusion, Parallels, or QEMU. 
+Any submission that does not compile will be penalized **50%**. 
 
-This lecture was a course overview, including a discussion of the syllabus.
+## Reading Quizzes
+
+We plan to have short reading quizzes that you will take on Brightspace before class. The plan is to have these due on Wednesday nights by 11:59pm.
+
+## Evaluation
+
+The following grading criteria are subject to change. The instructor reserves the right to apply a curve to the final grades.
+
+## Grading Criteria
+
+| Category        | Percentage  |
+| ------------- |:-------------:| 
+| Programming Assignments | 60% |
+| Mid-term Exam I | 10% |
+| Mid-term Exam II | 10% |
+| Final Project | 20% |
+
+## Letter Grade Distribution
+
+| Score        | Letter  |
+| ------------- |:-------------:| 
+| >= 93.00    |   A      |
+| 90.00 - 92.99  |  A-   |
+| 87.00 - 89.99 | B+     |
+| 83.00 - 86.99  | B     |
+| 80.00 - 82.99  | B-     |
+| 77.00 - 79.99  | C+  |
+| 73.00 - 76.99  | C  |
+| 70.00 - 72.99  | C-  |
+| 67.00 - 69.99  | D+  |
+| 63.00 - 66.99  | D  |
+| 60.00 - 62.99  | D-  |
+| <= 59.99   |  F  |
+
+
+## Disability Statement
+
+Vanderbilt is committed to equal opportunity
+for students with disabilities. If you have a physical or learning
+disability, you should ask the Opportunity Development Center to assist
+you in identifying yourself to your instructors as having a disability,
+so that appropriate accommodation may be provided. Without notification,
+your instructors assume that you have no disabilities or seek no
+accommodation.
+
+## Emergency Evacuation Plan
+
+In the event of a fire or other emergency,
+the occupants of this class should collect their coats and personal
+belongings and leave the building using the stairs. VANDERBILT
+UNIVERSITY POLICY FORBIDS REENTRY TO A BUILDING IN WHICH AN ALARM HAS
+OCCURRED WITHOUT AUTHORIZATION BY VANDERBILT SECURITY. If, in
+consequence of a disability, you anticipate the need for assistance,
+please discuss that need with the instructors.
+
+If a tornado siren is heard, please go to the nearest interior hallway or interior rooms away from windows.
+
+## Topics
+
+The course will cover the following topics throughout the semester:
+
+-	History of operating systems
+-	Architecture of a modern computing system
+-	System calls
+-	Interrupts and interrupt handling
+-	Process creation, management, and termination
+-	Scheduling policies and mechanisms
+-	Memory management, virtual memory, paging, dynamic linking and loading of libraries
+-	Concurrency, threads, mutual exclusion (mutex and condition variables), including process synchronization and deadlocks
+-	Interprocess communication,  signals, message queues, pipes, shared memory, sockets
+-	File systems
+-   Security
+
+## Mandatory Reporter Obligations
+
+All University faculty and administrators are mandatory reporters.  What this means is that all Faculty, including us, must report allegations of sexual misconduct and intimate partner violence to the Title IX Coordinator.  In addition, all faculty are obligated to report any allegations of discrimination to the Title IX Coordinator.
+
+We are very willing to discuss with you such incidents should you so desire, but we can only do so in the context of us both understanding my reporting obligations.  If you want to talk with someone in confidence, officials in the Student Health Center, the University Counseling Center, and officials in the Office of the Chaplain and Religious Life (when acting as clergy) can all maintain confidentiality.  In addition, officials in the Project Safe Center (Crisis Hotline: 615-322-7233) have limited confidentiality, in that they have to report the incidents they are told of, but can do so without providing identifying information about the victim(s).
