@@ -64,10 +64,11 @@ For questions about course logistics (e.g., absences), please send your instruct
 | What | Link    | 
 | ------------- |:-------------:| 
 | Textbook  | [http://pages.cs.wisc.edu/~remzi/OSTEP/](http://pages.cs.wisc.edu/~remzi/OSTEP/) | 
-| Recommended books | The Linux Programming Interface (TLPI) by Michael Kerrisk <br> Computer Systems: A Programmer's Perspective by Bryant and O'Hallaron | 
-| Announcments, discussion forum | [https://piazza.com/class/lcniyvg2buj1tc](https://piazza.com/class/lcniyvg2buj1tc) | 
-| Lectures and course notes |  [https://github.com/cs3281/lectures](https://github.com/cs3281/lectures) |
-| Assignments |  Announced on Brightspace; submitted on GitHub |
+| Recommended Books | The Linux Programming Interface (TLPI) by Michael Kerrisk <br> Computer Systems: A Programmer's Perspective by Bryant and O'Hallaron | 
+| Announcments, Discussion Forum | [https://piazza.com/vanderbilt/fall2023/cs32815281](https://piazza.com/vanderbilt/fall2023/cs32815281) | 
+| Lectures and Schedule |  [https://github.com/cs3281/lectures](https://github.com/cs3281/lectures) |
+| Programming Assignments | [https://classroom.github.com/classrooms/30844110-fall2023](https://classroom.github.com/classrooms/30844110-fall2023) |
+| Announcements, Assignments |  Announced on Brightspace; submitted on GitHub |
 
 ## Textbook
 
