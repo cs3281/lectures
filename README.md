@@ -6,9 +6,13 @@
 
 This is an introductory course on operating systems. You will learn basic concepts in OS design and implementation. The course content will consist of a balance between theory, concepts, and practical hands-on material. Active participation in class discussions and on Piazza is encouraged. There really are no dumb questions.
 
+
 ## Prerequisites
 
-EECE 2123 and CS 3251. Because an OS must make effective use of the underlying hardware, students learning OS concepts need to have a basic understanding of computer architecture; this is covered in EECE 2123. Programming assignments are a major part of the course, and so students must be comfortable with programming and debugging; this is covered in CS 3251. Most of the programming will be done in C.
+EECE 2123 and CS 3251. Because an OS must make effective use of the underlying hardware, students learning OS concepts need to have a basic understanding of computer architecture; this is covered in EECE 2123. Programming assignments are a major part of the course, and so students must be comfortable with programming and debugging; this is covered in CS 3251.
+
+Programming assignments will be done in C unless otherwise noted. This is not a course on C programming – it is a course on Operating Systems. While some aspects of the C language will be demonstrated in this course, students are expected to familiarize themselves with the language if they are not familiar with it already.
+
 
 ## Instructors
 
@@ -18,9 +22,6 @@ EECE 2123 and CS 3251. Because an OS must make effective use of the underlying h
 
 Due to space limitations in classrooms, please attend the section for which you are registered.
 
-## Teaching assistants
-
-- Oluwatito(Tito) Ebiwonjumi `oluwatito.p.ebiwonjumi@vanderbilt.edu` 
 
 ## Graders
 
@@ -30,45 +31,55 @@ Due to space limitations in classrooms, please attend the section for which you 
 - Wesley Minton `wesley.a.minton@vanderbilt.edu`
 - Xiaoliang(Toby) Zhu `xiaoliang.zhu@vanderbilt.edu`
 
-## Instructor, TA, and Grader Office Hours
 
-| Day | Time    | Location | Person  |
-| ------------- |:-------------:| :-------------:|:-------------:|
-|Monday|1:15pm - 2:15pm|FGH 384|Shervin Hajiamini|
-|Monday|12:30pm - 2pm|FGH 201|Tito Ebiwonjumi|
-|Monday|2pm - 3:30pm|FGH 201|Toby Zhu|
-|Monday|3pm - 4pm|[Zoom](https://vanderbilt.zoom.us/j/7262771408)|Wesley Minton|
-|Tuesday|3pm - 4pm|FGH 201|Lucas Smulders|
-|Tuesday|7pm - 8pm|FGH 201|Rohit Khurana|
-|Wednesday|1:15pm - 2:15pm|FGH 384|Shervin Hajiamini|
-|Wednesday|12:30pm - 2pm|FGH 201|Tito Ebiwonjumi|
-|Wednesday|2pm - 3pm|FGH 201|Toby Zhu|
-|Wednesday|3pm - 4:30pm|[Zoom](https://vanderbilt.zoom.us/j/7262771408)|Wesley Minton|
-|Wednesday|4:30pm - 6:30pm|[Zoom](https://vanderbilt.zoom.us/j/96350668989)|Ritvik Singh|
-|Thursday|7pm - 8pm|FGH 201|Rohit Khurana|
-|Friday|1:15pm - 2:15pm|FGH 384|Shervin Hajiamini|
-|Friday|1:30pm - 3pm|FGH 201|Lucas Smulders|
+## Office Hours
 
-Please read the following guide for an explanation of how to make effective use of office hours: [https://www2.seas.gwu.edu/~gparmer/resources/2021-09-20-Office-Hours-HOWTO.html](https://www2.seas.gwu.edu/~gparmer/resources/2021-09-20-Office-Hours-HOWTO.html)
+Office hours are an opportunity for instructors, TAs, and graders to help you **learn** course material and concepts. Programming assignments are designed to help you learn course concepts and skills through practical experience and application. For these assignments to accomplish this goal, you must be engaged and invested in learning through doing. Experimenting, debugging, and struggling to get assignments to work is part of that learning process, as when you figure things out, you will better understand how and why things work the way they do.
+
+Giving out solutions or otherwise solving problems for students who have not invested in the learning experience robs those students of part of that learning experience. It is in this spirit that we adopt the following guidelines for office hours:
+
+*	Come prepared to explain what you don’t understand. Reflect on the challenges you are facing, see what you have learned and what you have concluded in the process of understanding the problem.
+*	Carefully consider the expected behavior of the program on different inputs. What inputs is your program failing on? What inputs is it succeeding on? Sometimes this mental exercise can help you identify and solve the problem yourself.
+*	Come prepared to explain what you have tried to fix the problem. This shows that you have engaged in the learning experience authentically. You have learned what doesn’t work, and hopefully why!
+*	Prepare your code for office hours. The office hours host will need to understand your code before they can help you to learn how to solve the problem. This means your code should compile, and you should use good coding practices including comments, functions, and well-chosen variable names. Remove any superfluous printouts or code from things you tried that did not work.
+
+Examples of unacceptable office hour conduct include:
+
+*	Coming with code that doesn’t compile. You should at least be able to get your code to compile, even if it doesn’t work properly. We can’t easily evaluate how or why it isn’t working properly without seeing what the code is doing.
+*	Asking something akin to “Why doesn’t this work?” or “What is this error?” Instead, try something to the effect of “I am getting this error message XXX, which I think means that YYY is happening. However, it is still occurring after I tried this and that. Can you help me understand what this error message means, I’m not sure I understand the problem.”
+
+For a more thorough guide on how to make effective use of office hours, you are encouraged to read the following: [https://www2.seas.gwu.edu/~gparmer/resources/2021-09-20-Office-Hours-HOWTO.html](https://www2.seas.gwu.edu/~gparmer/resources/2021-09-20-Office-Hours-HOWTO.html)
+
+Office hour times are listed below:
+
+| Day | Time    | Location | Person  | Role |
+| ------------- |:-------------:| :-------------:|:-------------:|:-------------:|
+|Tuesday|1pm - 2pm|FGH 201|Will Hedgecock|Instructor|
+|Thursday|1pm - 2pm|FGH 201|Will Hedgecock|Instructor|
+
 
 ## Preferred Contact Method
 
-For general questions about class material that may be beneficial to others, please create a post on Piazza:
+A Discussion Forum exists on Piazza for students to ask questions and give comments on any aspect of the course. The instructors will respond as appropriate, but students are also encouraged to respond themselves. Students can and should be learning from each other in this course, and your engagement in the learning process may be used to contribute to a “Community Score” at the end of the course (see the “Grading” section for more details.) As such, most questions about class material should be posted to Piazza:
 
-[https://piazza.com/class/lcniyvg2buj1tc](https://piazza.com/class/lcniyvg2buj1tc)
+[https://piazza.com/class/lj7fuym8e7xik](https://piazza.com/class/lj7fuym8e7xik)
 
-For questions about course logistics (e.g., absences), please send your instructor an e-mail. Note that we may have pop quizzes in class and unexplained absences will not be excused.
+To foster an environment in which students learn from one another, instructors generally will not answer questions the day they were posted, nor over the weekend. So, start working on your assignments early so that you can get help from your instructor if you need it!
+
+For questions about course logistics (e.g., absences), please send your instructor an e-mail. 
+
 
 ## Important Links
 
 | What | Link    | 
 | ------------- |:-------------:| 
 | Textbook  | [http://pages.cs.wisc.edu/~remzi/OSTEP/](http://pages.cs.wisc.edu/~remzi/OSTEP/) | 
-| Recommended Books | The Linux Programming Interface (TLPI) by Michael Kerrisk <br> Computer Systems: A Programmer's Perspective by Bryant and O'Hallaron | 
+| Additional Resources | The Linux Programming Interface (TLPI) by Michael Kerrisk <br> Computer Systems: A Programmer's Perspective by Bryant and O'Hallaron | 
 | Announcments, Discussion Forum | [https://piazza.com/vanderbilt/fall2023/cs32815281](https://piazza.com/vanderbilt/fall2023/cs32815281) | 
 | Lectures and Schedule |  [https://github.com/cs3281/lectures](https://github.com/cs3281/lectures) |
-| Programming Assignments | [https://classroom.github.com/classrooms/30844110-fall2023](https://classroom.github.com/classrooms/30844110-fall2023) |
-| Announcements, Assignments |  Announced on Brightspace; submitted on GitHub |
+| Assignments |  Announced on Brightspace; submitted on GitHub |
+| Assignment Submissions | [https://classroom.github.com/classrooms/30844110-fall2023](https://classroom.github.com/classrooms/30844110-fall2023) |
+
 
 ## Textbook
 
@@ -79,48 +90,115 @@ There are also two excellent books that are not required, but are recommended:
 * The Linux Programming Interface by Michael Kerrisk
 * Computer Systems: A Programmer's Perspective by Bryant and O'Hallaron
 
-During the class extra reading material will be provided for each lecture via the GitHub repository. It is your responsibility to read the material before the lecture as there can be a pop quiz at the start of the class. 
+During the class, extra reading material may be provided for each lecture via the GitHub lectures repository. It is your responsibility to read the material before the lecture. 
+
+
+## Programming Assignments
+
+Programming assignments are a key component of the learning experience of this class. Through these assignments you will gain first-hand experience with operating systems and associated concepts. We plan to use a simple learning-focused, open-source operating system called xv6 that was developed at MIT. We will use some of their assignments as well. Copying solutions from the internet, or posting your solutions, are both violations of the Honor Code.
+
+The xv6 operating system is best run in a Unix environment, such as MacOS or Linux. You will have access to Linux-based virtual machines provided by VUIT with all the necessary software already installed to do your assignments, but you may also use your personal machine if you prefer. See the [xv6 Wiki](https://github.com/cs3281/lectures/wiki) page for more details.
+
+Assignments will usually be given on Tuesday and will be due the next Monday by 11:59pm Central Time. **Assignment collaborations are forbidden unless explicitly permitted.**
+
+Any submission that does not compile will be penalized at least **50%**. The instructors and graders reserve the right to give a **0%** for any assignment that does not have a substantive solution to the assignment – in other words you cannot earn points by merely submitting the provided code.
+
+
+## ChatGPT and Generative AI
+
+ChatGPT and other generative AI techniques such as Co-Pilot are transformative new technologies that we must explore how to productively use in an educational environment. On one hand, these technologies can aid you in the learning process by helping you solve problems you are stumped by. On the other hand, if they solve all your problems for you, then you have been robbed of the learning experience. Nonetheless, these technologies are here to stay, and their effective use will boost the productivity of professionals, so we want to prepare you to use these tools in your careers. We are therefore adopting an **experimental** new policy for the use of AI tools.
+
+You **may use AI tools** to aid and assist you in working on your programming assignments. However, **any use of AI tools must be disclosed**. This disclosure is a report that includes what AI tools you used, what it helped you with, and what it could not help you with. You **will not be penalized for using AI tools**, but you may be penalized for inadequate or incomplete disclosure. So be honest!
+
+This disclosure serves three purposes. First, it helps the instructors to better understand how to teach in this new era of AI. Second, it is part of our Honor Code policy. Any use of AI tools without disclosure will be considered an Honor Code violation. And third, we hope that by reflecting upon what worked and what didn’t, you will become more proficient users of these tools!
+
+The instructors reserve the right to change or amend this experimental policy at any time.
+
 
 ## Late submission policy
 
-Submissions are due by midnight on the day listed in the assignment description. Late submissions will be penalized with an automatic 20 percent penalty per day (applied relative to the graded score for the submission).
+Submissions are due by midnight on the day listed in the assignment description. Late submissions will be penalized with an automatic 20 percentage-point penalty per day.
 
 Assignments submitted more than two days after the due date will not be accepted. For example: if an assignment is due by 11:59pm on Monday night, it will not be accepted after 11:59pm Wednesday night.
 
+
 ## Late days
 
-You have a total of 7 late days that you can use across programming assignments as you wish. A maximum of two late days can be used on a given programing assignment. For example: if an assignment is due at 11:59pm on Monday evening, you can use two of your late days to submit that assignment by 11:59pm on Wednesday with no penalty.
+You have a total of four late days that you can use across programming assignments as you wish. A maximum of two late days can be used on a given programming assignment. For example: if an assignment is due at 11:59pm on Monday evening, you can use two of your late days to submit that assignment by 11:59pm on Wednesday with no penalty.
+
+The expectation is that assignments will be submitted by the due date. The late-day policy is designed to give you flexibility in the case of unexpected circumstances, without having to negotiate a deadline extension. Therefore, requests for additional late days will not be granted. Use your late days judiciously, and it is recommended to preserve them as "insurance."
 
 To indicate that you are using late days on an assignment, please push a file named ```late_days.md``` to the top-level directory of your assignment repo with a line stating whether you're using one or two late days.
 
-**No collaborations unless explicitly permitted**. 
 
-The Vanderbilt Honor Code will govern work done. ANY VIOLATIONS WILL RESULT in the case to be reported to the honor council. You are welcome to refer to the online sources for your assignments. However, you must not copy the code and must provide citation of the source of inspiration if you refer to the online sites. All work will be submitted via GitHub.
+## Regrade Requests
 
-In particular, do not plagarize your programming assignments.
+The graders and instructors are human and occasionally make mistakes, despite our best efforts and intentions. We do not want such mistakes to negatively impact your grade. However, regrading assessments takes time, and should not be requested merely because you are unsatisfied with your grade. For this reason, if your request is deemed frivolous, or does not find fault in the original grading, the instructors reserve the right to penalize by forfeiting one late day. If you do not have any remaining late days and your regrade request is deemed frivolous, one of your previously used late days will be forfeited, and an assignment previously submitted late will receive the late-day penalty.
 
-## Programming Assignments 
+This rule is inspired by the NFL review rules, in which you lose a timeout if you challenge a call that is not overturned. Similarly, there must be "irrefutable evidence" to overturn a grade. Sometimes grading can be subjective, and therefore if the original grade is fair or valid, the "ruling on the field stands"; that is, the original grade remains, and the late day is forfeit.
 
-Programming assignments will be tested using Ubuntu and are expected to be developed and run in that environment. You should expect to receive on an average one assignment a week. Assignments will usually be given on a Tuesday and will be due the next Monday by 11:59pm central time.  
-The instructions for setting up the environment using VirtualBox are available in [the VM Setup document](./vmsetup/vmsetup.md). However, you're free to run whatever Virtual Machine Monitor software you would like, such as UTM, VMWare Fusion, Parallels, or QEMU. 
-Any submission that does not compile will be penalized **50%**. 
 
-## Reading Quizzes
+## Exams
 
-We plan to have short reading quizzes that you will take on Brightspace before class. The plan is to have these due on Wednesday nights by 11:59pm.
+The midterm exam will be given in-class and use the entire class period. Do not be late. The final exam will cover the entire course – it is not merely a second midterm.
+
+For each exam, you have the opportunity to prepare a single standard 8.5"x11" piece of note paper with your hand-written notes that you may use during the exam. Importantly, these notes must be entirely *handwritten* directly *on the note paper by you*. You cannot photocopy others’ notes or print notes you wrote by hand on a tablet. You cannot literally cut and paste figures from the textbook or other sources, but, if you so choose, you may reproduce them by hand yourself on your note sheet. Note sheets will be collected and violations of these generous terms will be considered a violation of the Honor Code.
+
+The assignments and examinations are critical parts of the learning experience. Plagiarizing or otherwise violating the Honor Code robs you of that learning experience. If you do not want to engage in this learning experience authentically, do not enroll in the class, as you will be wasting your time, our time, and preventing an otherwise eager student on the wait list from enrolling in the class.
+
+Programming assignments will be tested using Ubuntu and are expected to be developed and run in that environment. You should expect to receive an average of one assignment a week. Assignments will usually be given on a Tuesday and will be due the next Monday by 11:59pm Central Time. Students will have access to a personal virtual machine provided by VUIT hosted on Amazon AWS. Instructions for accessing these machines can be found on the [xv6 Wiki](https://github.com/cs3281/lectures/wiki); however, you are free to use whatever development environment you so choose, but we note that instructors will not support alternative development environments. All assignments will be evaluated in the Ubuntu-based AWS environment.
+
+
+## In-class Assessments
+
+There will be a series of *brief* and hopefully straightforward in-class assessments, which may be conducted over an online tool such as TopHat. The main objectives of these assessments are to encourage (and measure) class attendance and doing the readings before class. They also serve as a means of evaluating how well the class has understood concepts before moving on to new material. To take some of the stress out of these assessments, you do not need a perfect score to get full credit for the assessment. The goal is for scores over approximately 80% to earn full credit, but depending upon the assessment, that bar may be lowered at the instructor’s discretion. For example, if there are fewer than five questions, you will receive full credit if you get at most one wrong. If you do not score points sufficient to reach the full-credit bar, your score will be relative to that bar. For example, if an assessment has four questions, you will need three to score full credit. If you only get two correct, your score will be 2/3 = 66%.
+
+Attendance in class is expected. Please inform the instructor ahead of time if you have an excused absence.
+
+
+## Participation and Professionalism
+
+This class will be more enjoyable and productive for all involved if students participate, maintain proper etiquette, and are professional. Examples of inappropriate and unprofessional classroom etiquette are:
+
+* Commonly arriving late or coming and going during class
+* Talking, eating, or otherwise making unnecessary noise that may interfere with the learning environment of others
+* Not paying attention, e.g., browsing the web, doing other homework, sleeping, or otherwise being inattentive in class. We notice this!
+
+The instructor reserves the right to round up the grades of students who are professional, responsible, and engaged in the class, and similarly deduct points for students who are not.
+
 
 ## Evaluation
 
 The following grading criteria are subject to change. The instructor reserves the right to apply a curve to the final grades.
 
+
 ## Grading Criteria
 
 | Category        | Percentage  |
 | ------------- |:-------------:| 
-| Programming Assignments | 60% |
-| Mid-term Exam I | 10% |
-| Mid-term Exam II | 10% |
-| Final Project | 20% |
+| Programming Assignments | 50% |
+| Mid-term Exam | 15% |
+| In-Class Assessments | 10% |
+| Final Exam | 25% |
+| Participation and Professionalism | +/-2% |
+
+
+## Honor Code
+
+The Vanderbilt Honor Code will govern all course assessments. Students are expected to familiarize themselves with the honor code:
+
+[https://www.vanderbilt.edu/student_handbook/the-honor-system/](https://www.vanderbilt.edu/student_handbook/the-honor-system/)
+
+ANY VIOLATIONS WILL RESULT in the case being reported to the honor council. You are welcome to refer to the online sources for your assignments; however, you must not copy the code and must provide citation of the source of inspiration if you refer to online sites. Notably, the following are expressly prohibited, and will be reported to the honor council:
+
+*	Copying homework solutions from peers in violation of any stated collaboration policies
+*	Copying homework solutions from the internet (Chegg, stack overflow, etc.)
+*	Copying homework solutions of previous students at Vanderbilt or other institutions
+*	Reading off the exams of others nearby or unapproved resources (e.g., phone, notes in violation of the above exam-notes policy)
+*	Using ChatGPT or other AI tools without disclosing its use (see the above policies)
+
+There is absolutely **zero tolerance** for plagiarism or Honor Code violations. If you have questions regarding what is or is not acceptable, please ask.
+
 
 ## Letter Grade Distribution
 
@@ -142,25 +220,8 @@ The following grading criteria are subject to change. The instructor reserves th
 
 ## Disability Statement
 
-Vanderbilt is committed to equal opportunity
-for students with disabilities. If you have a physical or learning
-disability, you should ask the Opportunity Development Center to assist
-you in identifying yourself to your instructors as having a disability,
-so that appropriate accommodation may be provided. Without notification,
-your instructors assume that you have no disabilities or seek no
-accommodation.
+Vanderbilt is committed to equal opportunity for students with disabilities. If you have a physical or learning disability, you should ask the Opportunity Development Center to assist you in identifying yourself to your instructors as having a disability, so that appropriate accommodation may be provided. Without notification, your instructors assume that you have no disabilities or seek no accommodation.
 
-## Emergency Evacuation Plan
-
-In the event of a fire or other emergency,
-the occupants of this class should collect their coats and personal
-belongings and leave the building using the stairs. VANDERBILT
-UNIVERSITY POLICY FORBIDS REENTRY TO A BUILDING IN WHICH AN ALARM HAS
-OCCURRED WITHOUT AUTHORIZATION BY VANDERBILT SECURITY. If, in
-consequence of a disability, you anticipate the need for assistance,
-please discuss that need with the instructors.
-
-If a tornado siren is heard, please go to the nearest interior hallway or interior rooms away from windows.
 
 ## Topics
 
@@ -176,10 +237,5 @@ The course will cover the following topics throughout the semester:
 -	Concurrency, threads, mutual exclusion (mutex and condition variables), including process synchronization and deadlocks
 -	Interprocess communication,  signals, message queues, pipes, shared memory, sockets
 -	File systems
--   Security
-
-## Mandatory Reporter Obligations
-
-All University faculty and administrators are mandatory reporters.  What this means is that all Faculty, including us, must report allegations of sexual misconduct and intimate partner violence to the Title IX Coordinator.  In addition, all faculty are obligated to report any allegations of discrimination to the Title IX Coordinator.
-
-We are very willing to discuss with you such incidents should you so desire, but we can only do so in the context of us both understanding my reporting obligations.  If you want to talk with someone in confidence, officials in the Student Health Center, the University Counseling Center, and officials in the Office of the Chaplain and Religious Life (when acting as clergy) can all maintain confidentiality.  In addition, officials in the Project Safe Center (Crisis Hotline: 615-322-7233) have limited confidentiality, in that they have to report the incidents they are told of, but can do so without providing identifying information about the victim(s).
+- Virtual machines
+- Security
