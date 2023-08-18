@@ -185,7 +185,7 @@ The following grading criteria are subject to change. The instructor reserves th
 
 ## Honor Code
 
-The Vanderbilt Honor Code will govern all course assessments. Students are expected to familiarize themselves with the honor code:
+The Vanderbilt Honor Code will govern all course assessments. Students are expected to familiarize themselves with the Honor Code:
 
 [https://www.vanderbilt.edu/student_handbook/the-honor-system/](https://www.vanderbilt.edu/student_handbook/the-honor-system/)
 
