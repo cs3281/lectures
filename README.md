@@ -62,7 +62,7 @@ Office hour times are listed below:
 
 A Discussion Forum exists on Piazza for students to ask questions and give comments on any aspect of the course. The instructors will respond as appropriate, but students are also encouraged to respond themselves. Students can and should be learning from each other in this course, and your engagement in the learning process may be used to contribute to a “Community Score” at the end of the course (see the “Grading” section for more details.) As such, most questions about class material should be posted to Piazza:
 
-[https://piazza.com/class/lj7fuym8e7xik](https://piazza.com/class/lj7fuym8e7xik)
+[https://piazza.com/vanderbilt/fall2023/cs32815281](https://piazza.com/vanderbilt/fall2023/cs32815281)
 
 To foster an environment in which students learn from one another, instructors generally will not answer questions the day they were posted, nor over the weekend. So, start working on your assignments early so that you can get help from your instructor if you need it!
 
