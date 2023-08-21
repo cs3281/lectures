@@ -61,6 +61,7 @@ Office hour times are listed below:
 |Monday|4pm - 6pm|FGH 201|Binh Mai|Grader|
 |Tuesday|1pm - 2pm|FGH 201|Will Hedgecock|Instructor|
 |Wednesday|9am - 10am|FGH 201|Ilayda Koca|Grader|
+|Wednesday|10am - 1pm|FGH 201|Anda Liang|Grader|
 |Wednesday|3:30pm - 5pm|FGH 201|Eileen Hsu|Grader|
 |Thursday|1pm - 2pm|FGH 201|Will Hedgecock|Instructor|
 |Friday|3pm - 5pm|FGH 201|Trevor Jones|Grader|
@@ -180,13 +181,13 @@ The following grading criteria are subject to change. The instructor reserves th
 
 ## Grading Criteria
 
-| Category        | Percentage  |
-| ------------- |:-------------:| 
-| Programming Assignments | 50% |
-| In-Class Assessments | 10% |
-| Mid-Term Exam | 15% |
-| Final Exam | 25% |
-| Participation and Professionalism | +/-2% |
+| Category                          | Percentage    |
+| --------------------------------- |:-------------:| 
+| Programming Assignments           | 50%           |
+| In-Class Assessments              | 10%           |
+| Mid-Term Exam                     | 15%           |
+| Final Exam                        | 25%           |
+| Participation and Professionalism | +/-2%         |
 
 
 ## Honor Code
