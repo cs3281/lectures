@@ -108,7 +108,7 @@ During the class, extra reading material may be provided for each lecture via th
 
 Programming assignments are a key component of the learning experience in this class. Through these assignments, you will gain first-hand experience with operating systems and associated concepts. We plan to use a simple learning-focused, open-source operating system called xv6 that was developed at MIT as the basis for these assignments. Copying solutions from the Internet or posting your solutions are both violations of the Honor Code.
 
-The xv6 operating system is best run in a Unix environment, such as MacOS or Linux. You will have access to Linux-based Virtual Machines provided by VUIT with all the necessary software already installed to do your assignments, but you may also use your personal machine if you prefer. See the [xv6 Wiki](https://github.com/cs3281/lectures/wiki) page for more details.
+The xv6 operating system is best run in a Unix environment, such as MacOS or Linux. You will have access to personal Linux-based Virtual Machines provided by VUIT and hosted on Amazon AWS with all the necessary software already installed to do your assignments, but you may also use your personal machine if you prefer. See the [xv6 Wiki](https://github.com/cs3281/lectures/wiki) page for more details. Note, however, that your assignments will be evaluated in the same environment as that of the VM provided to you, and instructors and staff will not provide support for other environments.
 
 Assignments will usually be given on Tuesday and will be due the next Monday by 11:59pm Central Time. **Assignment collaborations are forbidden unless explicitly permitted.**
 
@@ -151,18 +151,16 @@ This rule is inspired by the NFL review rules, in which you lose a timeout if yo
 
 ## Exams
 
-A midterm exam will be given in-class and use the entire class period. Do not be late. The final exam will cover the entire course – it is not merely a second midterm.
+A midterm exam will be given in-class and use the entire class period on October 5th. Do not be late. The final exam will cover the entire course – it is not merely a second midterm. It will be administered at the official exam time, which depends upon your section. Refer to the [official exam schedule](https://registrar.vanderbilt.edu/documents/Fall_2023_exam_schedule.pdf).
 
 For each exam, you may prepare a single standard 8.5”x11” piece of notebook paper with your handwritten notes to use during the exam. Importantly, these notes must be entirely *handwritten* directly on the paper *by you*. You cannot photocopy others’ notes or print notes that you wrote by hand on a tablet. You cannot literally cut-and-paste figures from the textbook or other sources, but, if you so choose, you may reproduce them by hand yourself on your note sheet. Note sheets will be collected, and violations of these terms will be considered a violation of the Honor Code.
-
-The assignments and examinations are critical parts of the learning experience. Plagiarizing or otherwise violating the Honor Code robs you of that learning experience. If you do not want to engage in this learning experience authentically, please do not enroll in the class, as you will be wasting your time, our time, and preventing an otherwise eager student on the wait list from enrolling in the class.
-
-Programming assignments will be tested using Ubuntu and are expected to be developed and run in that environment. You should expect to receive an average of one assignment a week. Assignments will usually be given on a Tuesday and will be due the next Monday by 11:59pm Central Time. Students will have access to a personal Virtual Machine provided by VUIT and hosted on Amazon AWS. Instructions for accessing these machines can be found on the [xv6 Wiki](https://github.com/cs3281/lectures/wiki); however, you are free to use whatever development environment you so choose; however, note that the instructors will not provide support for alternative development environments. All assignments will be evaluated using the Ubuntu-based AWS environment.
 
 
 ## In-class Assessments
 
-There will be a series of *brief* and hopefully straightforward in-class assessments, which may be conducted over an online tool such as TopHat. The main objectives of these assessments are to encourage (and measure) class attendance and to gauge understanding of the readings before class. They also serve as a means of evaluating how well the class has understood concepts before moving on to new material. To take some of the stress out of these assessments, you do not need a perfect score to get full credit for the assessment. The goal is for scores over approximately 80% to earn full credit, but depending upon the assessment, that bar may be lowered at the instructor’s discretion. For example, if there are fewer than five questions, you will receive full credit if you get at most one wrong. If you do not score points sufficient to reach the full-credit bar, your score will be relative to that bar. For example, if an assessment has four questions, you will need three to score full credit. If you only get two correct, your score will be 2/3 = 66%.
+There will be a series of *brief* and hopefully straightforward in-class assessments, which may be conducted over an online tool such as TopHat. The main objectives of these assessments are to encourage (and measure) class attendance and to gauge understanding of the readings before class. They also serve as a means of evaluating how well the class has understood concepts before moving on to new material.
+
+To take some of the stress out of these assessments, you do not need a perfect score to get full credit for the assessment. The goal is for scores over approximately 80% to earn full credit, but depending upon the assessment, that bar may be lowered at the instructor’s discretion. For example, if there are fewer than five questions, you will receive full credit if you get at most one wrong. If you do not score points sufficient to reach the full-credit bar, your score will be relative to that bar. For example, if an assessment has four questions, you will need three to score full credit. If you only get two correct, your score will be 2/3 = 66%.
 
 Attendance in class is expected. Please inform the instructor ahead of time if you have an excused absence.
 
