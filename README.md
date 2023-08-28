@@ -66,7 +66,7 @@ Office hour times are listed below:
 |Wednesday|3:30pm - 5pm|FGH 201|Eileen Hsu|Grader|
 |Thursday|1pm - 2pm|FGH 201|Wesley Minton|Grader|
 |Thursday|2pm - 3pm|Sony B4022|Bryan Ward|Instructor|
-|Thursday|3pm - 4pm|FGH 362|Will Hedgecock|Instructor|
+|Thursday|3pm - 4pm|FGH 385|Will Hedgecock|Instructor|
 |Thursday|4:30pm - 6:30pm|FGH Atrium|Trevor Jones|Grader|
 |Friday|3:30pm - 5:30pm|FGH 201|Jiashu Huang|Grader|
 
