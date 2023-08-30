@@ -59,7 +59,7 @@ Office hour times are listed below:
 |Monday|9am - 10am|FGH 201|Ilayda Koca|Grader|
 |Monday|11am - 12:30pm|FGH 201|Eileen Hsu|Grader|
 |Monday|4pm - 6pm|FGH 201|Binh Mai|Grader|
-|Tuesday|3pm - 4pm|[Zoom](http://www.google.com)|Sandeep Neema|Instructor|
+|Tuesday|3pm - 4pm|[Zoom](https://vanderbilt.zoom.us/j/93048797756?pwd=TXljd1hlYmZpNEdObHFTY0s5YTlJUT09)|Sandeep Neema|Instructor|
 |Wednesday|9am - 10am|FGH 201|Ilayda Koca|Grader|
 |Wednesday|10am - 1pm|FGH 201|Anda Liang|Grader|
 |Wednesday|1pm - 2pm|FGH 201|Wesley Minton|Grader|
