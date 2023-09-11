@@ -31,7 +31,6 @@ Due to space limitations in classrooms, please attend the section for which you 
 - Jiashu Huang `jiashu.huang@vanderbilt.edu`
 - Ilayda Koca `ilayda.koca@vanderbilt.edu`
 - Anda Liang `anda.liang@vanderbilt.edu`
-- Wesley Minton `wesley.a.minton@vanderbilt.edu`
 
 
 ## Office Hours
@@ -61,9 +60,7 @@ Office hour times are listed below:
 |Tuesday|3pm - 4pm|[Zoom](https://vanderbilt.zoom.us/j/93048797756?pwd=TXljd1hlYmZpNEdObHFTY0s5YTlJUT09)|Sandeep Neema|Instructor|
 |Wednesday|9am - 10am|FGH 201|Ilayda Koca|Grader|
 |Wednesday|10am - 1pm|FGH 201|Anda Liang|Grader|
-|Wednesday|1pm - 2pm|FGH 201|Wesley Minton|Grader|
 |Wednesday|3:30pm - 5pm|FGH 201|Eileen Hsu|Grader|
-|Thursday|1pm - 2pm|FGH 201|Wesley Minton|Grader|
 |Thursday|2pm - 3pm|Sony B4022|Bryan Ward|Instructor|
 |Thursday|3pm - 4pm|FGH 385|Will Hedgecock|Instructor|
 |Thursday|4:30pm - 6:30pm|FGH Atrium|Trevor Jones|Grader|
