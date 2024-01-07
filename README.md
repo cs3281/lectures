@@ -1,4 +1,4 @@
-# CS 3281: Principles of Operating Systems I (Fall 2023) 
+# CS 3281: Principles of Operating Systems I (Spring 2024) 
   
 **Credit Hours:** 3
 
@@ -9,28 +9,33 @@ This is an introductory course on operating systems. You will learn basic concep
 
 ## Prerequisites
 
-EECE 2123 and CS 3251. Because an OS must make effective use of the underlying hardware, students learning OS concepts need to have a basic understanding of computer architecture; this is covered in EECE 2123. Programming assignments are a major part of the course, so students must be comfortable with programming and debugging; this is covered in CS 3251.
+CS 2281 and CS 3251. Because an OS must make effective use of the underlying hardware, students learning OS concepts need to have a basic understanding of computer architecture; this is covered in CS 2281. Programming assignments are a major part of the course, so students must be comfortable with programming and debugging; this is covered in CS 3251.
 
 Programming assignments will be done in C unless otherwise noted. This is not a course on C programming – it is a course on Operating Systems. While some aspects of the C language will be demonstrated in this course, students are expected to familiarize themselves with the language if they are not familiar with it already.
 
 
 ## Instructors
 
-- Will Hedgecock `ronald.w.hedgecock@vanderbilt.edu` 
-- Sandeep Neema `sandeep.neema@vanderbilt.edu`
-- Bryan Ward `bryan.ward@vanderbilt.edu`
+- Andy Gokhale `a.gokhale@vanderbilt.edu` 
+- Abhishek Dubey `abhishek.dubey@vanderbilt.edu`
+- Shervin Hajiamini `shervin.hajiamini@vanderbilt.edu`
 
 Due to space limitations in classrooms, please attend the section for which you are registered.
 
 
-## Graders
+## TAs and graders
 
+- Bo Ni `bo.ni@vanderbilt.edu`
+- Saman Kittani `saman.r.kittani@vanderbilt.edu`
+- Salomon Dushimirimana `salomon.dushimirimana@vanderbilt.edu`
+- Mohammed Khan `mohammed.m.khan@vanderbilt.edu`
+- Rana Muhammad Shahroz `Khan rana.muhammad.shahroz.khan@vanderbilt.edu`
+- Chuci Liu `chuci.liu@vanderbilt.edu`
+- Xiaohan Liu `xiaohan.liu.1@vanderbilt.edu`
+- Akash Munagala `akash.munagala@vanderbilt.edu`
+- Yurui Xu `yurui.xu@vanderbilt.edu`
 - Binh Mai `binh.t.mai@vanderbilt.edu`
-- Eileen Hsu `eileen.hsu@vanderbilt.edu`
-- Trevor Jones `trevor.m.jones@vanderbilt.edu`
-- Jiashu Huang `jiashu.huang@vanderbilt.edu`
 - Ilayda Koca `ilayda.koca@vanderbilt.edu`
-- Anda Liang `anda.liang@vanderbilt.edu`
 
 
 ## Office Hours
@@ -55,24 +60,18 @@ Office hour times are listed below:
 
 |Day|Time|Location|Person|Role|
 | ------------- |:-------------:| :-------------:|:-------------:|:-------------:|
-|Monday|9am - 10am|FGH 201|Ilayda Koca|Grader|
-|Monday|11am - 12:30pm|FGH 201|Eileen Hsu|Grader|
-|Tuesday|3pm - 4pm|[Zoom](https://vanderbilt.zoom.us/j/93048797756?pwd=TXljd1hlYmZpNEdObHFTY0s5YTlJUT09)|Sandeep Neema|Instructor|
-|Wednesday|9am - 10am|FGH 201|Ilayda Koca|Grader|
-|Wednesday|10am - 1pm|FGH 201|Anda Liang|Grader|
-|Wednesday|3:30pm - 5pm|FGH 201|Eileen Hsu|Grader|
-|Thursday|2pm - 3pm|Sony B4022|Bryan Ward|Instructor|
-|Thursday|3pm - 4pm|FGH 385|Will Hedgecock|Instructor|
-|Thursday|4:30pm - 6:30pm|FGH Atrium|Trevor Jones|Grader|
-|Friday|9am - 11am|FGH 201|Binh Mai|Grader|
-|Friday|3:30pm - 5:30pm|FGH 201|Jiashu Huang|Grader|
+|Monday|4pm - 5pm|FGH 384|Shervin Hajiamini|Instructor|
+|Tuesday|||||
+|Wednesday|4pm - 5pm|FGH 384|Shervin Hajiamini|Instructor|
+|Thursday|||||
+|Friday|4pm - 5pm|FGH 384|Shervin Hajiamini|Instructor|
 
 
 ## Preferred Contact Method
 
 A Discussion Forum exists on Piazza for students to ask questions and give comments on any aspect of the course. The instructors will respond as appropriate, but students are also encouraged to respond themselves. Students can and should be learning from each other in this course, and your engagement in the learning process may be used to contribute to a “Community Score” at the end of the course (see the “Grading” section for more details.) As such, most questions about class material should be posted to Piazza:
 
-[https://piazza.com/vanderbilt/fall2023/cs32815281](https://piazza.com/vanderbilt/fall2023/cs32815281)
+[https://piazza.com/vanderbilt/spring2024/cs32815281](https://piazza.com/vanderbilt/spring2024/cs32815281)
 
 To foster an environment in which students learn from one another, instructors generally will not answer questions the day they were posted, nor over the weekend. So, start working on your assignments early so that you can get help from your instructor if you need it!
 
@@ -85,9 +84,9 @@ For questions about course logistics (e.g., absences), please send your instruct
 | ------------- |:-------------:| 
 | Textbook  | [http://pages.cs.wisc.edu/~remzi/OSTEP/](http://pages.cs.wisc.edu/~remzi/OSTEP/) | 
 | Additional Resources | The Linux Programming Interface (TLPI) by Michael Kerrisk <br> Computer Systems: A Programmer's Perspective by Bryant and O'Hallaron | 
-| Discussion Forum | [https://piazza.com/vanderbilt/fall2023/cs32815281](https://piazza.com/vanderbilt/fall2023/cs32815281) | 
+| Discussion Forum | [https://piazza.com/vanderbilt/spring2024/cs32815281](https://piazza.com/vanderbilt/spring2024/cs32815281) | 
 | Lectures |  [https://github.com/cs3281/lectures](https://github.com/cs3281/lectures) |
-| Programming Assignments | [https://classroom.github.com/classrooms/30844110-fall2023](https://classroom.github.com/classrooms/30844110-fall2023) |
+| Programming Assignments | [https://classroom.github.com/classrooms/30844110-cs3281-classroom-spring2024](https://classroom.github.com/classrooms/30844110-cs3281-classroom-spring2024) |
 | Assignments, Admin | [https://vanderbilt.edu/brightspace](https://vanderbilt.edu/brightspace) |
 
 
@@ -148,7 +147,7 @@ This rule is inspired by the NFL review rules, in which you lose a timeout if yo
 
 ## Exams
 
-A midterm exam will be given in-class and use the entire class period on October 5th. Do not be late. The final exam will cover the entire course – it is not merely a second midterm. It will be administered at the official exam time, which depends upon your section. Refer to the [official exam schedule](https://registrar.vanderbilt.edu/documents/Fall_2023_exam_schedule.pdf).
+A midterm exam will be given in-class and use the entire class (The midterm exam date will be published here). Do not be late. The final exam will cover the entire course – it is not merely a second midterm. It will be administered at the official exam time, which depends upon your section. Refer to the [official exam schedule](https://registrar.vanderbilt.edu/documents/Spring_2024_exam_schedule.pdf).
 
 For each exam, you may prepare a single standard 8.5”x11” piece of notebook paper with your handwritten notes to use during the exam. Importantly, these notes must be entirely *handwritten* directly on the paper *by you*. You cannot photocopy others’ notes or print notes that you wrote by hand on a tablet. You cannot literally cut-and-paste figures from the textbook or other sources, but, if you so choose, you may reproduce them by hand yourself on your note sheet. Note sheets will be collected, and violations of these terms will be considered a violation of the Honor Code.
 
