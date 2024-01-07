@@ -23,10 +23,13 @@ Programming assignments will be done in C unless otherwise noted. This is not a 
 Due to space limitations in classrooms, please attend the section for which you are registered.
 
 
-## TAs and graders
+## TAs
 
 - Bo Ni `bo.ni@vanderbilt.edu`
 - Saman Kittani `saman.r.kittani@vanderbilt.edu`
+
+## Graders
+  
 - Salomon Dushimirimana `salomon.dushimirimana@vanderbilt.edu`
 - Mohammed Khan `mohammed.m.khan@vanderbilt.edu`
 - Rana Muhammad Shahroz `Khan rana.muhammad.shahroz.khan@vanderbilt.edu`
