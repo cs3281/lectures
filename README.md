@@ -32,13 +32,14 @@ Due to space limitations in classrooms, please attend the section for which you 
   
 - Salomon Dushimirimana `salomon.dushimirimana@vanderbilt.edu`
 - Mohammed Khan `mohammed.m.khan@vanderbilt.edu`
-- Rana Muhammad Shahroz `Khan rana.muhammad.shahroz.khan@vanderbilt.edu`
+- Rana Muhammad Shahroz Khan `rana.muhammad.shahroz.khan@vanderbilt.edu`
 - Chuci Liu `chuci.liu@vanderbilt.edu`
 - Xiaohan Liu `xiaohan.liu.1@vanderbilt.edu`
 - Akash Munagala `akash.munagala@vanderbilt.edu`
 - Yurui Xu `yurui.xu@vanderbilt.edu`
 - Binh Mai `binh.t.mai@vanderbilt.edu`
 - Ilayda Koca `ilayda.koca@vanderbilt.edu`
+- Robert Sheng `robert.sheng@vanderbilt.edu`
 
 
 ## Office Hours
