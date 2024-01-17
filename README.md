@@ -80,7 +80,6 @@ Office hour times are listed below:
 |Wednesday|1pm - 2pm|FGH 201|Yurui Xu|Grader|
 |Wednesday|3:30pm - 4:30pm|FGH 201|Akash Munagala|Grader|
 |Wednesday|4pm - 5pm|FGH 384|Shervin Hajiamini|Instructor|
-|Thursday|||||
 |Thursday|11am - 12pm|FGH 201|Ilayda Koca|Grader|
 |Thursday|12:30pm - 2:30pm|FGH 201|Lisa Liu|Grader|
 |Thursday|1:30pm - 2:30pm|FGH 201|Olivia Liu|Grader|
