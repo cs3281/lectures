@@ -648,5 +648,5 @@ Git is the version control system that we use in this class. A brief overview is
 # Computer Architecture Review 
 
 Before we start the class there is some background material that you should review.
-- [ComputerArchitectureOverview.pptx](ComputerArchitectureOverview.pptx) provides an overview of computer architecture. Review it and let the instructors know if you have any questions. We assume that you are familiar with the computer architecture in the class.
+- [refs/ComputerArchitectureOverview.pdf](refs/ComputerArchitectureOverview.pdf) provides an overview of computer architecture. Review it and let the instructors know if you have any questions. We assume that you are familiar with the computer architecture in the class.
 
