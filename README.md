@@ -64,10 +64,30 @@ Office hour times are listed below:
 
 |Day|Time|Location|Person|Role|
 | ------------- |:-------------:| :-------------:|:-------------:|:-------------:|
+|Monday|1pm - 2pm|FGH 201|Robert Sheng|Grader|
+|Monday|1pm - 2pm|FGH 201|Yurui Xu|Grader|
+|Monday|2pm - 3pm|FGH 385|Saman Kittani|TA|
 |Monday|4pm - 5pm|FGH 384|Shervin Hajiamini|Instructor|
-|Tuesday|||||
+|Monday|4pm - 5pm|FGH 201|Rana Muhammad Shahroz Khan|Grader|
+|Tuesday|11am - 12pm|FGH 201|Ilayda Koca|Grader|
+|Tuesday|12:30pm - 1:30pm|FGH 201|Rana Muhammad Shahroz Khan|Grader|
+|Tuesday|1pm - 3pm|FGH 201|Meraj Khan|Grader|
+|Tuesday|1:30pm - 2:30pm|FGH 201|Olivia Liu|Grader|
+|Tuesday|3pm - 4pm|Sony A4022|Bo Ni|TA|
+|Tuesday|4:30pm - 5:30pm|FGH 201|Salomon Dushimirimana|Grader|
+|Wednesday|10am - 11am|FGH 201|Robert Sheng|Grader|
+|Wednesday|12:30pm - 1:30pm|Sony A4022|Bo Ni|TA|
+|Wednesday|1pm - 2pm|FGH 201|Yurui Xu|Grader|
+|Wednesday|3:30pm - 4:30pm|FGH 201|Akash Munagala|Grader|
 |Wednesday|4pm - 5pm|FGH 384|Shervin Hajiamini|Instructor|
 |Thursday|||||
+|Thursday|11am - 12pm|FGH 201|Ilayda Koca|Grader|
+|Thursday|12:30pm - 2:30pm|FGH 201|Lisa Liu|Grader|
+|Thursday|1:30pm - 2:30pm|FGH 201|Olivia Liu|Grader|
+|Thursday|3pm - 4pm|FGH 201|Akash Munagala|Grader|
+|Thursday|4:30pm - 5:30pm|FGH 201|Salomon Dushimirimana|Grader|
+|Friday|10:30am - 12:30pm|FGH 201|Binh Mai|Grader|
+|Friday|2pm - 3pm|FGH 385|Saman Kittani|TA|
 |Friday|4pm - 5pm|FGH 384|Shervin Hajiamini|Instructor|
 
 
