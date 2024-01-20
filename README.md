@@ -71,7 +71,7 @@ Office hour times are listed below:
 |Tuesday|12:30pm - 1:30pm|FGH 201|Rana Muhammad Shahroz Khan|Grader|
 |Tuesday|1pm - 3pm|FGH 201|Meraj Khan|Grader|
 |Tuesday|1:30pm - 2:30pm|FGH 201|Olivia Liu|Grader|
-|Tuesday|3pm - 4pm|Sony A4022|Bo Ni|TA|
+|Wednesday|2pm - 3pm|Sony A4022|Bo Ni|TA|
 |Tuesday|4:30pm - 5:30pm|FGH 201|Salomon Dushimirimana|Grader|
 |Wednesday|10am - 11am|FGH 201|Robert Sheng|Grader|
 |Wednesday|12:30pm - 1:30pm|Sony A4022|Bo Ni|TA|
