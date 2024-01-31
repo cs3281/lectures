@@ -84,6 +84,7 @@ Office hour times are listed below:
 |Thursday|1:30pm - 2:30pm|FGH 201|Olivia Liu|Grader|
 |Thursday|3pm - 4pm|FGH 201|Akash Munagala|Grader|
 |Thursday|4:30pm - 5:30pm|FGH 201|Salomon Dushimirimana|Grader|
+|Friday|1pm - 2pm|Zoom (email for link)|Abhishek Dubey|Instructor|
 |Friday|10:30am - 12:30pm|FGH 201|Binh Mai|Grader|
 |Friday|2pm - 3pm|FGH 385|Saman Kittani|TA|
 
