@@ -121,7 +121,7 @@ You can use the *strace* command to trace the system calls that are made by a pr
   * fstat -- get information about a file
  
 # Privilege levels in system calls
-=======================================
+
 	* The kernel tracks the user making the system call.
 	* The root (userid =0) is allowed access to all system calls.
 	* Other users are not allowed access to calls like *shutdown
