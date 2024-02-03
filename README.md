@@ -8,6 +8,8 @@ We are providing a quick summary of the lectures - some additional notes wheneve
 
 | Concept | Lecture Slides | Additional Notes | Examples|
 | ------------- | ------------- |------------- |------------- |
+|Understanding Shell| Overview - not in lecture| https://linuxcommand.org/index.php and the missing semester notes -- see below| None|
+|Some Basic Computing Concepts| | https://missing.csail.mit.edu/|None - go through the missing semester notes and videos at your pace|
 | Executable Files, Compilation and Linking, Makefile, Function Pointers, C Overview, Cmake, Architecture| [Lecture 2](https://github.com/cs3281/lectures/blob/main/lecture-02/L02-virtualization.pdf)| [lecture-02](https://github.com/cs3281/lectures/blob/main/lecture-02/Readme.md)| [c-tutorial](https://github.com/cs3281/examples/tree/main/c-tutorial)|
 | Process Control Flow, Environment Variables, Privilege Levels | [lecture 03](https://github.com/cs3281/lectures/blob/main/lecture-03/L03-exceptional-control.pdf)|[readme](https://github.com/cs3281/lectures/blob/main/lecture-03/readme.md)|[exceptions](https://github.com/cs3281/examples/tree/main/exceptions)|
 | Process Creation and Anomatomy, fork and exec, basic termination| [lecture 04](https://github.com/cs3281/lectures/blob/main/lecture-04/L04-process-creation.pdf)|[readme](https://github.com/cs3281/lectures/blob/main/lecture-04/readme.md)|[examples](https://github.com/cs3281/examples/tree/main/processManagement) look at basic fork, basic exec, advanced execvpexample|
