@@ -2,6 +2,17 @@
   
 **Credit Hours:** 3
 
+## Lecture Summary and additional notes
+
+We are providing a quick summary of the lectures - some additional notes whenever they have been made available for reference here.
+
+| Concept | Lecture Slides | Additional Notes | Examples|
+| ------------- | ------------- |------------- |------------- |
+| Executable Files, Compilation and Linking, Makefile, Function Pointers, C Overview, Cmake, Architecture| [Lecture 2](https://github.com/cs3281/lectures/blob/main/lecture-02/L02-virtualization.pdf)| [lecture-02](https://github.com/cs3281/lectures/blob/main/lecture-02/Readme.md)| [c-tutorial](https://github.com/cs3281/examples/tree/main/c-tutorial)|
+| Process Control Flow, Environment Variables, Privilege Levels | [lecture 03](https://github.com/cs3281/lectures/blob/main/lecture-03/L03-exceptional-control.pdf)|[readme](https://github.com/cs3281/lectures/blob/main/lecture-03/readme.md)|[exceptions](https://github.com/cs3281/examples/tree/main/exceptions)|
+| Process Creation and Anomatomy, fork and exec, basic termination| [lecture 04](https://github.com/cs3281/lectures/blob/main/lecture-04/L04-process-creation.pdf)|[readme](https://github.com/cs3281/lectures/blob/main/lecture-04/readme.md)|[examples](https://github.com/cs3281/examples/tree/main/processManagement) look at basic fork, basic exec, advanced execvpexample|
+| Signals, Wait, WaitPid, Process Termination| [Lecture 05](https://github.com/cs3281/lectures/blob/main/lecture-05/L05-process-termination.pdf)|[readme](https://github.com/cs3281/lectures/blob/main/lecture-05/readme.md) pay attention to the wait flowchart and signal handler| [examples](https://github.com/cs3281/examples/tree/main/processManagement) pay attention to sigchld and basic signal and wait examples|
+
 ## Course Description
 
 This is an introductory course on operating systems. You will learn basic concepts in OS design and implementation. The course content will consist of a balance between theory, concepts, and practical hands-on material. Active participation in class discussions and on Piazza is encouraged. There really are no dumb questions.
