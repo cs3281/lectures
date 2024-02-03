@@ -123,13 +123,111 @@ write(fd, "hello\n", 6); /* fd is the file descriptor */
 -  Then the OS can decide to run it at the next time there is a context switch.
 	
 
-# Overall Process Lifecycle
+## How is a process created
 
--  Creation - Reserve resources and set up data structures
--   Execution 
+- To create a process all data structures have to be setup
+- A shortcut available to the OS is to copy the data structure from an existing process and then change as needed.
+- When combined with the concept of *copy on write* this can be very efficient
+  - Copy on write implies the net memory required to store the two data structures will not be double/ but will depend on the number of changes.
+- This is done by the `fork` system call.
+  - Review the fork man page
+  - During fork, all the contents of the parent address space are copied over to the child. Any open file in parent will also be open in child.   
+  - All processes in a Unix machine are related to each other. The operating system creates a process called init during the system start up sequence. The pid of that process is 1. The second process is created by cloning the init process and so on.
+  - You can see the process relationships by using the command pstree.
+
+- A simple fork example.
+
+```
+
+#include <stdio.h>
+void main(void)
+{ 
+  pid_t pid; 
+  int x= fork(); 
+  pid = getpid(); 
+}
+
+```  
+![Afterfork (32bit)](fork.png)
+- [Another fork example](https://github.com/CS3281/examples/tree/master/processManagement/basicfork)
+
+*Note* -- the process is in the execution state immediately after creation.
+
+*Another Note* - The fork returns a positive number (pid of the child in the parent) and returns 0 in the child address space. That is how you can write the following piece of code.
+
+```
+#include <stdio.h>
+void main(void){
+  pid_t pid; 
+  int x= fork();
+  If(x==0){
+  //This is a child process
+  }
+  else if (x>0){
+  //This is the parent process
+  }
+  else{
+  //error occured
+  } 
+  pid = getpid(); 
+}
+```
+
+
+## Loading in a new program
+
+- Okay so if all processes are cloned, how do we change the program? This is done by the exec system call. Exec system tells the kernel to load a new program into the current address space (the address space of the program calling exec.) 
+
+### Review 
+
+-	Command line arguments are positional parameters passed to a program. e.g. ``ls –l`` or ``cd  /opt``
+-	In most OSes , the first positional argument tells the name of the program and is identified by the 0th argument
+-	Read http://crasseux.com/books/ctutorial/argc-and-argv.html
+
+## Back to exec 
+
+-   example
+
+
+```
+#include <stdio.h>
+#include <unistd.h>
+
+int
+main(int argc, char *argv[])
+{
+  int pid;
+
+  pid = fork();
+
+  if (pid == 0) {
+    execl("/usr/bin/sort", "sort", "-n" , "input.txt", (char*) NULL);
+  }
+}
+```
+
+- other variants
+  - int execl(const char *path, const char *arg, ...);
+    - e.g. execl("/usr/bin/sort", "sort", "-n", "input.txt", (char*) NULL);
+  -	int execlp(const char *file, const char *arg, ...);
+    - execlp("sort", "sort", "-n", "input.txt", (char*) NULL);
+  -	int execle(const char *path, const char *arg, ..., char * const envp[]);
+    -	Pass the environment variables as an array as well.
+  -	int execv(const char *path, char *const argv[]);
+  -	int execvp(const char *file, char *const argv[]);
+    - [example](https://github.com/CS3281/examples/tree/master/processManagement/execvpexample)
+  -	int execvpe(const char *file, char *const argv[], char *const envp[]);
+
 -   Termination - Release resources and clean up data structures.
 
 
+## So how does the program terminate
+
+-	Finishes executions (returns from main)
+-	Decides to terminate itself (calls a function called exit -look at man page)
+-	Someone decides to terminate the process. By sending it a signal.
+-	We will review signals later. They are software interrupts that one process (or the OS) can send to another process. It always interrupts the target process, causing it to either handle the signal or terminate.
+- 	Note that not all signals can be handled. Also a program has to explicitly specify that it wants to handle a signal and has to provide a signal handler function.  http://linux.die.net/man/2/signal
 
 
 
