@@ -1,4 +1,4 @@
-# process termination
+# Process termination
 
 A process can terminate in one of two general ways: *normally* or *abnormally*. Normal termination includes things like returning from *main* or calling *exit*. Abnormal termination is caused by things like receipt of a *signal* or calling the *abort* function. 
 
