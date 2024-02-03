@@ -102,7 +102,6 @@ The question arises: how and when should the CPL change? The answer on x86 is th
  * The instruction used to invoke the system call sets CPL=0.
  * Execution jumps to a specific entry point in the kernel of the OS, which can then do further validation.
  * The system call return sets CPL=3 before returning to user code.
- * 
  
 
 # Tracing system calls
@@ -142,3 +141,10 @@ Let's look at the details of how a program requests a service from the operating
  5. The kernel invokes its *system_call* routine to handle the trap to location *0x80*. This is where the meat of the system call logic happens: the kernel does some bookkeeping, checks the validity of the arguments, invokes the service routine, and finally the service routine returns a result status to the *system_call* routine.
  6. The wrapper function checks if the service returned an error, and if so, sets a global variable named *errno* with this error value. The wrapper function then returns to the caller and provides an integer return value to indicate success or failure.
 
+# Understanding Exceptional Flow
+
+The typical control flow of a program (instantiated as a process) is sequential and follows the control logic written into the program. Most cases, it starts at the int main and then finishes at the last return or last statement of the program. Everytime a function call is made, the control jumps to a function using a stack and then returns back. Below are some good links that explain this. Please review it.
+
+1. Easiest way to understand stack usage in function calls is through recursive function calls. Take a look at https://eecs280staff.github.io/notes/02_ProceduralAbstraction_Testing.html and https://eecs280staff.github.io/notes/18_Recursion.html
+
+2. Also, here is an excerpt from CSAPP book that explains exceptions and exceptional control flow. Please read http://csapp.cs.cmu.edu/2e/ch8-preview.pdf
