@@ -72,3 +72,34 @@ You should review the wait example here:
 	*  A core file or core dump is a file that records the memory image of a running process and its process status (register values etc.). Its primary use is post-mortem debugging of a program that
 	crashed while it ran outside a debugger.
 	* Example core dump usage: https://www.youtube.com/watch?v=mlfz6c9frSU
+
+ ## Understanding the complete wait process
+
+ ![Wait flow chart](Waitpid.png) 
+
+# Examples
+
+- [memoryerror.c](https://github.com/cs3281/examples/blob/main/processManagement/managingChildProcess/memoryerror.c) - we intentionally generate a SIGSEGV by trying to dereference a null pointer. We catch that signal, but then the question to the students is: why does our signal handler keep repeatedly getting called? The answer is that because it was a machine instruction in our own program that generated the error and thus the signal, when the signal handler returns, it keeps going back to that same instruction. The instruction repeats, we get a SIGSEGV again, and we never get out of that endless loop.
+- [notifychild.c](https://github.com/cs3281/examples/blob/main/processManagement/managingChildProcess/notifychild.c) - we set up a signal handler to catch the SIGCHLD that tells us when a child process terminates. In the parent, we then ask to wait for 20 seconds, but we complete our execution almost immediately. Why doesn’t the parent sleep for 20 seconds? The answer is that the call to sleep was interrupted by a signal handler. If we were to check the return value of sleep, we would see that we have a lot of time left.
+
+There are other examples that you should review.
+
+- https://github.com/CS3281/examples/tree/master/processManagement
+- These examples provide a review of the following calls.
+
+  - fork
+  - execlp
+  - waitpid
+  - execv
+  - signal
+  - SIGCHLD - it is a signal whose default action is ignore. If a handled is registered then, the parent can know when a child has terminated
+
+- zombie processes : On Unix and Unix-like computer operating systems, a zombie process or defunct process is a process that has completed execution (via the exit system call) but still has an entry in the process table: it is a process in the "Terminated state".  It exists because parents can obtain information about them.  Therefore, it is necessary for the parent to use the wait/waitpid call to obtain the status.
+	
+- What happens if the parent dies? In that case, the child is attached to the init process - who cleans up after the process termination.
+	
+- Review of concurrency
+ - At a time multiple processes can be executing on the system.
+ - Recall the discussion about context switching 
+
+ 
