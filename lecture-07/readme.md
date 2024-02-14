@@ -162,9 +162,79 @@ Question: with 4kB pages and 512 entries per directory, how much memory can be a
 
 As the figure above shows, a large virtual address range has the possibility to be represented using only a few directories. However, recall that the virtual memory areas for the heap and stack are usually far away from each other. Thus, we may need more higher-level directory entries than it initially looks. Address space randomization can lead to the same issue.
 
+# Translation Look Aside Buffer
+
+- It is a cache used to store the page table entries.
+- The basic algorithms for accessing the TLB is described in the slides.
+- One of the core problems with TLB is what to do with the page table entries upon context switch
+   - A simple solution is to add an extra bit that identifies the address id (similar to pid)
+- TLB operation is fully associative. A cache can be either set associative or fully associative. Fully associative means that the entry can be stored anywhere in the cache and the access mechanism is designed such that the all areas are simulatenously checked for the entry being compared. Set associative restricts where an entry can be stored.
+
+On the x86 architecture, the kernel has the option to either flush individual pages from the TLB, or flush the entire TLB. Which option is better depends on several things that the kernel can't always know ahead of time. 
+
+As an example, consider the case where a user process has been executing and thus filled the TLB with several entries. If that process makes a system call (i.e., the kernel does something on that process's behalf) and then execution returns to the process, flushing the TLB would wipe out many TLB entries that could potentially be reused.
+
+For more information, read the documentation [here](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/Documentation/x86/tlb.txt).
+
+## TLB Access Algorithm
+
+![TLB Access](images/TLB.png)
+
+## TLB Access Time.
+
+- Important parameters
+  - Phit: Average TLB Hit rate. Defined as a probability
+  - Taccess: TLB Access time
+  - TMiss: TLB Miss Time (searching for an entry and loading it back to TLB)
+  - Total address translation time = Phit*Taccess +(1-Phit)*TMiss
+
+# Example
+
+Consider a simple array example. Two points should be remembered.
+- Spatial locality - once you load a page all entries in the page will result in TLB hit
+- temporal locality - once you load a page and the array is used again soon in the code then it will result into TLB hit.
+
+```
+int sum = 0;
+for (i = 0; i < 10; i++) {
+sum += a[i];
+}
+```
+# Thrashing
+
+- Thrashing is the problem when the OS spends a majority of the time loading new pages into frames because of a large of page faults. This can happen when the number of processes is large and the probability of a page fault caused due to frequent context switch increases.
+- When this happens you will see that the activity of your hard disk goes up.
+
+# Replacement Policy
+
+- When new pages are loaded in sometimes we have to replace old pages from the frames. the question is which old page should be replaced. The choice of the algorithm can affect the average fault rate.
+- Algorithms
+  - FIFO
+  - LRU
+  - CLock
+
+# Implementation of malloc
+
+Malloc and free are used to allocate and free memory on the heap. Internally, they use the *brk* or *sbrk* system call to ask the operating system to adjust the size of the process's heap. These system calls grow (or shrink) the heap, but malloc and free are responsible for managing the free memory for a process.
+
+When you ask malloc to give you memory, it actually allocates *more* than what you ask. Why? So that *free* will know how much memory was allocated. Consider the figure below:
+
+![block](images/addressreturned.png)
+
+There's an integer *right before* the address you're given that contains the length of the block. When you call *free*, that size is used to add the block back to the free list.
+
+![block](images/blockonfreelist.png)
+
+As blocks are allocated and freed over time, the free and allocated blocks are mixed together:
+
+![block](images/heapblocks.png)
+
+Now consider the following questions: what happens when you call *free* and pass an incorrect address?
 
 # References
 
 The following references describe how Linux does memory management.
 
 [https://www.win.tue.nl/~aeb/linux/lk/lk-9.html] (https://www.win.tue.nl/~aeb/linux/lk/lk-9.html)
+[http://duartes.org/gustavo/blog/post/how-the-kernel-manages-your-memory/](http://duartes.org/gustavo/blog/post/how-the-kernel-manages-your-memory/)
+
