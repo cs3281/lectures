@@ -235,6 +235,7 @@ Now consider the following questions: what happens when you call *free* and pass
 
 The following references describe how Linux does memory management.
 
-[https://www.win.tue.nl/~aeb/linux/lk/lk-9.html] (https://www.win.tue.nl/~aeb/linux/lk/lk-9.html)
+[https://www.win.tue.nl/~aeb/linux/lk/lk-9.html](https://www.win.tue.nl/~aeb/linux/lk/lk-9.html)
+
 [http://duartes.org/gustavo/blog/post/how-the-kernel-manages-your-memory/](http://duartes.org/gustavo/blog/post/how-the-kernel-manages-your-memory/)
 
