@@ -375,6 +375,189 @@ the creates a new thread
     }
 ```
 
+# Pthread Attributes
+
+All threads when they are created are given some attributes. It is important to review the pthread attribute data structure. it is used to control the properties of the newly created thread. Look at [pthread_attr.c](https://github.com/cs3281/examples/blob/main/threads/pthread_attr_example/pthread_attr.c)
+
+Before we can use the thread attribute, we must initialize it
+
+```C
+pthread_attr_t attr;
+s = pthread_attr_init (&attr);
+if (s != 0)
+   handle_error_en (s, "pthread_attr_init"); // here the 
+   //handle error is a function that prints the integer code -s and a message.
+```
+
+Thereafter you can set the following properties
+
+## Thread Detached state
+
+- Thread detached state specifies wether some other thread will want to know the when the thread being created terminates. 
+- if a thread's state is not detached, it is called a PTHREAD_CREATE_JOINABLE thread. That means a thread can use the pthread join api to join this thread and know when it terminates
+- When a thread is created detached (PTHREAD_CREATE_DETACHED), its thread ID and other resources can be reused as soon as the thread terminates. 
+- The default is PTHREAD_CREATE_JOINABLE.
+- You set this state as follows
+
+```C
+int s = pthread_attr_setdetachstate (&attr, PTHREAD_CREATE_DETACHED);
+if (s != 0)
+        handle_error_en (s, "pthread_attr_setdetachstate");
+```
+
+** Note** - pthread join call will fail if invoked on a detached thread. 
+
+**Note** - it is possible to change the state of a thread from joinable to detach once it has been created. But if it was created as detached, you cannot make it joinable. Can you guess why? (Read http://pubs.opengroup.org/onlinepubs/009695399/functions/pthread_detach.html)
+
+```C
+int s = pthread_detach(t}; //where t is the pthread_t data structure for a thread. 
+```
+
+## Other important attribute parameters are set as follows
+
+```C
+   s = pthread_attr_setinheritsched (&attr, PTHREAD_EXPLICIT_SCHED); // inherit scheduling parameters
+      if (s != 0)
+        handle_error_en (s, "pthread_attr_setinheritsched");
+
+      stack_size = strtoul (argv[1], NULL, 0);
+
+      s = posix_memalign (&sp, sysconf (_SC_PAGESIZE), stack_size);
+      if (s != 0)
+        handle_error_en (s, "posix_memalign");
+
+      printf ("posix_memalign() allocated at %p\n", sp); 
+
+      s = pthread_attr_setstack (&attr, sp, stack_size); //set the stack size. 
+      //Note that it has to be aligned to page size. This is done by memalign function as shown above.
+      if (s != 0)
+        handle_error_en (s, "pthread_attr_setstack");
+    }
+```
+
+Here is the output of the pthread attr example (https://github.com/CS3281-2016/examples/blob/master/threads/pthread_attr_example/pthread_attr.c)
+
+```
+./pthread_attr 
+Thread attributes:
+	Detach state        = PTHREAD_CREATE_JOINABLE
+	Scope               = PTHREAD_SCOPE_SYSTEM
+	Inherit scheduler   = PTHREAD_INHERIT_SCHED
+	Scheduling policy   = SCHED_OTHER
+	Scheduling priority = 0
+	Guard size          = 4096 bytes
+	Stack address       = 0x7f12df2da000
+	Stack size          = 0x801000 bytes
+```
+
+# Other  important concepts to know -- see examples in thread folder
+
+- Thread termination
+  - call pthread_exit
+  - return from the thread entry function
+  - thread can be canceled by invoking pthread_cancel
+  
+- The pthread_cancel() function shall request that thread be canceled. The action depends upon the 
+   - The cancelability state of the thread
+   -  the thread is in a library method that is a cancellation point.
+   
+   
+# Thread cancelability state
+```C
+int pthread_setcancelstate(int state, int *oldstate); 
+int pthread_setcanceltype(int type, int *oldtype);
+```
+
+- pthread_setcancelstate() sets the cancelability state of the calling thread to the value given in state. The previous cancelability state of the thread is returned in the buffer pointed to by oldstate. The state argument must have one of the following values: 
+  - PTREAD_CANCEL_ENABLE The thread is cancelable. This is the default cancelability state in all new threads, including the initial thread. The thread's cancelability type determines when a cancelable thread will respond to a cancellation request.
+  - PTHREAD_CANCEL_DISABLE The thread is not cancelable. If a cancellation request is received, it is blocked until cancelability is enabled.
+  
+-  pthread_setcanceltype(int type, int *oldtype). sets the cancelability type of the calling thread to the value given in type. The previous cancelability type of the thread is returned in the buffer pointed to by oldtype. The type argument must have one of the following values:
+  - PTHREAD_CANCEL_DEFERRED A cancellation request is deferred until the thread next calls a function that is a cancellation point. This is the default cancelability type in all new threads, including the initial thread. 
+  - PTHREAD_CANCEL_ASYNCHRONOUS The thread can be canceled at any time. (Typically, it will be canceled immediately upon receiving a cancellation request, but the system doesn't guarantee this.)
+
+
+# Cancellation Points
+
+POSIX.1 specifies that certain functions must, and certain other functions may, be cancellation points. If a thread is cancelable, its cancelability type is deferred, and a cancellation request is pending for the thread, then the thread is canceled when it calls a function that is a cancellation point.
+
+- For example
+  - sleep
+  - close
+  - These functions have been deemed safe to cancel a thread as it exits out of the function. Not all functions are async cancel safe.
+  
+# Note on thread exit status.
+
+If you recall the thread entry function has a sinature
+
+```C
+void* thread_entry (void * arg);
+```
+
+That is, it returns a ```void *```. Typically threads might return null i.e. return 0. However, they might allocate a datastructure on heap and retun its address as return value. This value can be obtained by the pthread join api. 
+
+Here is an example from https://computing.llnl.gov/tutorials/pthreads/samples/join.c
+
+``` C
+#include <pthread.h>
+ #include <stdio.h>
+ #include <stdlib.h>
+ #include <math.h>
+ #define NUM_THREADS	4
+
+ void *BusyWork(void *t)
+ {
+    int i;
+    long tid;
+    double result=0.0;
+    tid = (long)t;
+    printf("Thread %ld starting...\n",tid);
+    for (i=0; i<1000000; i++)
+    {
+       result = result + sin(i) * tan(i);
+    }
+    printf("Thread %ld done. Result = %e\n",tid, result);
+    pthread_exit((void*) t);
+ }
+
+ int main (int argc, char *argv[])
+ {
+    pthread_t thread[NUM_THREADS];
+    pthread_attr_t attr;
+    int rc;
+    long t;
+    void *status;
+
+    /* Initialize and set thread detached attribute */
+    pthread_attr_init(&attr);
+    pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_JOINABLE);
+
+    for(t=0; t<NUM_THREADS; t++) {
+       printf("Main: creating thread %ld\n", t);
+       rc = pthread_create(&thread[t], &attr, BusyWork, (void *)t);  
+       if (rc) {
+          printf("ERROR; return code from pthread_create() is %d\n", rc);
+          exit(-1);
+          }
+       }
+
+    /* Free attribute and wait for the other threads */
+    pthread_attr_destroy(&attr);
+    for(t=0; t<NUM_THREADS; t++) {
+       rc = pthread_join(thread[t], &status);
+       if (rc) {
+          printf("ERROR; return code from pthread_join() is %d\n", rc);
+          exit(-1);
+          }
+       printf("Main: completed join with thread %ld having a status   
+             of %ld\n",t,(long)status);
+       }
+ 
+ printf("Main: program completed. Exiting.\n");
+ pthread_exit(NULL);
+ }
+ ```
+
 Reference/ Reading material
 ===========================
 
