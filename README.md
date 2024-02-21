@@ -219,8 +219,8 @@ The following grading criteria are subject to change. The instructor reserves th
 | --------------------------------- |:-------------:| 
 | Programming Assignments           | 50%           |
 | In-Class Assessments              | 10%           |
-| Mid-Term Exam                     | 15%           |
-| Final Exam                        | 25%           |
+| Mid-Term Exam 1                   | 20%           |
+| Mid-Term Exam 2                   | 20%           |
 | Participation and Professionalism | +/-2%         |
 
 
