@@ -50,7 +50,6 @@ Due to space limitations in classrooms, please attend the section for which you 
 - Chuci Liu `chuci.liu@vanderbilt.edu`
 - Xiaohan Liu `xiaohan.liu.1@vanderbilt.edu`
 - Akash Munagala `akash.munagala@vanderbilt.edu`
-- Yurui Xu `yurui.xu@vanderbilt.edu`
 - Binh Mai `binh.t.mai@vanderbilt.edu`
 - Ilayda Koca `ilayda.koca@vanderbilt.edu`
 - Robert Sheng `robert.sheng@vanderbilt.edu`
@@ -78,7 +77,6 @@ Office hour times are listed below:
 
 |Day|Time|Location|Person|Role|
 | ------------- |:-------------:| :-------------:|:-------------:|:-------------:|
-|Monday|1pm - 2pm|FGH 201|Yurui Xu|Grader|
 |Monday|2pm - 3pm|FGH 385|Saman Kittani|TA|
 |Monday|3:30pm - 4:30pm|FGH 201|Akash Munagala|Grader|
 |Monday|4pm - 5pm|FGH 201|Rana Muhammad Shahroz Khan|Grader|
@@ -88,7 +86,6 @@ Office hour times are listed below:
 |Tuesday|1:30pm - 2:30pm|FGH 201|Olivia Liu|Grader|
 |Tuesday|4:30pm - 5:30pm|FGH 201|Salomon Dushimirimana|Grader|
 |Wednesday|10am - 11am|FGH 201|Robert Sheng|Grader|
-|Wednesday|1pm - 2pm|FGH 201|Yurui Xu|Grader|
 |Wednesday|1pm - 2pm|FGH 201|Robert Sheng|Grader||Wednesday|2pm - 3pm|Sony A4022|Bo Ni|TA|
 |Wednesday|11am - 12pm|Sony A4022|Bo Ni|TA|
 |Wednesday|3:30pm - 4:30pm|FGH 201|Akash Munagala|Grader|
