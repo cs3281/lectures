@@ -18,6 +18,8 @@ We are providing a quick summary of the lectures - some additional notes wheneve
 | Threads and Concurrency | [Lecture 08](https://github.com/cs3281/lectures/tree/main/lecture-08)| [readme](/lecture-08/readme.md)| [examples](https://github.com/cs3281/examples/tree/main/threads)|
 | Synchronization and Condition Variables | [lecture 09](https://github.com/cs3281/lectures/tree/main/lecture-09)| [Readme](https://github.com/cs3281/lectures/blob/main/lecture-09/readme.md)|[examples](https://github.com/cs3281/examples/tree/main/threads/race_condition) and [semaphores](https://github.com/cs3281/examples/tree/main/threads/semaphore)| 
 | Condition Variables |   [lecture 10](https://github.com/cs3281/lectures/tree/main/lecture-10) |   [Readme 2](https://github.com/cs3281/lectures/blob/main/lecture-10/readme.md) | [examples](https://github.com/cs3281/examples/tree/main/threads/conditionvariables)|
+| Scheduling including overview of Linux Policies | [lecture 12](https://github.com/cs3281/lectures/tree/main/lecture-12) | [Readme](https://github.com/cs3281/lectures/tree/main/lecture-12) | [examples](https://github.com/cs3281/examples/tree/main/scheduling)|
+| Reak time scheduling | [lecture 13](https://github.com/cs3281/lectures/tree/main/lecture-13)| [Readme](https://github.com/cs3281/lectures/tree/main/lecture-13)||
 ## Course Description
 
 This is an introductory course on operating systems. You will learn basic concepts in OS design and implementation. The course content will consist of a balance between theory, concepts, and practical hands-on material. Active participation in class discussions and on Piazza is encouraged. There really are no dumb questions.
