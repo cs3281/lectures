@@ -21,7 +21,7 @@ We are providing a quick summary of the lectures - some additional notes wheneve
 | Scheduling including overview of Linux Policies | [lecture 12](https://github.com/cs3281/lectures/tree/main/lecture-12) | [Readme](https://github.com/cs3281/lectures/tree/main/lecture-12) | [examples](https://github.com/cs3281/examples/tree/main/scheduling)|
 | Real time scheduling | [lecture 13](https://github.com/cs3281/lectures/tree/main/lecture-13)| [Readme](https://github.com/cs3281/lectures/tree/main/lecture-13)||
 | InterProcess Communications | [lecture 14](https://github.com/cs3281/lectures/tree/main/lecture-14)| [Readme](https://github.com/cs3281/lectures/tree/main/lecture-14)|[example mqueue](https://github.com/cs3281/examples/tree/main/mqueue) [mequeue sending integers](https://github.com/cs3281/examples/tree/main/mqueue_with_int) [dup2](https://github.com/cs3281/examples/tree/main/dup2) [pipes](https://github.com/cs3281/examples/tree/main/pipe)|
-## Course Description
+| network and sockets | [lecture 15](https://github.com/cs3281/lectures/tree/main/lecture-15) [lecture 16](https://github.com/cs3281/lectures/tree/main/lecture-16)| [Readme](https://github.com/cs3281/lectures/tree/main/lecture-16)|[examples](https://github.com/cs3281/examples/tree/main/sockets) [c example](https://github.com/cs3281/examples/tree/main/sockets-2)| 
 
 This is an introductory course on operating systems. You will learn basic concepts in OS design and implementation. The course content will consist of a balance between theory, concepts, and practical hands-on material. Active participation in class discussions and on Piazza is encouraged. There really are no dumb questions.
 
