@@ -1,0 +1,1 @@
+The main concepts to know about interprocess communication are pipes and message queues. You can find them in the examples. Remember pipes are unidirectional and messages are sent through byte stream. In message queues messages are sent at message boundaries.
