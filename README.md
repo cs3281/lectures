@@ -1,4 +1,4 @@
-CS 3281: Principles of Operating Systems I (Spring 2025) 
+# CS 3281: Principles of Operating Systems I (Spring 2025) 
   
 **Credit Hours:** 3
 
