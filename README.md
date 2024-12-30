@@ -2,7 +2,7 @@ CS 3281: Principles of Operating Systems I (Spring 2025)
   
 **Credit Hours:** 3
 
-```
+<!---
 ## Lecture Summary and additional notes
 
 We are providing a quick summary of the lectures - some additional notes whenever they have been made available for reference here.
@@ -26,7 +26,7 @@ We are providing a quick summary of the lectures - some additional notes wheneve
 | Devices | [lecture 18](https://github.com/cs3281/lectures/tree/main/lecture-18)| [Readme](https://github.com/cs3281/lectures/tree/main/lecture-18)||
 | Files | [lecture 19](https://github.com/cs3281/lectures/tree/main/lecture-19)| [Readme](https://github.com/cs3281/lectures/tree/main/lecture-18)|[files and directory](https://github.com/cs3281/examples/tree/main/filesAndDirs) [file descriptors](https://github.com/cs3281/examples/tree/main/fileDescriptors) [file system watch](https://github.com/cs3281/examples/tree/main/fileSystemWatch)|
 |security|[lecture 20](https://github.com/cs3281/lectures/tree/main/lecture-20)||
-```
+--->
 
 This is an introductory course on operating systems. You will learn basic concepts in OS design and implementation. The course content will consist of a balance between theory, concepts, and practical hands-on material. Active participation in class discussions and on Piazza is encouraged. There really are no dumb questions.
 
