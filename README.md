@@ -40,8 +40,7 @@ Programming assignments will be done in C unless otherwise noted. This is not a 
 
 ## Instructors
 
-- Andy Gokhale `a.gokhale@vanderbilt.edu` 
-- Abhishek Dubey `abhishek.dubey@vanderbilt.edu`
+- Sandeep Neema     `sandeep.neema@vanderbilt.edu`
 - Shervin Hajiamini `shervin.hajiamini@vanderbilt.edu`
 
 Due to space limitations in classrooms, please attend the section for which you are registered.
@@ -49,11 +48,11 @@ Due to space limitations in classrooms, please attend the section for which you 
 
 ## TAs
 
-- Bo Ni `bo.ni@vanderbilt.edu`
-- Saman Kittani `saman.r.kittani@vanderbilt.edu`
+- Bo Ni       `bo.ni@vanderbilt.edu`
+- Lantian Xia `saman.r.kittani@vanderbilt.edu`
 
 ## Graders
-  
+<!---  
 - Salomon Dushimirimana `salomon.dushimirimana@vanderbilt.edu`
 - Mohammed Khan `mohammed.m.khan@vanderbilt.edu`
 - Rana Muhammad Shahroz Khan `rana.muhammad.shahroz.khan@vanderbilt.edu`
@@ -63,7 +62,7 @@ Due to space limitations in classrooms, please attend the section for which you 
 - Binh Mai `binh.t.mai@vanderbilt.edu`
 - Ilayda Koca `ilayda.koca@vanderbilt.edu`
 - Robert Sheng `robert.sheng@vanderbilt.edu`
-
+--->
 
 ## Office Hours
 
@@ -85,6 +84,7 @@ For a more thorough guide on how to make effective use of office hours, you are 
 
 Office hour times are listed below:
 
+<!---
 |Day|Time|Location|Person|Role|
 | ------------- |:-------------:| :-------------:|:-------------:|:-------------:|
 |Monday|2pm - 3pm|FGH 385|Saman Kittani|TA|
@@ -107,13 +107,12 @@ Office hour times are listed below:
 |Friday|1pm - 2pm|Zoom (email for link)|Abhishek Dubey|Instructor|
 |Friday|10:30am - 12:30pm|FGH 201|Binh Mai|Grader|
 |Friday|2pm - 3pm|FGH 385|Saman Kittani|TA|
-
+--->
 
 ## Preferred Contact Method
 
 A Discussion Forum exists on Piazza for students to ask questions and give comments on any aspect of the course. The instructors will respond as appropriate, but students are also encouraged to respond themselves. Students can and should be learning from each other in this course, and your engagement in the learning process may be used to contribute to a “Community Score” at the end of the course (see the “Grading” section for more details.) As such, most questions about class material should be posted to Piazza:
-
-[https://piazza.com/vanderbilt/spring2024/cs32815281](https://piazza.com/vanderbilt/spring2024/cs32815281)
+[https://piazza.com/vanderbilt/spring2025/cs32815281](https://piazza.com/vanderbilt/spring2025/cs32815281)
 
 To foster an environment in which students learn from one another, instructors generally will not answer questions the day they were posted, nor over the weekend. So, start working on your assignments early so that you can get help from your instructor if you need it!
 
@@ -126,9 +125,9 @@ For questions about course logistics (e.g., absences), please send your instruct
 | ------------- |:-------------:| 
 | Textbook  | [http://pages.cs.wisc.edu/~remzi/OSTEP/](http://pages.cs.wisc.edu/~remzi/OSTEP/) | 
 | Additional Resources | The Linux Programming Interface (TLPI) by Michael Kerrisk <br> Computer Systems: A Programmer's Perspective by Bryant and O'Hallaron | 
-| Discussion Forum | [https://piazza.com/vanderbilt/spring2024/cs32815281](https://piazza.com/vanderbilt/spring2024/cs32815281) | 
+| Discussion Forum | [https://piazza.com/vanderbilt/spring2025/cs32815281](https://piazza.com/vanderbilt/spring2025/cs32815281) | 
 | Lectures |  [https://github.com/cs3281/lectures](https://github.com/cs3281/lectures) |
-| Programming Assignments | [https://classroom.github.com/classrooms/30844110-cs3281-classroom-spring2024](https://classroom.github.com/classrooms/30844110-cs3281-classroom-spring2024) |
+| Programming Assignments | [https://classroom.github.com/classrooms/30844110-cs3281-classroom-spring2025](https://classroom.github.com/classrooms/30844110-cs3281-classroom-spring2025) |
 | Assignments, Admin | [https://vanderbilt.edu/brightspace](https://vanderbilt.edu/brightspace) |
 
 
@@ -144,9 +143,7 @@ During the class, extra reading material may be provided for each lecture via th
 
 ## Programming Assignments
 
-Programming assignments are a key component of the learning experience in this class. Through these assignments, you will gain first-hand experience with operating systems and associated concepts. We plan to use a simple learning-focused, open-source operating system called xv6 that was developed at MIT as the basis for these assignments. Copying solutions from the Internet or posting your solutions are both violations of the Honor Code.
-
-The xv6 operating system is best run in a Unix environment, such as MacOS or Linux. You will have access to personal Linux-based Virtual Machines provided by VUIT and hosted on Amazon AWS with all the necessary software already installed to do your assignments, but you may also use your personal machine if you prefer. See the [xv6 Wiki](https://github.com/cs3281/lectures/wiki) page for more details. Note, however, that your assignments will be evaluated in the same environment as that of the VM provided to you, and instructors and staff will not provide support for other environments.
+Programming assignments are a key component of the learning experience in this class. Through these assignments, you will gain first-hand experience with operating systems and associated concepts. You will develop and run the assignments in Ubuntu. The assignments will be also graded in Ubuntu. Copying solutions from the Internet or posting your solutions are both violations of the Honor Code.
 
 Assignments will usually be given on Tuesday and will be due the next Monday by 11:59pm Central Time. **Assignment collaborations are forbidden unless explicitly permitted.**
 
@@ -189,19 +186,18 @@ This rule is inspired by the NFL review rules, in which you lose a timeout if yo
 
 ## Exams
 
-A midterm exam will be given in-class and use the entire class (The midterm exam date will be published here). Do not be late. The final exam will cover the entire course – it is not merely a second midterm. It will be administered at the official exam time, which depends upon your section. Refer to the [official exam schedule](https://registrar.vanderbilt.edu/documents/Spring_2024_exam_schedule.pdf).
+There will be two in-class exams during the semester and no final exam. The first exam will be given in the week of ? and the second exam is on the last day of your class in the section that you are enrolled in. Do not be late. 
 
 For each exam, you may prepare a single standard 8.5”x11” piece of notebook paper with your handwritten notes to use during the exam. Importantly, these notes must be entirely *handwritten* directly on the paper *by you*. You cannot photocopy others’ notes or print notes that you wrote by hand on a tablet. You cannot literally cut-and-paste figures from the textbook or other sources, but, if you so choose, you may reproduce them by hand yourself on your note sheet. Note sheets will be collected, and violations of these terms will be considered a violation of the Honor Code.
 
 
-## In-class Assessments
+## Quizzes
 
-There will be a series of *brief* and hopefully straightforward in-class assessments, which may be conducted over an online tool such as TopHat. The main objectives of these assessments are to encourage (and measure) class attendance and to gauge understanding of the readings before class. They also serve as a means of evaluating how well the class has understood concepts before moving on to new material.
+There will be a series of biweekly take-home assessments, which will be conducted over Brightspace. The main objective of these assessments is to gauge understanding of the lecture material.
 
-To take some of the stress out of these assessments, you do not need a perfect score to get full credit for the assessment. The goal is for scores over approximately 80% to earn full credit, but depending upon the assessment, that bar may be lowered at the instructor’s discretion. For example, if there are fewer than five questions, you will receive full credit if you get at most one wrong. If you do not score points sufficient to reach the full-credit bar, your score will be relative to that bar. For example, if an assessment has four questions, you will need three to score full credit. If you only get two correct, your score will be 2/3 = 66%.
+# Attendance
 
-Attendance in class is expected. Please inform the instructor ahead of time if you have an excused absence.
-
+Attendance will be taken at the start of each lecture. You only need to earn a score of >=75% of lecture attendance to earn the full credits (2%) for your final grade.
 
 ## Participation and Professionalism
 
@@ -224,10 +220,10 @@ The following grading criteria are subject to change. The instructor reserves th
 | Category                          | Percentage    |
 | --------------------------------- |:-------------:| 
 | Programming Assignments           | 50%           |
-| In-Class Assessments              | 10%           |
 | Mid-Term Exam 1                   | 20%           |
 | Mid-Term Exam 2                   | 20%           |
-| Participation and Professionalism | +/-2%         |
+| Take-home Quizzes                 | 8%            |
+| Attendance                        | 2%            |
 
 
 ## Honor Code
