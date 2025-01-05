@@ -52,17 +52,12 @@ Due to space limitations in classrooms, please attend the section for which you 
 - Lantian Xia `saman.r.kittani@vanderbilt.edu`
 
 ## Graders
-<!---  
-- Salomon Dushimirimana `salomon.dushimirimana@vanderbilt.edu`
+   
+- Emre Bilge `emre.e.bilge@vanderbilt.edu
+- Minseok Son `minseok.son@vanderbilt.edu`
 - Mohammed Khan `mohammed.m.khan@vanderbilt.edu`
-- Rana Muhammad Shahroz Khan `rana.muhammad.shahroz.khan@vanderbilt.edu`
-- Chuci Liu `chuci.liu@vanderbilt.edu`
-- Xiaohan Liu `xiaohan.liu.1@vanderbilt.edu`
-- Akash Munagala `akash.munagala@vanderbilt.edu`
 - Binh Mai `binh.t.mai@vanderbilt.edu`
-- Ilayda Koca `ilayda.koca@vanderbilt.edu`
-- Robert Sheng `robert.sheng@vanderbilt.edu`
---->
+- Muhammad Rahman `muhammad.z.rahman@vanderbilt.edu`
 
 ## Office Hours
 
@@ -145,7 +140,7 @@ During the class, extra reading material may be provided for each lecture via th
 
 Programming assignments are a key component of the learning experience in this class. Through these assignments, you will gain first-hand experience with operating systems and associated concepts. You will develop and run the assignments in Ubuntu. The assignments will be also graded in Ubuntu. Copying solutions from the Internet or posting your solutions are both violations of the Honor Code.
 
-Assignments will usually be given on Tuesday and will be due the next Monday by 11:59pm Central Time. **Assignment collaborations are forbidden unless explicitly permitted.**
+Assignments will usually be given on Monday or Tuesday and will be due the next Monday by 11:59pm Central Time. **Assignment collaborations are forbidden unless explicitly permitted.**
 
 Any submission that does not compile will be penalized at least **50%**. The instructors and graders reserve the right to give a **0%** for any assignment that does not have a substantive solution to the assignment – in other words you cannot earn points by merely submitting the provided code.
 
@@ -186,7 +181,7 @@ This rule is inspired by the NFL review rules, in which you lose a timeout if yo
 
 ## Exams
 
-There will be two in-class exams during the semester and no final exam. The first exam will be given in the week of ? and the second exam is on the last day of your class in the section that you are enrolled in. Do not be late. 
+There will be two in-class exams during the semester and no final exam. The first exam will be given in the week of February 17th and the second exam is in the last class of CS3281 for the section that you are enrolled in. Do not be late. 
 
 For each exam, you may prepare a single standard 8.5”x11” piece of notebook paper with your handwritten notes to use during the exam. Importantly, these notes must be entirely *handwritten* directly on the paper *by you*. You cannot photocopy others’ notes or print notes that you wrote by hand on a tablet. You cannot literally cut-and-paste figures from the textbook or other sources, but, if you so choose, you may reproduce them by hand yourself on your note sheet. Note sheets will be collected, and violations of these terms will be considered a violation of the Honor Code.
 
