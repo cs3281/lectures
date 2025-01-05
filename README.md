@@ -53,7 +53,7 @@ Due to space limitations in classrooms, please attend the section for which you 
 
 ## Graders
    
-- Emre Bilge `emre.e.bilge@vanderbilt.edu
+- Emre Bilge `emre.e.bilge@vanderbilt.edu`
 - Minseok Son `minseok.son@vanderbilt.edu`
 - Mohammed Khan `mohammed.m.khan@vanderbilt.edu`
 - Binh Mai `binh.t.mai@vanderbilt.edu`
