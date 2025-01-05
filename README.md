@@ -271,9 +271,9 @@ The course will cover the following topics throughout the semester:
 - Interrupts and interrupt handling
 - Process creation, management, and termination
 - Scheduling policies and mechanisms
-- Memory management, virtual memory, paging, dynamic linking and loading of libraries
+- Memory management, virtual memory, and paging
 - Concurrency, threads, mutual exclusion (mutex and condition variables), including process synchronization and deadlocks
-- Interprocess communication,  signals, message queues, pipes, shared memory, sockets
+- Interprocess communication,  signals, pipes, shared memory, sockets
 - File systems
 - Virtual machines
 - Security
