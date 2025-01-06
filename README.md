@@ -49,7 +49,8 @@ Due to space limitations in classrooms, please attend the section for which you 
 ## TAs
 
 - Bo Ni       `bo.ni@vanderbilt.edu`
-- Lantian Xia `saman.r.kittani@vanderbilt.edu`
+- Lantian Xia `lantian.xia@vanderbilt.edu`
+- Weiheng Qiu `weiheng.qiu@vanderbilt.edu`
 
 ## Graders
    
