@@ -80,30 +80,12 @@ For a more thorough guide on how to make effective use of office hours, you are 
 
 Office hour times are listed below:
 
-<!---
+
 |Day|Time|Location|Person|Role|
 | ------------- |:-------------:| :-------------:|:-------------:|:-------------:|
-|Monday|2pm - 3pm|FGH 385|Saman Kittani|TA|
-|Monday|3:30pm - 4:30pm|FGH 201|Akash Munagala|Grader|
-|Tuesday|11am - 12pm|FGH 201|Ilayda Koca|Grader|
-|Tuesday|1pm - 3pm|FGH 201|Meraj Khan|Grader|
-|Tuesday|1:30pm - 2:30pm|FGH 201|Olivia Liu|Grader|
-|Tuesday|4pm - 6pm|FGH 201|Rana Muhammad Shahroz Khan|Grader|
-|Tuesday|4:30pm - 5:30pm|FGH 201|Salomon Dushimirimana|Grader|
-|Wednesday|10am - 11am|FGH 201|Robert Sheng|Grader|
-|Wednesday|1pm - 2pm|FGH 201|Robert Sheng|Grader||Wednesday|2pm - 3pm|Sony A4022|Bo Ni|TA|
-|Wednesday|11am - 12pm|Sony A4022|Bo Ni|TA|
-|Wednesday|3:30pm - 4:30pm|FGH 201|Akash Munagala|Grader|
-|Wednesday|4pm - 5pm|FGH 384|Shervin Hajiamini|Instructor|
-|Thursday|11am - 12pm|FGH 201|Ilayda Koca|Grader|
-|Thursday|12:30pm - 2:30pm|FGH 201|Lisa Liu|Grader|
-|Thursday|12:30pm - 1:30pm|FGH 350|Andy Gokhale|Instructor|
-|Thursday|1:30pm - 2:30pm|FGH 201|Olivia Liu|Grader|
-|Thursday|4:30pm - 5:30pm|FGH 201|Salomon Dushimirimana|Grader|
-|Friday|1pm - 2pm|Zoom (email for link)|Abhishek Dubey|Instructor|
-|Friday|10:30am - 12:30pm|FGH 201|Binh Mai|Grader|
-|Friday|2pm - 3pm|FGH 385|Saman Kittani|TA|
---->
+|Tuesday|4:30pm - 5:30pm|FGH 201|Minseok Son|Grader|
+|Tuesday|5pm - 7pm|https://vanderbilt.zoom.us/j/99476692192?pwd=ay8CTqDJErGP5H7a9Ovt8ygAZzTxWH.1|Azure Xia|TA|
+
 
 ## Preferred Contact Method
 
