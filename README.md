@@ -85,6 +85,8 @@ Office hour times are listed below:
 | ------------- |:-------------:| :-------------:|:-------------:|:-------------:|
 |Tuesday|4:30pm - 5:30pm|FGH 201|Minseok Son|Grader|
 |Tuesday|5pm - 7pm|https://vanderbilt.zoom.us/j/99476692192?pwd=ay8CTqDJErGP5H7a9Ovt8ygAZzTxWH.1|Azure Xia|TA|
+|Thursday|2:15pm - 4:15pm|Sony A4120|Weiheng Qiu|TA|
+
 
 
 ## Preferred Contact Method
