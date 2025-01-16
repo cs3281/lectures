@@ -87,7 +87,7 @@ Office hour times are listed below:
 |Monday|2pm - 3pm|FGH 201|Mohammed Khan|Grader|
 |Tuesday|4:30pm - 5:30pm|FGH 201|Minseok Son|Grader|
 |Wednesday|6:30pm - 8:30pm|https://vanderbilt.zoom.us/j/99476692192?pwd=ay8CTqDJErGP5H7a9Ovt8ygAZzTxWH.1|Azure Xia|TA|
-|Thursday|2:15pm - 4:15pm|https://vanderbilt.zoom.us/j/6866787117?pwd=dGVQMy8vS0pBMzNzRUhUczdVRXlRUT09|Weiheng Qiu|TA|
+|Thursday|2:30pm - 4:30pm|https://vanderbilt.zoom.us/j/6866787117?pwd=dGVQMy8vS0pBMzNzRUhUczdVRXlRUT09|Weiheng Qiu|TA|
 |Friday|12:30pm - 2:30pm|https://vanderbilt.zoom.us/j/96784918804|Bo Ni|TA|
 |Friday|1:15pm - 3:15pm|FGH 201|Binh Mai|Grader|
 |Friday|2:30pm - 3:30pm|FGH 201|Zayaan Rahman|Grader|
