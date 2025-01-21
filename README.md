@@ -85,6 +85,7 @@ Office hour times are listed below:
 | ------------- |:-------------:| :-------------:|:-------------:|:-------------:|
 |Monday|1pm - 2pm|FGH 201|Emre Bilge|Grader|
 |Monday|2pm - 3pm|FGH 201|Mohammed Khan|Grader|
+|Monday|4:15pm - 5:15pm|FGH 350|Shervin Hajiamini|Instructor|
 |Tuesday|4:30pm - 5:30pm|FGH 201|Minseok Son|Grader|
 |Wednesday|6:30pm - 8:30pm|https://vanderbilt.zoom.us/j/99476692192?pwd=ay8CTqDJErGP5H7a9Ovt8ygAZzTxWH.1|Azure Xia|TA|
 |Thursday|2:30pm - 4:30pm|https://vanderbilt.zoom.us/j/6866787117?pwd=dGVQMy8vS0pBMzNzRUhUczdVRXlRUT09|Weiheng Qiu|TA|
