@@ -13,6 +13,24 @@
 
 #define BUFFER_LEN 100
 
+void* handle_client(void* arg) {
+  long client_fd = (long)arg;
+  char buf[BUFFER_LEN];
+  int num_bytes; 
+  
+  pthread_detach(pthread_self());
+
+  while((num_bytes = read(client_fd, buf, sizeof(buf))) > 0) {  
+                
+       buf[num_bytes] = '\0';
+     
+       printf("server received %d bytes for %s", num_bytes, buf);
+       write(client_fd, buf, strlen(buf));
+  }
+    
+  close(client_fd); 
+}	
+
 void exit_with_error(char* msg) {
   perror(msg);
   exit(1);  
@@ -97,16 +115,17 @@ void server() {
     
     char buf[BUFFER_LEN];
     int num_bytes; 
-   
      
-    while((num_bytes = read(client_fd, buf, sizeof(buf))) > 0) {  
+    pthread_t t;
+    pthread_create(&t, NULL, handle_client, (void*) client_fd); 
+    /*while((num_bytes = read(client_fd, buf, sizeof(buf))) > 0) {  
                 
        buf[num_bytes] = '\0';
      
        printf("server received %d bytes for %s", num_bytes, buf);
        write(client_fd, buf, strlen(buf));
     }
-    close(client_fd);    
+    close(client_fd);*/    
   }       
 }
 
