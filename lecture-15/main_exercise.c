@@ -41,9 +41,14 @@ void client(int port) {
    
   char str[BUFFER_LEN] = "Hello, from client!"; 
   int num_bytes;
-        	  
-  num_bytes = write(fd, str, strlen(str)+1); 
-    
+  
+  while((num_bytes = read(0, str, sizeof(str))) > 0) {
+    str[num_bytes] = '\0';
+    num_bytes = write(fd, str, strlen(str));
+    num_bytes = read(fd, str, sizeof(str));
+    str[num_bytes] = '\0';
+    printf("client receieved %s", str); 
+  }  
   close(fd); 
 }	
 
@@ -92,13 +97,15 @@ void server() {
     
     char buf[BUFFER_LEN];
     int num_bytes; 
-    
-    num_bytes = read(client_fd, buf, sizeof(buf));  
-                
-    buf[num_bytes] = '\0';
+   
      
-    printf("server received %d bytes for %s\n", num_bytes, buf);
-    
+    while((num_bytes = read(client_fd, buf, sizeof(buf))) > 0) {  
+                
+       buf[num_bytes] = '\0';
+     
+       printf("server received %d bytes for %s", num_bytes, buf);
+       write(client_fd, buf, strlen(buf));
+    }
     close(client_fd);    
   }       
 }
