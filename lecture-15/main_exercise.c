@@ -19,7 +19,6 @@ void* handle_client(void* arg) {
   int num_bytes; 
   
   pthread_detach(pthread_self());
-
   while((num_bytes = read(client_fd, buf, sizeof(buf))) > 0) {  
                 
        buf[num_bytes] = '\0';
@@ -117,7 +116,8 @@ void server() {
     int num_bytes; 
      
     pthread_t t;
-    pthread_create(&t, NULL, handle_client, (void*) client_fd); 
+    pthread_create(&t, NULL, handle_client, (void*) client_fd);
+    //pthread_join(t, NULL);
     /*while((num_bytes = read(client_fd, buf, sizeof(buf))) > 0) {  
                 
        buf[num_bytes] = '\0';
