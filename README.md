@@ -1,4 +1,4 @@
-# CS 3281: Principles of Operating Systems I (Spring 2025) 
+# CS 3281: Principles of Operating Systems I (Fall 2025) 
   
 **Credit Hours:** 3
 
@@ -47,8 +47,6 @@ Due to space limitations in classrooms, please attend the section for which you 
 
 
 ## TAs
-
-- Bo Ni       `bo.ni@vanderbilt.edu`
 
 ## Graders
 
@@ -99,10 +97,10 @@ For questions about course logistics (e.g., absences), please send your instruct
 | Discussion Forum | [https://piazza.com/vanderbilt/spring2025/cs32815281](https://piazza.com/vanderbilt/spring2025/cs32815281) | 
 | Lectures |  [https://github.com/cs3281/lectures](https://github.com/cs3281/lectures) |
 | Programming Assignments | [https://classroom.github.com/classrooms/30844110-cs3281-classroom-spring2025](https://classroom.github.com/classrooms/30844110-cs3281-classroom-spring2025) |
-| Assignments, Admin | [https://vanderbilt.edu/brightspace](https://vanderbilt.edu/brightspace) |
+| Announcements, grades | [https://vanderbilt.edu/brightspace](https://vanderbilt.edu/brightspace) |
 
 
-## Textbook
+## Books
 
 We are going to follow a textbook in the course. The book is freely available at [https://pages.cs.wisc.edu/~remzi/OSTEP/](https://pages.cs.wisc.edu/~remzi/OSTEP/). 
 
@@ -257,5 +255,3 @@ The course will cover the following topics throughout the semester:
 - Concurrency, threads, mutual exclusion (mutex and condition variables), including process synchronization and deadlocks
 - Interprocess communication,  signals, pipes, shared memory, sockets
 - File systems
-- Virtual machines
-- Security
