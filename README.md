@@ -40,7 +40,7 @@ Programming assignments will be done in C unless otherwise noted. This is not a 
 
 ## Instructors
 
-- Sandeep Neema     `sandeep.neema@vanderbilt.edu`
+- Mohammad Kavousi  ``
 - Shervin Hajiamini `shervin.hajiamini@vanderbilt.edu`
 
 Due to space limitations in classrooms, please attend the section for which you are registered.
@@ -49,16 +49,8 @@ Due to space limitations in classrooms, please attend the section for which you 
 ## TAs
 
 - Bo Ni       `bo.ni@vanderbilt.edu`
-- Lantian Xia `lantian.xia@vanderbilt.edu`
-- Weiheng Qiu `weiheng.qiu@vanderbilt.edu`
 
 ## Graders
-   
-- Emre Bilge `emre.e.bilge@vanderbilt.edu`
-- Minseok Son `minseok.son@vanderbilt.edu`
-- Mohammed Khan `mohammed.m.khan@vanderbilt.edu`
-- Binh Mai `binh.t.mai@vanderbilt.edu`
-- Muhammad Rahman `muhammad.z.rahman@vanderbilt.edu`
 
 ## Office Hours
 
@@ -83,24 +75,14 @@ Office hour times are listed below:
 
 |Day|Time|Location|Person|Role|
 | ------------- |:-------------:| :-------------:|:-------------:|:-------------:|
-|Monday|1pm - 2pm|FGH 201|Emre Bilge|Grader|
-|Monday|2pm - 3pm|FGH 201|Mohammed Khan|Grader|
-|Monday|4:15pm - 5:15pm|FGH 350|Shervin Hajiamini|Instructor|
-|Tuesday|4:30pm - 5:30pm|FGH 201|Minseok Son|Grader|
-|Wednesday|6:30pm - 8:30pm|https://vanderbilt.zoom.us/j/92418433516|Azure Xia|TA|
-|Thursday|2:30pm - 4:30pm|https://vanderbilt.zoom.us/j/6866787117?pwd=dGVQMy8vS0pBMzNzRUhUczdVRXlRUT09|Weiheng Qiu|TA|
-|Friday|12:30pm - 2:30pm|https://vanderbilt.zoom.us/j/96784918804|Bo Ni|TA|
-|Friday|1:15pm - 3:15pm|FGH 201|Binh Mai|Grader|
-|Friday|2:30pm - 3:30pm|FGH 201|Zayaan Rahman|Grader|
-
-
-
-
+|||||Grader|
+|||||Instructor|
+|||||TA|
 
 ## Preferred Contact Method
 
 A Discussion Forum exists on Piazza for students to ask questions and give comments on any aspect of the course. The instructors will respond as appropriate, but students are also encouraged to respond themselves. Students can and should be learning from each other in this course, and your engagement in the learning process may be used to contribute to a “Community Score” at the end of the course (see the “Grading” section for more details.) As such, most questions about class material should be posted to Piazza:
-[https://piazza.com/vanderbilt/spring2025/cs32815281](https://piazza.com/vanderbilt/spring2025/cs32815281)
+[https://piazza.com/vanderbilt/fall2025/cs32815281](https://piazza.com/vanderbilt/fall2025/cs32815281)
 
 To foster an environment in which students learn from one another, instructors generally will not answer questions the day they were posted, nor over the weekend. So, start working on your assignments early so that you can get help from your instructor if you need it!
 
@@ -111,7 +93,8 @@ For questions about course logistics (e.g., absences), please send your instruct
 
 | What | Link    | 
 | ------------- |:-------------:| 
-| Textbook  | [http://pages.cs.wisc.edu/~remzi/OSTEP/](http://pages.cs.wisc.edu/~remzi/OSTEP/) | 
+| Textbook  | [http://pages.cs.wisc.edu/~remzi/OSTEP/](http://pages.cs.wisc.edu/~remzi/OSTEP/) |
+| zybook  | [learn.zybooks.com/zybook/VANDERBILTCS3281_5281HajiaminiFall2025](learn.zybooks.com/zybook/VANDERBILTCS3281_5281HajiaminiFall2025) |
 | Additional Resources | The Linux Programming Interface (TLPI) by Michael Kerrisk <br> Computer Systems: A Programmer's Perspective by Bryant and O'Hallaron | 
 | Discussion Forum | [https://piazza.com/vanderbilt/spring2025/cs32815281](https://piazza.com/vanderbilt/spring2025/cs32815281) | 
 | Lectures |  [https://github.com/cs3281/lectures](https://github.com/cs3281/lectures) |
@@ -121,7 +104,13 @@ For questions about course logistics (e.g., absences), please send your instruct
 
 ## Textbook
 
-We are going to follow an online textbook in the course. The book is freely available at [https://pages.cs.wisc.edu/~remzi/OSTEP/](https://pages.cs.wisc.edu/~remzi/OSTEP/). There are also two excellent books that are not required, but are recommended:
+We are going to follow a textbook in the course. The book is freely available at [https://pages.cs.wisc.edu/~remzi/OSTEP/](https://pages.cs.wisc.edu/~remzi/OSTEP/). 
+
+We also use an online book (zybook). This book explains the lecture contents with visualizations. In addition, it provides interactive exercises. You will do exercises from assigned chapters regularly. The deadline of all zybook activities is 11:59pm on the due dates. No late zybook activities are accepted without valid evidence for the serious medical problems or documented emergencies. You will receive full credit for the zybook activities if you complete >= 90% over all assigned activities.
+
+To subscribe for the zybook, visit learn.zybooks.com and enter VANDERBILTCS3281_5281HajiaminiFall2025 for code. The subscription costs $77.
+
+There are also two excellent books that are not required, but are recommended:
 
 * The Linux Programming Interface by Michael Kerrisk
 * Computer Systems: A Programmer's Perspective by Bryant and O'Hallaron
@@ -173,21 +162,20 @@ This rule is inspired by the NFL review rules, in which you lose a timeout if yo
 
 
 ## Exams
-
-There will be two in-class exams during the semester and no final exam. The first exam will be given in the week of February 17th and the second exam is in the last class of CS3281 for the section that you are enrolled in. Do not be late. 
+There will be two in-class exams during the semester and no final exam. The first exam will be given in the week of October 6th and the second exam is in the last class of CS3281 for the section that you are enrolled in. Do not be late. 
 
 For each exam, you may prepare a single standard 8.5”x11” piece of notebook paper with your handwritten notes to use during the exam. Importantly, these notes must be entirely *handwritten* directly on the paper *by you*. You cannot photocopy others’ notes or print notes that you wrote by hand on a tablet. You cannot literally cut-and-paste figures from the textbook or other sources, but, if you so choose, you may reproduce them by hand yourself on your note sheet. Note sheets will be collected, and violations of these terms will be considered a violation of the Honor Code.
 
 
 ## Quizzes
 
-There will be a series of biweekly take-home assessments, which will be conducted over Brightspace. The main objective of these assessments is to gauge understanding of the lecture material.
+There will be a series of regular take-home assessments, which will be conducted over Brightspace. The main objective of these assessments is to gauge understanding of the lecture material.
 
-# Attendance
+# Attendance and participation
 
-Attendance will be taken at the start of each lecture. You only need to earn a score of >=75% of lecture attendance to earn the full credits (2%) for your final grade.
+Attendance will be taken in each lecture. You only need to earn a score of >=75% of lecture attendance to earn the full credits (2%) for your final grade. In our classes, we will hold Q&A activities through Top Hat. You are expected to participate in Top Hat activities of each class.
 
-## Participation and Professionalism
+## Professionalism
 
 This class will be more enjoyable and productive for all involved if students participate, maintain proper etiquette, and are professional. Examples of inappropriate and unprofessional classroom etiquette are:
 
@@ -210,8 +198,9 @@ The following grading criteria are subject to change. The instructor reserves th
 | Programming Assignments           | 50%           |
 | Mid-Term Exam 1                   | 20%           |
 | Mid-Term Exam 2                   | 20%           |
-| Take-home Quizzes                 | 8%            |
-| Attendance                        | 2%            |
+| Take-home Quizzes                 | 5%            |
+| zybook activities                 | 3%            |
+| Attendance & participation        | 2%            |
 
 
 ## Honor Code
