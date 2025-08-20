@@ -40,7 +40,7 @@ Programming assignments will be done in C unless otherwise noted. This is not a 
 
 ## Instructors
 
-- Mohammad Kavousi  ``
+- Mohammad Kavousi  `mohammad.kavousi@vanderbilt.edu`
 - Shervin Hajiamini `shervin.hajiamini@vanderbilt.edu`
 
 Due to space limitations in classrooms, please attend the section for which you are registered.
