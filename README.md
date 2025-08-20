@@ -94,9 +94,9 @@ For questions about course logistics (e.g., absences), please send your instruct
 | Textbook  | [http://pages.cs.wisc.edu/~remzi/OSTEP/](http://pages.cs.wisc.edu/~remzi/OSTEP/) |
 | zybook  | [learn.zybooks.com/zybook/VANDERBILTCS3281_5281HajiaminiFall2025](learn.zybooks.com/zybook/VANDERBILTCS3281_5281HajiaminiFall2025) |
 | Additional Resources | The Linux Programming Interface (TLPI) by Michael Kerrisk <br> Computer Systems: A Programmer's Perspective by Bryant and O'Hallaron | 
-| Discussion Forum | [https://piazza.com/vanderbilt/spring2025/cs32815281](https://piazza.com/vanderbilt/spring2025/cs32815281) | 
+| Discussion Forum | [https://piazza.com/vanderbilt/fall2025/cs32815281](https://piazza.com/vanderbilt/fall2025/cs32815281) | 
 | Lectures |  [https://github.com/cs3281/lectures](https://github.com/cs3281/lectures) |
-| Programming Assignments | [https://classroom.github.com/classrooms/30844110-cs3281-classroom-spring2025](https://classroom.github.com/classrooms/30844110-cs3281-classroom-spring2025) |
+| Programming Assignments | [https://classroom.github.com/classrooms/30844110-cs3281-classroom-fall2025](https://classroom.github.com/classrooms/30844110-cs3281-classroom-fall2025) |
 | Announcements, grades | [https://vanderbilt.edu/brightspace](https://vanderbilt.edu/brightspace) |
 
 
