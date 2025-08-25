@@ -1,6 +1,6 @@
 #include<stdio.h>
-#include "f2.h"
+
 int foo() {
-  int x;
+  extern int x; 
   printf("x=%d\n", x);  
 }

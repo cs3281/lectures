@@ -1,5 +1,6 @@
-#include "f2.h"
+int foo();
 int x;
+
 int main() {
  x = 10;	
  foo();	
