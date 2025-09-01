@@ -73,8 +73,8 @@ Office hour times are listed below:
 
 |Day|Time|Location|Person|Role|
 | ------------- |:-------------:| :-------------:|:-------------:|:-------------:|
-|||||Grader|
-|||||Instructor|
+|Monday|9am - 10am|FGH 201|Arnav Chahal|Grader|
+|Monday|11am - 12pm|FGH 201|Andrew Liu|Instructor|
 |||||TA|
 
 ## Preferred Contact Method
