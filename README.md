@@ -74,10 +74,10 @@ Office hour times are listed below:
 |Day|Time|Location|Person|Role|
 | ------------- |:-------------:| :-------------:|:-------------:|:-------------:|
 |Monday|9am - 10am|FGH 201|Arnav Chahal|Grader|
-|Monday|11am - 1pm|https://vanderbilt.zoom.us/j/99584547616|Weiheng Qiu|TA|
 |Monday|11am - 12pm|FGH 201|Andrew Liu|Grader|
 |Tuesday|9am - 10am|FGH 201|Ke Li|TA|
 |Wednesday|10am - 11am|FGH 201|Tobenna Udeze|Grader|
+|Wednesday|11am - 1pm|https://vanderbilt.zoom.us/j/99584547616|Weiheng Qiu|TA|
 |Wednesday|4:15pm - 5:15pm|FGH 350|Shervin Hajiamini|instructor|
 |Thursday|9:20am - 10:20am|FGH 201|Adaline|Grader|
 |Thursday|4:15pm - 5:15pm|FGH 334 or https://vanderbilt.zoom.us/my/mohkav|Mohammad Kavousi|Instructor|
