@@ -47,6 +47,8 @@ Due to space limitations in classrooms, please attend the section for which you 
 
 
 ## TAs
+ - Weiheng Qiu `weiheng.qiu@vanderbilt.edu`
+ - Ke Li       `ke.li.1@Vanderbilt.edu`  
 
 ## Graders
 
