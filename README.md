@@ -48,9 +48,14 @@ Due to space limitations in classrooms, please attend the section for which you 
 
 ## TAs
  - Weiheng Qiu `weiheng.qiu@vanderbilt.edu`
- - Ke Li       `ke.li.1@Vanderbilt.edu`  
+ - Ke Li       `ke.li.1@vanderbilt.edu`  
 
 ## Graders
+
+ - Arnav Chahal  `arnav.chahal@vanderbilt.edu`
+ - Andrew Liu    `andrew.b.liu@vanderbilt.edu`
+ - Tobenna Udeze `tobenna.d.udeze@vanderbilt.edu`
+ - Adaline Leong `jia.yin.leong@vanderbilt.edu`
 
 ## Office Hours
 
