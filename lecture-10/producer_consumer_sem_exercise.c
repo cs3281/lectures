@@ -41,10 +41,10 @@ void *producer_function(void *arg)
 void *consumer_function(void *arg)
 {    
     char* args = (char*)arg;
-    int i;      	                    
-    sem_wait(&full_sem); 
+    int i;
+
     sem_wait(&mutex_sem);
-    
+    sem_wait(&full_sem);         
     printf("%s took %d\n", args, buffer[c_index]);
     c_index++;
     c_index = c_index % BUFFER_SIZE; 
