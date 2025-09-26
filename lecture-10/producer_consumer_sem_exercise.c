@@ -25,8 +25,8 @@ void *producer_function(void *arg)
     int args = (int)arg;
     int i;
     
-    sem_wait(&mutex_sem);
-    sem_wait(&empty_sem);                         
+    sem_wait(&empty_sem);
+    sem_wait(&mutex_sem);                             
     buffer[p_index] = args;
     printf("producer_%d: buffer[%d] = %d \n", args, p_index, buffer[p_index]);
     p_index++;
@@ -42,9 +42,9 @@ void *consumer_function(void *arg)
 {    
     char* args = (char*)arg;
     int i;
-
+        
+    sem_wait(&full_sem);
     sem_wait(&mutex_sem);
-    sem_wait(&full_sem);         
     printf("%s took %d\n", args, buffer[c_index]);
     c_index++;
     c_index = c_index % BUFFER_SIZE; 
