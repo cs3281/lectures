@@ -22,6 +22,12 @@ void* handle_client(void* arg) {
   while((num_bytes = read(client_fd, buf, sizeof(buf))) > 0) {  
                 
        buf[num_bytes] = '\0';
+
+       if(strcmp(buf, "quit\n") == 0) {
+        close(client_fd);
+        printf("Server terminates connection\n");
+        break;          
+       }
      
        printf("server received %d bytes for %s", num_bytes, buf);
        write(client_fd, buf, strlen(buf));
@@ -62,7 +68,10 @@ void client(int port) {
   while((num_bytes = read(0, str, sizeof(str))) > 0) {
     str[num_bytes] = '\0';
     num_bytes = write(fd, str, strlen(str));
-    num_bytes = read(fd, str, sizeof(str));
+    if((num_bytes = read(fd, str, sizeof(str)-1)) == 0){         
+     close(fd);  	                  
+     exit_with_error("Client terminates connection");     		    
+    }
     str[num_bytes] = '\0';
     printf("client receieved %s", str); 
   }  
@@ -121,12 +130,18 @@ void server() {
     /*while((num_bytes = read(client_fd, buf, sizeof(buf))) > 0) {  
                 
        buf[num_bytes] = '\0';
+
+       if(strcmp(buf, "quit\n") == 0) {
+        close(client_fd);
+        printf("Server terminates connection\n");
+        break;          
+       }
      
        printf("server received %d bytes for %s", num_bytes, buf);
        write(client_fd, buf, strlen(buf));
     }
     close(client_fd);*/    
-  }       
+  }      
 }
 
 int main(int argc, char* args[]) {
