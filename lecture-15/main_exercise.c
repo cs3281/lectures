@@ -13,6 +13,11 @@
 
 #define BUFFER_LEN 100
 
+void exit_with_error(char* msg) {
+  perror(msg);
+  pthread_exit(NULL);  
+}
+
 void* handle_client(void* arg) {
   long client_fd = (long)arg;
   char buf[BUFFER_LEN];
@@ -24,9 +29,8 @@ void* handle_client(void* arg) {
        buf[num_bytes] = '\0';
 
        if(strcmp(buf, "quit\n") == 0) {
-        close(client_fd);
-        printf("Server terminates connection\n");
-        break;          
+        close(client_fd);        
+        exit_with_error("Server terminates connection\n");          
        }
      
        printf("server received %d bytes for %s", num_bytes, buf);
@@ -34,11 +38,6 @@ void* handle_client(void* arg) {
   }
     
   close(client_fd); 
-}	
-
-void exit_with_error(char* msg) {
-  perror(msg);
-  exit(1);  
 }	
 
 void client(int port) {
