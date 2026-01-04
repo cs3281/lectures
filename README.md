@@ -1,4 +1,4 @@
-# CS 3281: Principles of Operating Systems I (Fall 2025) 
+# CS 3281: Principles of Operating Systems I (Spring 2026) 
   
 **Credit Hours:** 3
 
@@ -52,10 +52,11 @@ Due to space limitations in classrooms, please attend the section for which you 
 
 ## Graders
 
- - Arnav Chahal  `arnav.chahal@vanderbilt.edu`
- - Andrew Liu    `andrew.b.liu@vanderbilt.edu`
  - Tobenna Udeze `tobenna.d.udeze@vanderbilt.edu`
- - Adaline Leong `jia.yin.leong@vanderbilt.edu`
+ - Alex Galvez `alex.m.galvez@vanderbilt.edu`
+ - Haowei Fu `haowei.fu@vanderbilt.edu`
+ - Jiashu Zhu `jiashu.zhu@vanderbilt.edu`
+
 
 ## Office Hours
 
@@ -80,20 +81,12 @@ Office hour times are listed below:
 
 |Day|Time|Location|Person|Role|
 | ------------- |:-------------:| :-------------:|:-------------:|:-------------:|
-|Monday|9am - 10am|FGH 201|Arnav Chahal|Grader|
-|Monday|11am - 12pm|FGH 201|Andrew Liu|Grader|
-|Tuesday|9am - 10am|FGH 201|Ke Li|TA|
-|Wednesday|10am - 11am|FGH 201|Tobenna Udeze|Grader|
-|Wednesday|11am - 1pm|https://vanderbilt.zoom.us/j/99584547616|Weiheng Qiu|TA|
-|Wednesday|4:15pm - 5:15pm|FGH 350|Shervin Hajiamini|Instructor|
-|Thursday|9:20am - 10:20am|FGH 201|Adaline|Grader|
-|Thursday|4:15pm - 5:15pm|FGH 334 or https://vanderbilt.zoom.us/my/mohkav|Mohammad Kavousi|Instructor|
-|Friday|4:30pm - 5:30pm|https://vanderbilt.zoom.us/j/4232691737|Ke Li|TA|
+TBD
 
 ## Preferred Contact Method
 
 A Discussion Forum exists on Piazza for students to ask questions and give comments on any aspect of the course. The instructors will respond as appropriate, but students are also encouraged to respond themselves. Students can and should be learning from each other in this course, and your engagement in the learning process may be used to contribute to a “Community Score” at the end of the course (see the “Grading” section for more details.) As such, most questions about class material should be posted to Piazza:
-[https://piazza.com/vanderbilt/fall2025/cs32815281](https://piazza.com/vanderbilt/fall2025/cs32815281)
+[https://piazza.com/TBD)
 
 To foster an environment in which students learn from one another, instructors generally will not answer questions the day they were posted, nor over the weekend. So, start working on your assignments early so that you can get help from your instructor if you need it!
 
@@ -105,11 +98,11 @@ For questions about course logistics (e.g., absences), please send your instruct
 | What | Link    | 
 | ------------- |:-------------:| 
 | Textbook  | [http://pages.cs.wisc.edu/~remzi/OSTEP/](http://pages.cs.wisc.edu/~remzi/OSTEP/) |
-| zybook  | [learn.zybooks.com/zybook/VANDERBILTCS3281_5281HajiaminiFall2025](learn.zybooks.com/zybook/VANDERBILTCS3281_5281HajiaminiFall2025) |
+| zybook  | [learn.zybooks.com/zybook/VANDERBILTCS3281-5281Spring2026](learn.zybooks.com/zybook/VANDERBILTCS3281-5281Spring2026) |
 | Additional Resources | The Linux Programming Interface (TLPI) by Michael Kerrisk <br> Computer Systems: A Programmer's Perspective by Bryant and O'Hallaron | 
-| Discussion Forum | [https://piazza.com/vanderbilt/fall2025/cs32815281](https://piazza.com/vanderbilt/fall2025/cs32815281) | 
+| Discussion Forum | [https://piazza.com/TBD](https://piazza.com/TBD) | 
 | Lectures |  [https://github.com/cs3281/lectures](https://github.com/cs3281/lectures) |
-| Programming Assignments | [https://classroom.github.com/classrooms/30844110-cs3281-classroom-fall2025](https://classroom.github.com/classrooms/30844110-cs3281-classroom-fall2025) |
+| Programming Assignments | [https://classroom.github.com/classrooms/30844110-cs3281-classroom-fall2025TBD](https://classroom.github.com/classrooms/30844110-cs3281-classroom-fall2025TBD) |
 | Announcements, grades | [https://vanderbilt.edu/brightspace](https://vanderbilt.edu/brightspace) |
 
 
@@ -119,7 +112,7 @@ We are going to follow a textbook in the course. The book is freely available at
 
 We also use an online book (zybook). This book explains the lecture contents with visualizations. In addition, it provides interactive exercises. You will do exercises from assigned chapters regularly. The deadline of all zybook activities is 11:59pm on the due dates. No late zybook activities are accepted without valid evidence for the serious medical problems or documented emergencies. You will receive full credit for the zybook activities if you complete >= 90% over all assigned activities.
 
-To subscribe for the zybook, visit learn.zybooks.com and enter VANDERBILTCS3281_5281HajiaminiFall2025 for code. The subscription costs $77.
+To subscribe for the zybook, visit learn.zybooks.com and enter VANDERBILTCS3281-5281Spring2026 for code. The subscription costs $77.
 
 There are also two excellent books that are not required, but are recommended:
 
