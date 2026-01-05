@@ -38,10 +38,9 @@ CS 2281 and CS 3251. Because an OS must make effective use of the underlying har
 Programming assignments will be done in C unless otherwise noted. This is not a course on C programming – it is a course on Operating Systems. While some aspects of the C language will be demonstrated in this course, students are expected to familiarize themselves with the language if they are not familiar with it already.
 
 
-## Instructors
+## Instructor
 
 - Mohammad Kavousi  `mohammad.kavousi@vanderbilt.edu`
-- Shervin Hajiamini `shervin.hajiamini@vanderbilt.edu`
 
 Due to space limitations in classrooms, please attend the section for which you are registered.
 
