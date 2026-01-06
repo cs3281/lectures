@@ -84,8 +84,7 @@ TBD
 
 ## Preferred Contact Method
 
-A Discussion Forum exists on Piazza for students to ask questions and give comments on any aspect of the course. The instructors will respond as appropriate, but students are also encouraged to respond themselves. Students can and should be learning from each other in this course, and your engagement in the learning process may be used to contribute to a “Community Score” at the end of the course (see the “Grading” section for more details.) As such, most questions about class material should be posted to Piazza:
-[https://piazza.com/TBD)
+A Discussion Forum exists on Piazza for students to ask questions and give comments on any aspect of the course. The instructors will respond as appropriate, but students are also encouraged to respond themselves. Students can and should be learning from each other in this course, and your engagement in the learning process may be used to contribute to a “Community Score” at the end of the course (see the “Grading” section for more details.) As such, most questions about class material should be posted to Piazza.
 
 To foster an environment in which students learn from one another, instructors generally will not answer questions the day they were posted, nor over the weekend. So, start working on your assignments early so that you can get help from your instructor if you need it!
 
@@ -99,9 +98,9 @@ For questions about course logistics (e.g., absences), please send your instruct
 | Textbook  | [http://pages.cs.wisc.edu/~remzi/OSTEP/](http://pages.cs.wisc.edu/~remzi/OSTEP/) |
 | zybook  | [learn.zybooks.com/zybook/VANDERBILTCS3281-5281Spring2026](learn.zybooks.com/zybook/VANDERBILTCS3281-5281Spring2026) |
 | Additional Resources | The Linux Programming Interface (TLPI) by Michael Kerrisk <br> Computer Systems: A Programmer's Perspective by Bryant and O'Hallaron | 
-| Discussion Forum | [https://piazza.com/TBD](https://piazza.com/TBD) | 
+| Discussion Forum | [https://piazza.com/vanderbilt/spring2026/cs32815281](https://piazza.com/vanderbilt/spring2026/cs32815281) | 
 | Lectures |  [https://github.com/cs3281/lectures](https://github.com/cs3281/lectures) |
-| Programming Assignments | [https://classroom.github.com/classrooms/30844110-cs3281-classroom-fall2025TBD](https://classroom.github.com/classrooms/30844110-cs3281-classroom-fall2025TBD) |
+| Programming Assignments | [https://classroom.github.com/classrooms/30844110-cs3281-classroom-spring2026](https://classroom.github.com/classrooms/30844110-cs3281-classroom-spring2026) |
 | Announcements, grades | [https://vanderbilt.edu/brightspace](https://vanderbilt.edu/brightspace) |
 
 
