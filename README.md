@@ -164,7 +164,7 @@ This rule is inspired by the NFL review rules, in which you lose a timeout if yo
 
 
 ## Exams
-There will be two in-class exams during the semester and no final exam. The first exam will be given in the week of October 6th and the second exam is in the last class of CS3281 for the section that you are enrolled in. Do not be late. 
+There will be two in-class exams during the semester and no final exam. Please refer to the course schedule on Brightspace to see the dates of exams. Do not be late. 
 
 For each exam, you may prepare a single standard 8.5”x11” piece of notebook paper with your handwritten notes to use during the exam. Importantly, these notes must be entirely *handwritten* directly on the paper *by you*. You cannot photocopy others’ notes or print notes that you wrote by hand on a tablet. You cannot literally cut-and-paste figures from the textbook or other sources, but, if you so choose, you may reproduce them by hand yourself on your note sheet. Note sheets will be collected, and violations of these terms will be considered a violation of the Honor Code.
 
