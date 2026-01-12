@@ -627,7 +627,7 @@ Once you have a CMakeLists.txt file, you can generate either unix makefiles or u
 
 # Git Review 
 
-Git is the version control system that we use in this class. A brief overview is available at [GitOverview.pdf](GitOverview.pdf). More details are available at following links.
+Git is the version control system that we use in this class. More details are available at following links:
 
 * Review the instructions at https://help.github.com/articles/set-up-git/#platform-linux.  
 * See the slides at https://dbrgn.ch/slides/20130207_getting_git/#/
@@ -638,8 +638,4 @@ Git is the version control system that we use in this class. A brief overview is
 	* https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
 	* https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes (Necessary for pushing your changes back)
 
-# Computer Architecture Review 
-
-Before we start the class there is some background material that you should review.
-- [refs/ComputerArchitectureOverview.pdf](refs/ComputerArchitectureOverview.pdf) provides an overview of computer architecture. Review it and let the instructors know if you have any questions. We assume that you are familiar with the computer architecture in the class.
 
