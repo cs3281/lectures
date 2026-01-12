@@ -596,13 +596,6 @@ return;
 
 Reading complex C declarations can be tricky, but the [right-left](http://ieng9.ucsd.edu/~cs30x/rt_lt.rule.html) rule can help you decipher them.
 
-## Examples
-
-Review the files
-
-1. https://github.com/cs3281/examples/blob/main/c-tutorial/3-pointers.c
-2. https://github.com/cs3281/examples/blob/main/c-tutorial/4-arrays-pointers.c
-3. https://github.com/cs3281/examples/blob/main/c-tutorial/5-function-pointers.c
 
 # About CMAKE
 
