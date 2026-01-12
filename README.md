@@ -80,7 +80,11 @@ Office hour times are listed below:
 
 |Day|Time|Location|Person|Role|
 | ------------- |:-------------:| :-------------:|:-------------:|:-------------:|
-TBD
+|Monday|2:30pm - 3:30pm|FGH 314|Jiashu Zhu|Grader|
+|Tuesday|10am - 11am|FGH 314 or https://vanderbilt.zoom.us/j/6683567597?pwd=ilo39TsDCJ9XJPjTtycmn4Y05JdpmE.1|Alex Galvez|Grader|
+|Wednesday|12pm - 1pm|FGH 314 or https://vanderbilt.zoom.us/j/99584547616|Weiheng Qiu|TA|
+|Thursday|1:30pm - 2:30pm|FGH 334 or https://vanderbilt.zoom.us/my/mohkav|Mohammad Kavousi|Instructor|
+|Friday|4:30pm - 5:30pm|FGH 314 or https://vanderbilt.zoom.us/j/4232691737|Ke Li|TA|
 
 ## Preferred Contact Method
 
