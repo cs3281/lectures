@@ -282,7 +282,7 @@ vagrant@Xubuntu-Vagrant:~/lectures/lecture-02/examples/2-file-program$
 
 We can ommit the target name. In that case, GNUMake interprets that you are trying to execute the default target, which is 'all'.   This, the command make will actually determine that the all target depends on hello, which is a target (file) that depends upon hello-1.o and greeter.o. because these two targets (files) are not present in the directory, the make program will execute the target greeter.o and hello-1.o These two targets depend upon the two source files respectively. If the target greeter.o is not present then the command `gcc -c greeter.c` is executed to create the target. If the target is present, then the make system runs the command only if the timestamp of the greeter.o file is older than the timestamp of the source code (greeter.c). Thus, it ensures that the target is always compiled from latest source code and that we do not waste time compiling if the target is already latest. This saves a lot of time in large projects.
 
-For more details about makefile, please see http://mrbook.org/blog/tutorials/make/
+For more details about makefile, please see https://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/
 
 Often writing the makefile for large projects also become very cumbersome. To help we use tools like cmake for generating makefiles. A Cmake file for the hello-1.c and greeter.c is shown below
 
