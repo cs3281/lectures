@@ -20,7 +20,7 @@ Additionally we will encourage you to revisit some of the key commands that are 
 - An executable file in linux is either a binary (compiled)program or a script that can be interpreted by a shell.
 
 ###Shell Script
-Shell is a executable binary program that can read the scripts and perform the work described by commands specified in the shell script. You also interact with the shell when you enter keyboard strokes on the command line. An example shell script is located at [examples/shell/hello.sh](examples/shell/hello.sh).  This file contains the following commands
+Shell is a executable binary program that can read the scripts and perform the work described by commands specified in the shell script. You also interact with the shell when you enter keyboard strokes on the command line. An example shell script would contain the following commands:
 
 ```bash
 #!/bin/sh
