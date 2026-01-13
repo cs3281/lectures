@@ -81,7 +81,7 @@ Office hour times are listed below:
 |Day|Time|Location|Person|Role|
 | ------------- |:-------------:| :-------------:|:-------------:|:-------------:|
 |Monday|2:30pm - 3:30pm|FGH 314 or https://vanderbilt.zoom.us/j/6863734772?pwd=RkoyM1N4V2JxU0Z3SWdkMWVEVFBmUT09|Jiashu Zhu|Grader|
-|Tuesday|10am - 11am|FGH 314 or https://vanderbilt.zoom.us/j/6683567597?pwd=ilo39TsDCJ9XJPjTtycmn4Y05JdpmE.1|Alex Galvez|Grader|
+|Tuesday|11am - 12pm|FGH 314 or https://vanderbilt.zoom.us/j/6683567597?pwd=ilo39TsDCJ9XJPjTtycmn4Y05JdpmE.1|Alex Galvez|Grader|
 |Wednesday|12pm - 1pm|FGH 314 or https://vanderbilt.zoom.us/j/99584547616|Weiheng Qiu|TA|
 |Thursday|12pm-1pm|FGH 314 or https://vanderbilt.zoom.us/j/97028256552?pwd=5K5hc6w5ATYeE51bpsfOkgRbcStgm2.1|Haowei Fu|Grader|
 |Thursday|1:30pm - 2:30pm|FGH 334 or https://vanderbilt.zoom.us/my/mohkav|Mohammad Kavousi|Instructor|
