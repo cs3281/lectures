@@ -42,7 +42,7 @@ Programming assignments will be done in C unless otherwise noted. This is not a 
 
 - Mohammad Kavousi  `mohammad.kavousi@vanderbilt.edu`
 
-Due to space limitations in classrooms, please attend the section for which you are registered.
+Due to TopHat class participation grades and space limitations, please attend the section for which you are registered.
 
 
 ## TAs
